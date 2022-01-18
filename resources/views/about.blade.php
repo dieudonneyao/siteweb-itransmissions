@@ -1,18 +1,18 @@
 @extends('layouts.base')
 @section('content')
-      <!--Start breadcrumb area-->
-      <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+        <!--Start breadcrumb area-->
+        <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="inner-content clearfix">
                             <div class="title">
-                                <h1>Talented Interior<br> Designer.</h1>
+                                <h1>Qui sommes nous ?<br> Notre Société.</h1>
                             </div>
                             <div class="breadcrumb-menu float-right">
                                 <ul class="clearfix">
-                                    <li><a href="index-2.html">Home</a></li>
-                                    <li class="active">Account</li>
+                                    <li><a href="index-2.html">Accueil</a></li>
+                                    <li class="active">société</li>
                                 </ul>
                             </div>
                         </div>

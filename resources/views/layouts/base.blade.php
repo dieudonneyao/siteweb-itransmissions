@@ -5,7 +5,7 @@
 <!--   06:37:19 GMT -->
 <head>
     <meta charset="UTF-8">
-    <title>Home One || Crystalo || Responsive HTML 5 Template</title>
+    <title>i-transmissions || Distribution et vantes || Négoce</title>
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
