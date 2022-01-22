@@ -6,7 +6,7 @@
                     <div class="inner-container clearfix">
                         <div class="logo-box-style1 float-left">
                             <a href="index.html">
-                                <img src="images/resources/logo.png" alt="Awesome Logo">
+                                <img src="images/resources/logo.png" alt="i-transmission">
                             </a>
                         </div>
                         <div class="main-menu-box float-right">
@@ -20,7 +20,7 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown current"><a href="index.html">Accueil</a>
+                                        <li class="dropdown"><a href="/">Accueil</a>
                                             <!-- <ul>
                                                 <li><a href="index-2.html">Home Page 01</a></li>
                                                 <li><a href="index-3.html">Home Page 02</a></li>
@@ -34,7 +34,15 @@
                                                 </li>
                                             </ul> -->
                                         </li>
-                                        <li class="dropdown"><a href="about.">Société</a>
+                                        <li class="dropdown"><a href="/about">Société</a>
+                                            <!--  <ul>
+                                                <li><a href="about.html">About Company</a></li>
+                                                <li><a href="faq.html">FAQ’s</a></li>
+                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                <li><a href="404-page.html">Error Page</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="dropdown"><a href="/galerie">Galerie</a>
                                             <!--  <ul>
                                                 <li><a href="about.html">About Company</a></li>
                                                 <li><a href="faq.html">FAQ’s</a></li>
@@ -43,9 +51,9 @@
                                             </ul> -->
                                         </li>
                                         
-                                        <li class="dropdown"><a href="services.html">Services</a>
+                                        <li class="dropdown"><a  href="/services">Services</a>
                                             <ul>
-                                                <li><a href="services.html">Services</a></li>
+                                                <li><a class="{{request () ->is('services') ? 'is-current' : '' }}" href="/services">Services</a></li>
                                                 <li><a href="ser-concept-designs.html">Distribution et vente de pièces de transmissions industrielles et automobiles</a></li>
                                                 <li><a href="ser-project-designs.html">Quincaillérie générale</a></li>
                                                 <li><a href="ser-make-overs.html">Négoce</a></li>
@@ -71,7 +79,7 @@
                                                 <li><a href="blog-single.html">Blog Single Post</a></li>
                                             </ul>
                                         </li> -->
-                                        <li class="dropdown"><a href="shop.html">Produits</a>
+                                        <li class="dropdown"><a href="/product">Produits</a>
                                             <!-- <ul>
                                                 <li><a href="shop.html">Our Products</a></li>
                                                 <li><a href="shop-single.html">Products Single</a></li>
@@ -80,7 +88,7 @@
                                                 <li><a href="account.html">My Account</a></li>
                                             </ul> -->
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>

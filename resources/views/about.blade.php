@@ -7,7 +7,7 @@
                     <div class="col-xl-12">
                         <div class="inner-content clearfix">
                             <div class="title">
-                                <h1>Qui sommes nous ?<br> Notre Société.</h1>
+                                <h1>Qui sommes nous ?</h1>
                             </div>
                             <div class="breadcrumb-menu float-right">
                                 <ul class="clearfix">
@@ -29,11 +29,13 @@
                     <div class="col-xl-12">
                         <div class="intro-box clearfix">
                             <div class="sec-title">
-                                <p>Company Overview</p>
-                                <div class="title">Modern & Luxury<br> <span>Interior Designers in USA</span></div>
+                                <p>Notre Société</p>
+                                <div class="title">I-Transmissions<br> Côte d'Ivoire</span></div>
                             </div>
                             <div class="text">
-                                <p>We feel that interior design is one of the most important investments you will ever make. Whether your needs are Residential or Commercial Interior Design or Model Home Merchandising, our commitment to your project.</p>
+                                <p>Nous sommes une entreprise spécialisée dans la distribution et la vente de pièces de transmissions industrielles et automobiles. Nous intervenons
+                                aussi dans les domaines de la negoce et de la Quincaillerie.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -52,14 +54,16 @@
                                     <div class="text-box">
                                         <div class="inner">
                                             <div class="date">
-                                                <h3>1983</h3>
+                                                <h3>Juin 2020</h3>
                                             </div>
                                             <div class="title">
-                                                <h3>Crystalo Was Founded by<br> Chris Miller in USA.</h3>
+                                                <h3>Création de i-transmission par<br> ADJIRI Séraphin en Côte d'IVOIRE.</h3>
                                             </div>
                                             <div class="text">
-                                                <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
-                                                <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
+                                                <p>Le début fut difficile, mais grâce à la qualité des services proposés et à la qualité du personnel, aujourd'hui, i-transmission se positionne
+                                                    comme l'une des meilleurs dans son domaine.
+                                                </p>
+                                                <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -75,88 +79,20 @@
                                     <div class="text-box">
                                         <div class="inner">
                                             <div class="date">
-                                                <h3>1984</h3>
+                                                <h3>2022</h3>
                                             </div>
                                             <div class="title">
-                                                <h3>Crystalo Was Founded by<br> Chris Miller in USA.</h3>
+                                                <h3>Création du site web sous l'impulsion du<br> CEO</h3>
                                             </div>
                                             <div class="text">
-                                                <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
-                                                <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
+                                                <p>Le lancement du site web a pour but de faire passer un autre cap à la société qui ambitionne de s'étendre à la sous-région.</p>
+                                                <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!--End Single History Content-->
-                                <!--Start Single History Content-->
-                                <div class="single-history-content">
-                                    <div class="img-box">
-                                        <div class="inner">
-                                            <img src="images/resources/history-1.jpg" alt="Awesome Image">
-                                        </div>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="inner">
-                                            <div class="date">
-                                                <h3>1985</h3>
-                                            </div>
-                                            <div class="title">
-                                                <h3>Crystalo Was Founded by<br> Chris Miller in USA.</h3>
-                                            </div>
-                                            <div class="text">
-                                                <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
-                                                <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single History Content-->
-                                <!--Start Single History Content-->
-                                <div class="single-history-content">
-                                    <div class="img-box">
-                                        <div class="inner">
-                                            <img src="images/resources/history-2.jpg" alt="Awesome Image">
-                                        </div>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="inner">
-                                            <div class="date">
-                                                <h3>1986</h3>
-                                            </div>
-                                            <div class="title">
-                                                <h3>Crystalo Was Founded by<br> Chris Miller in USA.</h3>
-                                            </div>
-                                            <div class="text">
-                                                <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
-                                                <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single History Content-->
-                                <!--Start Single History Content-->
-                                <div class="single-history-content">
-                                    <div class="img-box">
-                                        <div class="inner">
-                                            <img src="images/resources/history-2.jpg" alt="Awesome Image">
-                                        </div>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="inner">
-                                            <div class="date">
-                                                <h3>1987</h3>
-                                            </div>
-                                            <div class="title">
-                                                <h3>Crystalo Was Founded by<br> Chris Miller in USA.</h3>
-                                            </div>
-                                            <div class="text">
-                                                <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
-                                                <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single History Content-->
+                                
                             </div>
                         </div>
                     </div>
@@ -171,7 +107,7 @@
                                 </h1>
                             </div>
                             <div class="title">
-                                <h3>Years of<br> Experience</h3>
+                                <h3>Personnel<br> Qualifié</h3>
                             </div>
                         </div>
                     </div>
@@ -186,7 +122,7 @@
                                 </h1>
                             </div>
                             <div class="title">
-                                <h3>Projects<br> Completed</h3>
+                                <h3>Qualité<br>Produits </h3>
                             </div>
                         </div>
                     </div>
@@ -200,25 +136,12 @@
                                 </h1>
                             </div>
                             <div class="title">
-                                <h3>Branches<br> Worldwide</h3>
+                                <h3>Satisfaction<br> Clients</h3>
                             </div>
                         </div>
                     </div>
                     <!--End Single Fact Counter-->
-                    <!--Start Single Fact Counter-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-fact-counter wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="count-box">
-                                <h1>
-                                    <span class="timer" data-from="1" data-to="47" data-speed="5000" data-refresh-interval="50">47</span>
-                                </h1>
-                            </div>
-                            <div class="title">
-                                <h3>Awards<br> Holds in Hand</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Fact Counter-->
+                   
                 </div>
 
             </div>
@@ -232,119 +155,89 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="sec-title float-left">
-                            <p>Behind Our Company</p>
-                            <div class="title">Expert & Experinced <span>Team</span></div>
+                            <p>Notre équipe</p>
+                            <div class="title">Jeune et Qualifiée<span></span></div>
                         </div>
                         <div class="view-all-member style2 float-right">
-                            <a class="btn-one" href="#">All Members<span class="flaticon-next"></span></a>
+                            <a class="btn-one" href="#"><span class="flaticon-next"></span></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <!--Start Single Team Member-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-1.jpg" alt="Awesome Image">
-                                <ul class="sociallinks">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                </ul>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="link">
-                                            <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="images/team/v2-1.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>CEO & Founder</span></p>
-                                <h3>Alison Fletcher</h3>
+                                <h3>Adjiri Séraphin</h3>
                             </div>
                         </div>
                     </div>
                     <!--End Single Team Member-->
                     <!--Start Single Team Member-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-2.jpg" alt="Awesome Image">
-                                <ul class="sociallinks">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                </ul>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="link">
-                                            <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="images/team/v2-2.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
-                                <p><span>Designer</span></p>
-                                <h3>Joe Wilson</h3>
+                                <p><span>Assistant comptable</span></p>
+                                <h3>Kouassi Amoin Ahissou</h3>
                             </div>
                         </div>
                     </div>
                     <!--End Single Team Member-->
                     <!--Start Single Team Member-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-3.jpg" alt="Awesome Image">
-                                <ul class="sociallinks">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                </ul>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="link">
-                                            <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="images/team/v2-3.jpg" alt="Awesome Image">                                
                             </div>
                             <div class="name text-center">
-                                <p><span>Architect</span></p>
-                                <h3>White Grey</h3>
+                                <p><span>Agent Logistique et Assistante Achat</span></p>
+                                <h3>Kouakou Kouadio Charles Delphin</h3>
                             </div>
                         </div>
                     </div>
                     <!--End Single Team Member-->
                     <!--Start Single Team Member-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">
-                                <ul class="sociallinks">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                </ul>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="link">
-                                            <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
-                                <p><span>Manager</span></p>
-                                <h3>Kevin Smith</h3>
+                                <p><span>Commerciale</span></p>
+                                <h3>Aka Tanoh Arielle</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Team Member-->
+                     <!--Start Single Team Member-->
+                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-team-member">
+                            <div class="img-holder">
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                            </div>
+                            <div class="name text-center">
+                                <p><span>Commerciale</span></p>
+                                <h3>Wole Amichia Hermann Ulrich</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Team Member-->
+                     <!--Start Single Team Member-->
+                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-team-member">
+                            <div class="img-holder">
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                            </div>
+                            <div class="name text-center">
+                                <p><span>Secrétaire Assistante Commerciale</span></p>
+                                <h3>Traoré Amy Alima</h3>
                             </div>
                         </div>
                     </div>
@@ -355,7 +248,7 @@
         <!--End Team Area-->
 
         <!--Start Brand area style2-->
-        <section class="brand-area style2">
+        <section class="brand-area style1">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">

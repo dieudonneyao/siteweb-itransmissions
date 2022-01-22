@@ -1,5 +1,117 @@
 @extends('layouts.base')
 @section('content')
+
+<section class="main-slider">
+    <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
+        <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+            <ul>
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default"
+                    data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-1.jpg"
+                    data-title="Slide Title" data-transition="parallaxvertical">
+
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-1.jpg">
+
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-160','-100','-110','-105']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="big-title">
+                                QUINCAILLERIE
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-75','-10','-25','-30']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
+                {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="text">Tous les matériaux de transmissions industrielles <br>sont disponible chez nous.</div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="btn-box">
+                                <a class="btn-one" href="#">Voir plus<span class="flaticon-next"></span></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default"
+                    data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-2.jpg"
+                    data-title="Slide Title" data-transition="parallaxvertical">
+
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-2.jpg">
+
+
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-160','-100','-110','-105']" data-x="['right','right','right','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="big-title">
+                            SAP
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-75','-10','-25','-30']" data-x="['right','right','right','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
+                {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="text">Un service après vente disponible 24h/24 <br>pour repondre à vos questions.</div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['right','right','right','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="btn-box">
+                                <a class="btn-one" href="#">Voir plus<span class="flaticon-next"></span></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
+                    data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-3.jpg"
+                    data-title="Slide Title" data-transition="parallaxvertical">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-3.jpg">
+
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-160','-100','-110','-105']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="big-title">
+                                TRANSMISSION
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['-75','-10','-25','-30']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
+                {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="text">Distribution et vente de pièces de transmission  <br>industrielles et automobile.</div>
+                        </div>
+                    </div>
+                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                        <div class="slide-content left-slide">
+                            <div class="btn-box">
+                                <a class="btn-one" href="#">Voir plus<span class="flaticon-next"></span></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
     <div>
         <!--Start Highlights Area-->
         <section class="highlights-area">
@@ -202,8 +314,8 @@
                                         </div>
                                     </div>
                                     <div class="text">
-                                        <h3>Commercial</h3>
-                                        <p>Righteous indignation work are so beguiled demoralized the blinded by desire.</p>
+                                        <h3>Formation et Consulting</h3>
+                                        <p>Bénéficiez de notre expertise et de la qualité de nos services.</p>
                                     </div>
                                 </div>
                             </div>
@@ -230,14 +342,15 @@
                                         </div>
                                     </div>
                                     <div class="text">
-                                        <h3>Industries</h3>
-                                        <p>Our power of choice is and when nothing prevents work every pleasure interior.</p>
+                                        <h3>Service Après Vente (SAP)</h3>
+                                        <p>Notre collaboration ne s'arrête pas à l'achat, elle va plus loin.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--End Single Working Box-->
+                   
                 </div>
             </div>
         </section>
@@ -249,11 +362,11 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="sec-title float-left">
-                            <p>Projects</p>
-                            <div class="title">Recently Completed <span>Works</span></div>
+                            <p>Nos produits</p>
+                            <div class="title">Large gamme de <span>produits</span></div>
                         </div>
                         <div class="more-project-button float-right">
-                            <a class="btn-two" href="#">More Projects<span class="flaticon-next"></span></a>
+                            <a class="btn-two" href="#">Tous les produits<span class="flaticon-next"></span></a>
                         </div>
                     </div>
                 </div>
@@ -542,8 +655,8 @@
         <section class="working-process-area">
             <div class="container">
                 <div class="sec-title text-center">
-                    <p>To Do good design</p>
-                    <div class="title">Our Working <span>process</span></div>
+                    <p>i-transmissions organisation</p>
+                    <div class="title">Notre procéssus <span>d'achat</span></div>
                 </div>
                 <div class="row">
                     <!--Start Single Working Process-->
@@ -551,8 +664,8 @@
                         <div class="single-working-process text-center">
                             <div class="top-box"><span>01</span></div>
                             <div class="inner">
-                                <h3>Idea & Design</h3>
-                                <p>With righteous indignation and works off beguiled demoralized charm.</p>
+                                <h3>Commande</h3>
+                                <p>Emission du bon de commande.</p>
                                 <div class="icon-holder">
                                     <span class="icon-productive"></span>
                                 </div>
@@ -565,8 +678,8 @@
                         <div class="single-working-process text-center">
                             <div class="top-box"><span>02</span></div>
                             <div class="inner">
-                                <h3>Specification</h3>
-                                <p>Our power of choice is untrammelled and when nothing prevents.</p>
+                                <h3>Traitement</h3>
+                                <p>Vérification de la disponibilté et traitement.</p>
                                 <div class="icon-holder">
                                     <span class="icon-document"></span>
                                 </div>
@@ -579,8 +692,8 @@
                         <div class="single-working-process text-center">
                             <div class="top-box"><span>03</span></div>
                             <div class="inner">
-                                <h3>Execution</h3>
-                                <p>Wing to the claims of duty the obligations will frequently occur.</p>
+                                <h3>Livraison</h3>
+                                <p>Livraison au client selon les termes conclus.</p>
                                 <div class="icon-holder">
                                     <span class="icon-kitchen"></span>
                                 </div>
@@ -600,10 +713,10 @@
                     <div class="col-xl-12">
                         <div class="inner-content flex-box-two fix">
                             <div class="title float-left">
-                                <h3>Wanna Work With Our Profesional Team? Make an Appointment.</h3>
+                                <h3>Nous sommes disponible pour vous toutes vos préoccupations. Contactez-nous</h3>
                             </div>
                             <div class="button float-right">
-                                <a class="btn-one" href="#">Make an Appointment<span class="flaticon-next"></span></a>
+                                <a class="btn-one" href="#">Prendre un rendez-vous<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                     </div>
@@ -612,88 +725,7 @@
         </section>
         <!--End slogan area-->
 
-        <!--Start Testimonial Area-->
-        <section class="testimonial-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="sec-title float-left">
-                            <p>Testimonials</p>
-                            <div class="title">Our Customer <span>Words</span></div>
-                        </div>
-                        <div class="more-reviews-button float-right">
-                            <a class="btn-two" href="#">More Reviews<span class="flaticon-next"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Start Single Testimonial Item-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-testimonial-item text-center">
-                            <div class="quote-icon">
-                                <span class="icon-quote1"></span>
-                            </div>
-                            <div class="inner-content">
-                                <div class="client-info">
-                                    <h3>Shelly Johnson</h3>
-                                    <span>California</span>
-                                </div>
-                                <div class="img-box">
-                                    <img src="images/testimonial/testi-1.png" alt="Awesome Image">
-                                </div>
-                                <div class="text-box">
-                                    <p>Your guys were great knowledgeable, well experienced, efficient and neat. A true to work with Crystalo.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-testimonial-item text-center">
-                            <div class="quote-icon">
-                                <span class="icon-quote1"></span>
-                            </div>
-                            <div class="inner-content">
-                                <div class="client-info">
-                                    <h3>Cathrine Wagner</h3>
-                                    <span>Los Angeles</span>
-                                </div>
-                                <div class="img-box">
-                                    <img src="images/testimonial/testi-2.png" alt="Awesome Image">
-                                </div>
-                                <div class="text-box">
-                                    <p>Indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-testimonial-item text-center">
-                            <div class="quote-icon">
-                                <span class="icon-quote1"></span>
-                            </div>
-                            <div class="inner-content">
-                                <div class="client-info">
-                                    <h3>Cuthbert Brain</h3>
-                                    <span>Newyork City</span>
-                                </div>
-                                <div class="img-box">
-                                    <img src="images/testimonial/testi-3.png" alt="Awesome Image">
-                                </div>
-                                <div class="text-box">
-                                    <p>Same as saying through shrinking from all pain these cases are perfectly simple and easy to distinguish.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                </div>
-            </div>
-        </section>
-        <!--End Testimonial Area-->
+        
 
         <!--Start appointment Area-->
         <section class="appointment-area" style="background-image:url(images/resources/appointment-bg.jpg);">
@@ -702,64 +734,27 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="map-content-box">
                             <div class="sec-title">
-                                <p>Contact Details</p>
-                                <div class="title">How Can We <span>Help You?</span></div>
+                                <p>Nos contacts</p>
+                                <div class="title"><Datag>Déclinez-nous</Datag> <span>vos besoins</span></div>
                             </div>
                             <div class="inner paroller">
                                 <img src="images/resources/map.png" alt="Map">
-                                <div class="overlay">
-                                    <div class="single-location-box one wow zoomIn" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                        <div class="marker-box">
-                                            <span class="icon-pin"></span>
-                                        </div>
-                                        <div class="location-info">
-                                            <h3>Brooklyn</h3>
-                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-location-box two wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                        <div class="marker-box">
-                                            <span class="icon-pin"></span>
-                                        </div>
-                                        <div class="location-info">
-                                            <h3>Brooklyn</h3>
-                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-location-box three wow zoomIn" data-wow-delay="500ms" data-wow-duration="1500ms">
-                                        <div class="marker-box">
-                                            <span class="icon-pin"></span>
-                                        </div>
-                                        <div class="location-info">
-                                            <h3>Brooklyn</h3>
-                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-location-box four wow zoomIn" data-wow-delay="700ms" data-wow-duration="1500ms">
-                                        <div class="marker-box">
-                                            <span class="icon-pin"></span>
-                                        </div>
-                                        <div class="location-info">
-                                            <h3>Brooklyn</h3>
-                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="appointment-box wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="title-box">
-                                <h2>Make Appointment</h2>
-                                <span>Leave your information here and get reply from our expert in 24 hours, don’t hesitate to ask.</span>
+                                <h2>Ecrivez-nous</h2>
+                                <span>Laissez nous un message et nous vous repondrons dans un bref délai, n'hésitez-pas.</span>
                             </div>
                             <div class="appointment">
                                 <form class="appointment-form">
                                     <div class="row">
                                         <div class="col-xl-12">
                                             <div class="single-box">
-                                                <input type="text" name="form_name" value="" placeholder="Name" required="">
+                                                <input type="text" name="form_name" value="" placeholder="Nom" required="">
                                             </div>
                                         </div>
                                     </div>
@@ -774,13 +769,12 @@
                                         <div class="col-xl-12">
                                             <div class="single-box">
                                                 <select class="selectpicker" data-width="100%">
-                                                <option selected="selected">Interested In</option>
-                                                <option>Concept Designs</option>
-                                                <option>Project Designs</option>
-                                                <option>Make Overs</option>
-                                                <option>Consulting</option>
-                                                <option>Glass & Wrought</option>
-                                                <option>Space Planning</option>
+                                                <option selected="selected">Intéressé par</option>
+                                                <option>Distribution et vente de matériel de transmission</option>
+                                                <option>Quincaillerie et Négoce</option>
+                                                <option>Formation et Conssulting</option>
+                                                <option>SErvice après vente</option>
+                                                
                                             </select>
                                             </div>
                                         </div>
@@ -788,7 +782,7 @@
                                     <div class="row">
                                         <div class="col-xl-12">
                                             <div class="single-box">
-                                                <button class="btn-one" type="submit">Submit Here<span class="flaticon-next"></span></button>
+                                                <button class="btn-one" type="submit">Envoyer<span class="flaticon-next"></span></button>
                                             </div>
                                         </div>
                                     </div>
@@ -807,8 +801,8 @@
         <section class="latest-blog-area">
             <div class="container inner-content">
                 <div class="sec-title text-center">
-                    <p>News & Updates</p>
-                    <div class="title">Latest From <span>Blog</span></div>
+                    <p>Actualités i-transmissions</p>
+                    <div class="title">Quoi de neuf</div>
                 </div>
                 <div class="row">
                     <!--Start single blog post-->
@@ -827,18 +821,13 @@
                             </div>
                             <div class="text-holder">
                                 <div class="post-date">
-                                    <h3>02 <span>Mar 2019</span></h3>
+                                    <h3>25 <span>Décembre 2021</span></h3>
                                 </div>
-                                <div class="meta-box">
-                                    <ul class="meta-info">
-                                        <li>By <a href="#">Rubin Santro</a></li>
-                                        <li>In <a href="#">Contemporary</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-single.html">Low cost interior designing ideas</a></h3>
+                                
+                                <h3 class="blog-title"><a href="blog-single.html">Arbre de Noèl pour les enfants.</a></h3>
                                 <div class="text">
-                                    <p>Same as saying through shrinkings from toil & our pain these cases perfectly simple.</p>
-                                    <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
+                                    <p>Il a été organisé un Arbre de Noël pour les enfants du personnel de i-transmissions.</p>
+                                    <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -860,18 +849,13 @@
                             </div>
                             <div class="text-holder">
                                 <div class="post-date">
-                                    <h3>24 <span>Feb 2019</span></h3>
+                                    <h3>03 <span>Jan 2022</span></h3>
                                 </div>
-                                <div class="meta-box">
-                                    <ul class="meta-info">
-                                        <li>By <a href="#">Mark Richrdson</a></li>
-                                        <li>In <a href="#">Modern Paint</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-single.html">Commercial design for project</a></h3>
+                                
+                                <h3 class="blog-title"><a href="blog-single.html">Bonne Année 2022</a></h3>
                                 <div class="text">
-                                    <p>Which is the same as saying through shrinking from toil and pain. These cases are perfectly.</p>
-                                    <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
+                                    <p>Traditionnelle présentation des voeux par le CEO de i-transmissions.</p>
+                                    <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -893,18 +877,13 @@
                             </div>
                             <div class="text-holder">
                                 <div class="post-date">
-                                    <h3>18 <span>Jan 2019</span></h3>
+                                    <h3>10 <span>Jan 2022</span></h3>
                                 </div>
-                                <div class="meta-box">
-                                    <ul class="meta-info">
-                                        <li>By <a href="#">Rubin Santro</a></li>
-                                        <li>In <a href="#">Contemporary</a></li>
-                                    </ul>
-                                </div>
-                                <h3 class="blog-title"><a href="blog-single.html">Our interior design prediction 2019</a></h3>
+                                
+                                <h3 class="blog-title"><a href="blog-single.html">Salon de l'automobile</a></h3>
                                 <div class="text">
-                                    <p>Every pleasure is to be welcomed every pain avoided. in certain circumstances obligations.</p>
-                                    <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
+                                    <p>i-transmissions était présent lors du salon organisé pour la promotion de l'automobile.</p>
+                                    <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -919,8 +898,8 @@
         <section class="brand-area">
             <div class="container">
                 <div class="sec-title">
-                    <p>Corporate Clients</p>
-                    <div class="title">More than <span>2000 Clients</span></div>
+                    <p>Nos Clients</p>
+                    <div class="title">Ils nous font <span>confiance</span></div>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
@@ -929,7 +908,7 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/1.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>FRANZETTI CI</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -937,7 +916,7 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/2.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>NESTLE</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -945,7 +924,7 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/3.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>OLAM</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -953,7 +932,7 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>PALMCI</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -961,15 +940,15 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SACO</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
+                                <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SAPH</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -978,7 +957,7 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SECO</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
@@ -986,7 +965,39 @@
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SAPH</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/7.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SECO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/8.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SICOSA</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/9.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SODECI</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/10.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SUCRIVOIRE</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->

@@ -3183,7 +3183,8 @@ select:focus {
 .single-footer-widget .contact-info-box .footer-logo {
     position: relative;
     display: block;
-    padding-bottom: 33px;
+    padding: 5px;
+    border-radius: 5px;
 }
 .single-footer-widget .contact-info-box .footer-logo a{
     display: inline-block;
