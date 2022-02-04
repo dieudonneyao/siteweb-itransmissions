@@ -82,7 +82,7 @@
 
                 <div class="flex w-full p-5">
                     <div class="w-full flex">
-                        Hello, i-transmission , vous avez un nouveau message.
+                        Hello, Vous avez une nouvelle notification
                     </div>
                 </div>
 

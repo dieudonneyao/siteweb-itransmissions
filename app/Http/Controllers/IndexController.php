@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactForm;
+use App\Mail\Transmission;
 use App\Models\Categorie;
 use App\Models\Message;
 use App\Models\Produit;
@@ -185,39 +186,18 @@ class IndexController extends Controller
         $contact = new Message([
             'name'    => $request->get('nom'),
             'email'   => $request->get('email'),
-            'message' => $request->get('msg'),
+            'message' => $request->get('description'),
         ]);
 
         //dd($contact);
 
-        //Notification::send('jefersonyoboue@gmail.com', new ContactForm($contact));//Notification mail
         Mail::to($contact->email)->send(new ContactForm($contact));
+
+        Mail::to('contact@i-transmission.com')->send(new Transmission($contact));
+
+        return redirect()->route('contact')->with('success', 'Votre message a éte envoyé avec succès');
 
 
     }
 
 }
-
-
-
-/* $contact = new Contact([
-            'name'    => $request->get('form_name'),
-            'email'   => $request->get('form_email'),
-            'message' => $request->get('form_msg'),
-        ]);
-
-        //dd($contact->email);
-
-        Mail::to('jefersonyoboue@gmail.com')->send(new ContactForm($contact));
-
-        $contact->save();
-
-        //return  redirect()->route('contact')->with('success','Your information has been successfully transmitted.');
-        # code...
-        $admin_email = $contact->email;
-        //Notification::send($contact->email, new Contacts($contact));//Notification mail
-
-        Mail::to('jefersonyoboue@gmail.com')->send(new ContactForm($contact));
-
-
-        $contact->save(); */

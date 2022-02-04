@@ -6,9 +6,8 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use App\Models\Message;
 
-class ContactForm extends Mailable
+class Transmission extends Mailable
 {
     public $contact;
 
@@ -31,16 +30,15 @@ class ContactForm extends Mailable
      */
     public function build()
     {
-        $email = $this->contact['email'];
+        //$email = $this->contact['email'];
 
         return $this
             ->markdown('emails.contactMail')
             ->from('no-reply@afran2021.org')
-            ->to($email)
+            ->to('contact@i-transmission.com')
             ->subject("Newsletter itransmission")
             ->with([
                 'contact' => $this->contact
             ]);
     }
-
 }
