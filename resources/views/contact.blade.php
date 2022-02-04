@@ -1,26 +1,29 @@
 @extends('layouts.base')
+
 @section('content')
+
 <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="inner-content clearfix">
-                        <div class="title">
-                            <h1>Des besoins ou questions ?<br> Notre Contact</h1>
-                        </div>
-                        <div class="breadcrumb-menu float-right">
-                            <ul class="clearfix">
-                                <li><a href="index-2.html">Accueil</a></li>
-                                <li class="active">contact</li>
-                            </ul>
-                        </div>
+<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title">
+                        <h1>Des besoins ou questions ?<br> Notre Contact</h1>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="index-2.html">Accueil</a></li>
+                            <li class="active">contact</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 <!--End breadcrumb area-->
+
 <!--Start appointment Area-->
     <section class="appointment-area" style="background-image:url(images/resources/appointment-bg.jpg);">
         <div class="container">
@@ -28,8 +31,8 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="map-content-box">
                         <div class="sec-title">
-                            <p>Contact Details</p>
-                            <div class="title">How Can We <span>Help You?</span></div>
+                            <p>DÉTAILS DU CONTACT</p>
+                            <div class="title">COMMENT POUVONS-NOUS <span>VOUS AIDER ?</span></div>
                         </div>
                         <div class="inner paroller">
                             <img src="images/resources/map.png" alt="Map">
@@ -77,48 +80,46 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="appointment-box wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="title-box">
-                            <h2>Make Appointment</h2>
-                            <span>Leave your information here and get reply from our expert in 24 hours, don’t hesitate to ask.</span>
+                            <h2>Prendre un rendez-vous</h2>
+                            <span>Laissez vos informations ici et obtenez une réponse de notre expert dans les 24 heures, n'hésitez pas à demander.</span>
                         </div>
+
                         <div class="appointment">
-                            <form class="appointment-form">
+
+                            <form class="appointment-form" action="{{route('send_contact')}}" method="POST" enctype="multipart/form-data">
+
+                                @csrf
+
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="single-box">
-                                            <input type="text" name="form_name" value="" placeholder="Name" required="">
+                                            <input type="text" name="nom" placeholder="Nom utilisateur" required>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="single-box">
-                                            <input type="email" name="form_email" value="" placeholder="Email" required="">
+                                            <input type="email" name="email" placeholder="Adresse email" required>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="single-box">
-                                            <select class="selectpicker" data-width="100%">
-                                            <option selected="selected">Interested In</option>
-                                            <option>Concept Designs</option>
-                                            <option>Project Designs</option>
-                                            <option>Make Overs</option>
-                                            <option>Consulting</option>
-                                            <option>Glass & Wrought</option>
-                                            <option>Space Planning</option>
-                                        </select>
+                                            <textarea name="description" placeholder="votre message ici" required></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="single-box">
-                                            <button class="btn-one" type="submit">Submit Here<span class="flaticon-next"></span></button>
+                                            <button class="btn-one" type="submit">Soumettre<span class="flaticon-next"></span></button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
                     <div class="contact-info-box">
                         <div class="footer-logo bg-white">
                             <a href="index-2.html">
-                                <img src="images/resources/logo.png" alt="Awesome Logo">
+                                <img src="{{asset('images/resources/logo.png')}}" alt="Awesome Logo">
                             </a>
                         </div>
                         <ul>
@@ -22,7 +22,7 @@
                                 <p>(+225 ) 21 00 93 68 / 01 02 72 32 92 <br> <span>Lun - Vendredi:</span> 8.00 to 17.00</p>
                             </li>
                             <li>
-                                <h6>Email</h6>                                
+                                <h6>Email</h6>
                                 <p>info@i-transmissions.com<br> contact@i-transmission.com</p>
                             </li>
                         </ul>
@@ -58,7 +58,7 @@
                     <ul class="recent-news">
                         <li>
                             <div class="img-holder">
-                                <img src="images/footer/recent-news-1.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/recent-news-1.jpg')}}" alt="Awesome Image">
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
@@ -74,7 +74,7 @@
                         </li>
                         <li>
                             <div class="img-holder">
-                                <img src="images/footer/recent-news-2.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/recent-news-2.jpg')}}" alt="Awesome Image">
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
@@ -87,11 +87,11 @@
                                 <p></p>
                                 <h5><a href="#">Roulements<br> à billes protégés...</a></h5>
                             </div>
-                           
+
                         </li>
                         <li>
                             <div class="img-holder">
-                                <img src="images/footer/recent-news-3.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/recent-news-3.jpg')}}" alt="Awesome Image">
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
@@ -117,7 +117,7 @@
                         <!--Start Single Item-->
                         <div class="single-item">
                             <div class="img-holder">
-                                <img src="images/footer/brochures-1.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/brochures-1.jpg')}}" alt="Awesome Image">
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>
@@ -128,7 +128,7 @@
                         <!--Start Single Item-->
                         <div class="single-item">
                             <div class="img-holder">
-                                <img src="images/footer/brochures-1.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/brochures-1.jpg')}}" alt="Awesome Image">
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>
@@ -139,7 +139,7 @@
                         <!--Start Single Item-->
                         <div class="single-item">
                             <div class="img-holder">
-                                <img src="images/footer/brochures-1.jpg" alt="Awesome Image">
+                                <img src="{{asset('images/footer/brochures-1.jpg')}}" alt="Awesome Image">
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>

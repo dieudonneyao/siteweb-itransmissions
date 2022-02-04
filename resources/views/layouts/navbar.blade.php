@@ -1,3 +1,6 @@
+<?php
+    use Illuminate\Support\Facades\Route;
+?>
 <header class="main-header header-style1">
     <div class="header-upper-style1">
         <div class="container">
@@ -5,53 +8,34 @@
                 <div class="col-xl-12">
                     <div class="inner-container clearfix">
                         <div class="logo-box-style1 float-left">
-                            <a href="index.html">
-                                <img src="images/resources/logo.png" alt="i-transmission">
+                            <a href="{{route('accueil')}}">
+                                <img src="{{asset('images/resources/logo.png')}}" alt="i-transmission" href="">
                             </a>
                         </div>
                         <div class="main-menu-box float-right">
                             <nav class="main-menu clearfix">
+
                                 <div class="navbar-header clearfix">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
                                 </div>
+
                                 <div class="navbar-collapse collapse clearfix">
+
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="/">Accueil</a>
-                                            <!-- <ul>
-                                                <li><a href="index-2.html">Home Page 01</a></li>
-                                                <li><a href="index-3.html">Home Page 02</a></li>
-                                                <li><a href="index-4.html">Home Page 03</a></li>
-                                                <li class="dropdown"><a href="#">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index-2.html">Header Style 01</a></li>
-                                                        <li><a href="index-3.html">Header Style 02</a></li>
-                                                        <li><a href="index-4.html">Header Style 03</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
+
+                                        <li class="{{(Route::currentRouteName()=='accueil')  ?  'active' : ''}}">
+                                            <a href="">
+                                                Accueil
+                                            </a>
                                         </li>
-                                        <li class="dropdown"><a href="/about">Société</a>
-                                            <!--  <ul>
-                                                <li><a href="about.html">About Company</a></li>
-                                                <li><a href="faq.html">FAQ’s</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                <li><a href="404-page.html">Error Page</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="dropdown"><a href="/galerie">Galerie</a>
-                                            <!--  <ul>
-                                                <li><a href="about.html">About Company</a></li>
-                                                <li><a href="faq.html">FAQ’s</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                <li><a href="404-page.html">Error Page</a></li>
-                                            </ul> -->
-                                        </li>
-                                        
-                                        <li class="dropdown"><a  href="/services">Services</a>
+                                        <li class="dropdown"><a href="{{route('about')}}">Société</a></li>
+                                        <li class="dropdown"><a href="{{route('galerie')}}">Galerie</a></li>
+
+                                        <li class="dropdown"><a  href="{{route('services')}}">Services</a>
                                             <ul>
                                                 <li><a class="{{request () ->is('services') ? 'is-current' : '' }}" href="/services">Services</a></li>
                                                 <li><a href="ser-concept-designs.html">Distribution et vente de pièces de transmissions industrielles et automobiles</a></li>
@@ -79,16 +63,8 @@
                                                 <li><a href="blog-single.html">Blog Single Post</a></li>
                                             </ul>
                                         </li> -->
-                                        <li class="dropdown"><a href="/product">Produits</a>
-                                            <!-- <ul>
-                                                <li><a href="shop.html">Our Products</a></li>
-                                                <li><a href="shop-single.html">Products Single</a></li>
-                                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="account.html">My Account</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li><a href="/contact">Contact</a></li>
+                                        <li class="dropdown"><a href="{{route('produits')}}">Produits</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -105,7 +81,7 @@
                                             </form>
                                         </li>
                                     </ul>
-                                </div>                                        
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -170,4 +146,5 @@
             </div>
         </div>
     </div>
+
 </header>
