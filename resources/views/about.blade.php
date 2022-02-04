@@ -165,10 +165,10 @@
                 </div>
                 <div class="row">
                     <!--Start Single Team Member-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-1.jpg" alt="Awesome Image">                               
+                                <img src="images/team/1.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>CEO & Founder</span></p>
@@ -178,10 +178,10 @@
                     </div>
                     <!--End Single Team Member-->
                     <!--Start Single Team Member-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-2.jpg" alt="Awesome Image">                               
+                                <img src="images/team/2.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>Assistant comptable</span></p>
@@ -191,10 +191,10 @@
                     </div>
                     <!--End Single Team Member-->
                     <!--Start Single Team Member-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-3.jpg" alt="Awesome Image">                                
+                                <img src="images/team/3.jpg" alt="Awesome Image">                                
                             </div>
                             <div class="name text-center">
                                 <p><span>Agent Logistique et Assistante Achat</span></p>
@@ -202,12 +202,14 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Single Team Member-->
+                    <!--End Single Team Member-->                  
+                </div>
+                <div class="row">
                     <!--Start Single Team Member-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/5.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>Commerciale</span></p>
@@ -217,10 +219,10 @@
                     </div>
                     <!--End Single Team Member-->
                      <!--Start Single Team Member-->
-                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/6.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>Commerciale</span></p>
@@ -230,10 +232,10 @@
                     </div>
                     <!--End Single Team Member-->
                      <!--Start Single Team Member-->
-                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/7.jpg" alt="Awesome Image">                               
                             </div>
                             <div class="name text-center">
                                 <p><span>Secrétaire Assistante Commerciale</span></p>
@@ -242,71 +244,138 @@
                         </div>
                     </div>
                     <!--End Single Team Member-->
-                </div>
+                </div>  
+                <div class="row">
+                    <!--Start Single Team Member-->
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-team-member">
+                            <div class="img-holder">
+                                <img src="images/team/8.jpg" alt="Awesome Image">                               
+                            </div>
+                            <div class="name text-center">
+                                <p><span>Commercial</span></p>
+                                <h3>N'guetta N'guetta</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>              
             </div>
         </section>
         <!--End Team Area-->
 
-        <!--Start Brand area style2-->
-        <section class="brand-area style1">
+        <!--Start Brand area-->
+        <section class="brand-area">
             <div class="container">
+                <div class="sec-title">
+                    <p>Nos Clients</p>
+                    <div class="title">Ils nous font <span>confiance</span></div>
+                </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <ul>
+                        <ul class="brand-items-carousel owl-carousel owl-theme">
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/1.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>FRANZETTI CI</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/2.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>NESTLE</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/3.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>OLAM</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>PALMCI</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SACO</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
-                                    <p>Miesian</p>
+                                    <p>SAPH</p>
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
 
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SECO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SAPH</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/7.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SECO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/8.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SICOSA</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/9.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SODECI</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/10.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SUCRIVOIRE</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!--End Brand area style2-->
+        <!--End Brand area-->
 
 @endsection
