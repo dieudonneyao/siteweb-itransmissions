@@ -14,7 +14,7 @@
 07. Categories area style
 08. Fact counter area style
 09. Latest Blog area style
-10. Latest blog area style 
+10. Latest blog area style
 11. Testimonial area style
 12. Brand area style
 13. Single service style
@@ -79,7 +79,7 @@
 	font-size: 100%;
 }
 html,
-body { 
+body {
     height: 100%;
 }
 body {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3 {
     color: #27282c;
-    font-size: 20px; 
+    font-size: 20px;
     line-height: 26px;
 }
 h4 {
@@ -121,6 +121,9 @@ a:focus {
     border: none;
 }
 
+a:active {
+    color: #e9212e;
+}
 
 
 @media (min-width: 1200px) {
@@ -151,13 +154,13 @@ li {
 ol,
 li{
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 .clr1{
     color: #f36727;
 }
 .bgclr1{
-    background: #f36727;    
+    background: #f36727;
 }
 
 
@@ -270,7 +273,7 @@ li{
     margin: -5px auto 0;
 }
 .sec-title.with-text{
-    padding-bottom: 52px;    
+    padding-bottom: 52px;
 }
 
 
@@ -294,7 +297,7 @@ li{
     font-family: 'Poppins', sans-serif;
 }
 .sec-title .title.clr-white{
-    color: #ffffff;    
+    color: #ffffff;
 }
 .sec-title .title span{
     font-weight: 400;
@@ -339,7 +342,7 @@ li{
     top: 0;
     width: 100%;
     z-index: -1;
-} 
+}
 .parallax-bg-two {
     background-attachment: fixed;
     background-position: center top;
@@ -357,7 +360,7 @@ li{
     top: 0;
     width: 100%;
     z-index: -1;
-} 
+}
 
 .flex-box {
     display: flex;
@@ -407,7 +410,7 @@ li{
     margin: 0 0 0 0px;
     padding: 0;
     width: 50px;
-    border: 1px solid #f3f3f3;    
+    border: 1px solid #f3f3f3;
     transition: all 700ms ease 0s;
 }
 .owl-nav-style-one.owl-theme .owl-nav .owl-next {
@@ -461,7 +464,7 @@ li{
     padding-right: 70px;
     padding-top: 22px;
     padding-bottom: 22px;
-    -webkit-box-shadow: 0px 3px 5px 2px #ededed; 
+    -webkit-box-shadow: 0px 3px 5px 2px #ededed;
     box-shadow: 0px 3px 5px 2px #ededed;
     transition: all 500ms ease;
 }
@@ -519,20 +522,20 @@ li{
     width: 100%;
     min-width: 320px;
     min-height: 400px;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 /*________________Preloader_______________ */
-.preloader{ 
-    position:fixed; 
-    left:0px; 
-    top:0px; 
-    width:100%; 
-    height:100%; 
-    z-index:999999999999999999; 
-    background-color:#ffffff; 
-    background-position:center center; 
-    background-repeat:no-repeat; 
+.preloader{
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    z-index:999999999999999999;
+    background-color:#ffffff;
+    background-position:center center;
+    background-repeat:no-repeat;
     background-image:url(../images/icon/preloader.gif);
 }
 .preloader.style-two {
@@ -612,16 +615,16 @@ select:focus {
 }
 
 #contact-form input[type="text"].error{
-    border-color: red;    
+    border-color: red;
 }
 #contact-form input[type="email"].error{
-  border-color: red;    
+  border-color: red;
 }
 #contact-form select.error {
   border-color: red;
 }
 #contact-form textarea.error{
-  border-color: red;    
+  border-color: red;
 }
 
 
@@ -656,7 +659,7 @@ select:focus {
     position: relative;
     font-size: 20px;
 }
-.post-pagination li.active a, 
+.post-pagination li.active a,
 .post-pagination li:hover a {
     color: #fff;
     background: #e9212e;
@@ -689,7 +692,7 @@ select:focus {
     font-family: 'Poppins', sans-serif;
     border-radius: 50%;
 }
-.post-pagination2 li.active a, 
+.post-pagination2 li.active a,
 .post-pagination2 li:hover a {
     background: #f36727;
     color: #ffffff;
@@ -725,7 +728,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .post-pagination2 li a.right:hover{
-    color: #f36727;    
+    color: #f36727;
 }
 .post-pagination2 li:hover a.right{
     background: none;
@@ -758,12 +761,12 @@ select:focus {
 .overlay-style-one .box{
     display: table;
     height: 100%;
-    width: 100%;    
+    width: 100%;
 }
 .overlay-style-one .box .content{
     display: table-cell;
     text-align: center;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 
 .overlay-style-two{
@@ -774,7 +777,7 @@ select:focus {
     top: 0px;
     z-index: 2;
     opacity: 0;
-    transition: all 900ms ease;    
+    transition: all 900ms ease;
 }
 .overlay-style-two:before{
 	position: absolute;
@@ -825,7 +828,7 @@ select:focus {
     margin-right: 4px;
 }
 .review-box ul li:last-child{
-    margin-right: 0px;    
+    margin-right: 0px;
 }
 .review-box ul li i {
     font-size: 16px;
@@ -860,7 +863,7 @@ select:focus {
     margin-right: 20px;
 }
 .sociallinks-style-two li:last-child{
-    margin-right: 0px;    
+    margin-right: 0px;
 }
 .sociallinks-style-two li a i {
     position: relative;
@@ -910,20 +913,20 @@ select:focus {
     text-align: center;
 }
 .top-style1 p{
-    margin: 0;    
+    margin: 0;
 }
 .top-style1 p a{
-    color: #ffffff;  
+    color: #ffffff;
     transition: all 300ms ease 100ms;
 }
 .top-style1 p a:hover{
-    color: #828282;    
+    color: #828282;
 }
 
 
 
 /*==============================================
-    Main Header Css        
+    Main Header Css
 ===============================================*/
 .main-header {
     position: relative;
@@ -933,7 +936,7 @@ select:focus {
 .main-header.header-style1{}
 .header-upper-style1{
     position: relative;
-    display: block;  
+    display: block;
     background: #f6f6f6;
 }
 .header-upper-style1.fixed-header .inner-container {
@@ -972,7 +975,7 @@ select:focus {
     padding: 0 40px;
     margin-top: -45px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 4px 11px -1px #ECECEC; 
+    -webkit-box-shadow: 0px 4px 11px -1px #ECECEC;
     box-shadow: 0px 4px 11px -1px #ECECEC;
     z-index: 9999999999;
 }
@@ -987,7 +990,7 @@ select:focus {
 }
 .main-menu-box{
     position: relative;
-    display: block;       
+    display: block;
 }
 
 
@@ -1024,9 +1027,9 @@ select:focus {
     transition: all 300ms ease;
     font-family: 'Rubik', sans-serif;
 }
-.main-menu .navigation > li:hover > a, 
+.main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a {
-    color: #e9212e; 
+    color: #e9212e;
 }
 
 .main-menu .navigation > li > ul {
@@ -1162,7 +1165,7 @@ select:focus {
     font-family: 'Rubik', sans-serif;
 }
 .main-menu .navigation > li > ul > li > ul > li:last-child a{
-    border-bottom: 0px !important;   
+    border-bottom: 0px !important;
 }
 .main-menu .navigation > li > ul > li > ul > li a:before {
     position: absolute;
@@ -1200,7 +1203,7 @@ select:focus {
     font-family: 'FontAwesome';
     content: "\f105";
     font-size: 18px;
-    line-height: 30px; 
+    line-height: 30px;
     display: block;
     top: 0;
     bottom: 0;
@@ -1300,9 +1303,9 @@ select:focus {
     padding-right: 50px;
 }
 .search-box .form-group input[type="search"]:focus{
-    border-color: #f5f5f5;	
+    border-color: #f5f5f5;
 }
-.search-box .form-group button, 
+.search-box .form-group button,
 .search-box .form-group input[type="submit"] {
     position: absolute;
     right: 0;
@@ -1347,7 +1350,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .cart-box a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .cart-box a span.number {
     position: relative;
@@ -1369,7 +1372,7 @@ select:focus {
 }
 .header-lower-style1 .inner-content{
     position: relative;
-    display: block; 
+    display: block;
     border-right: 1px solid #dddddd;
 }
 .header-contact-info {
@@ -1405,7 +1408,7 @@ select:focus {
     transition: all 300ms ease 100ms;
 }
 .header-contact-info li:hover .single-item .icon span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .header-contact-info li .single-item .icon,
 .header-contact-info li .single-item .text{
@@ -1454,7 +1457,7 @@ select:focus {
     font-size: 14px;
     line-height: 50px;
     text-align: center;
-    transition: all 700ms ease 100ms; 
+    transition: all 700ms ease 100ms;
 }
 .header-social-links-style1 li a:hover i{
     color: #ffffff;
@@ -1464,7 +1467,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =====================================================
 	Main Slider style
 =====================================================
@@ -1481,7 +1484,7 @@ select:focus {
 }
 .main-slider .tparrows {
     top: 40% !important;
-}   
+}
 
 .main-slider .slide-content{
     position: relative;
@@ -1536,7 +1539,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =====================================================
 	Main Slider Style2 style
 =====================================================
@@ -1583,7 +1586,7 @@ select:focus {
     height: 70px;
     border-radius: 50%;
     background: #e9212e;
-    text-align: center; 
+    text-align: center;
 }
 .main-slider.style2 .slide-content .btn-box a.play-button span:before{
     position: relative;
@@ -1648,14 +1651,14 @@ select:focus {
     -webkit-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
-.tp-bullet.selected, 
+.tp-bullet.selected,
 .tp-bullet:hover {
     background: #fff;
 }
 
 
 
-/*** 
+/***
 =====================================================
 	Main Slider Style3 style
 =====================================================
@@ -1681,16 +1684,16 @@ select:focus {
     font-family: 'Rubik', sans-serif;
 }
 .main-slider.style3 .slide-content .btn-box a{
-    
+
 }
 
 
 
 
 
-/*** 
+/***
 =============================================
-    About Area style      
+    About Area style
 =============================================
 ***/
 .highlights-area{
@@ -1757,13 +1760,13 @@ select:focus {
     display: block;
     background: #ffffff;
     padding-top: 55px;
-    box-shadow: 0px 4px 11px -1px #ECECEC;  
+    box-shadow: 0px 4px 11px -1px #ECECEC;
 }
 
 .single-highlight-box .inner-content .text{
     position: relative;
     display: block;
-    padding: 26px 30px 32px;  
+    padding: 26px 30px 32px;
 }
 
 .single-highlight-box .inner-content h3 {
@@ -1780,14 +1783,14 @@ select:focus {
     color: #27282c;
 }
 .single-highlight-box:hover .inner-content a{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
-    About Area style      
+    About Area style
 =============================================
 ***/
 .about-area{
@@ -1895,7 +1898,7 @@ select:focus {
 }
 .about-text .inner-content{
     position: relative;
-    display: block;    
+    display: block;
 }
 .about-text .inner-content .text {
     display: block;
@@ -1979,7 +1982,7 @@ select:focus {
 	display: inline-block;
 }
 .about-carousel-box .owl-dots .owl-dot span{
-	display: none;	
+	display: none;
 }
 .about-carousel-box .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -1988,7 +1991,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Working Area style
 =============================================
@@ -2012,7 +2015,7 @@ select:focus {
     width: 100%;
     content: "";
     z-index: -1;
-} 
+}
 .single-working-box{
     position: relative;
     display: block;
@@ -2033,13 +2036,13 @@ select:focus {
     transition: all 700ms ease 300ms;
 }
 .single-working-box:hover .img-holder .inner img{
-    transform:scale(1.2) rotate(2deg);	
-} 
+    transform:scale(1.2) rotate(2deg);
+}
 .single-working-box .img-holder .inner .overlay-style-one{
     background-color: rgba(0, 0, 0, 0.85);
 }
 .single-working-box:hover .img-holder .inner .overlay-style-one{
-    opacity: 1;    
+    opacity: 1;
 }
 
 .single-working-box .img-holder .inner:before,
@@ -2072,7 +2075,7 @@ select:focus {
     border-right: 4px solid #e9212e;
 }
 .single-working-box:hover .img-holder .inner:after{
-    transform: scale(1, 1);    
+    transform: scale(1, 1);
 }
 
 .single-working-box .text-holder{
@@ -2160,7 +2163,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Recently Project Area style
 =============================================
@@ -2196,7 +2199,7 @@ select:focus {
     transition: all 700ms ease;
 }
 .single-project-style1:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style1 .overlay-content{
     position: absolute;
@@ -2228,7 +2231,7 @@ select:focus {
 }
 .single-project-style1:hover .overlay-content .inner-content .link-box{
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     transition: all 700ms ease 500ms;
 }
 .single-project-style1 .overlay-content .inner-content .link-box a {
@@ -2239,7 +2242,7 @@ select:focus {
 }
 .single-project-style1 .overlay-content .inner-content .link-box a:hover{
     color: #ffffff;
-    background: #e9212e;  
+    background: #e9212e;
 }
 
 .single-project-style1 .img-holder .title-box {
@@ -2257,9 +2260,9 @@ select:focus {
     z-index: 3;
 }
 .single-project-style1:hover .img-holder .title-box{
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     opacity: 1;
-    transition: all 700ms ease 800ms;    
+    transition: all 700ms ease 800ms;
 }
 .single-project-style1 .img-holder .title-box span{
     color: #95979c;
@@ -2292,7 +2295,7 @@ select:focus {
 	display: inline-block;
 }
 .project-carousel .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .project-carousel .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -2301,16 +2304,16 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
-    Working Process area Style      
+    Working Process area Style
 =============================================
 ***/
 .working-process-area{
     position: relative;
     display: block;
     background: #f6f6f6;
-    padding: 110px 0 50px; 
+    padding: 110px 0 50px;
     z-index: 2;
 }
 
@@ -2370,7 +2373,7 @@ select:focus {
     transition: all 700ms ease 100ms;
 }
 .single-working-process:hover .top-box span{
-    color: #ffffff; 
+    color: #ffffff;
     transition: all 700ms ease 500ms;
 }
 
@@ -2381,7 +2384,7 @@ select:focus {
     padding: 82px 30px 50px;
     background: #ffffff;
     border-top: 3px solid #e9212e;
-    -webkit-box-shadow: 0px 6px 10px 3px #e8e8e8; 
+    -webkit-box-shadow: 0px 6px 10px 3px #e8e8e8;
     box-shadow: 0px 6px 10px 3px #e8e8e8;
     transition: all 300ms ease;
 }
@@ -2415,7 +2418,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Slogan area style
 =============================================
@@ -2439,7 +2442,7 @@ select:focus {
 }
 .slogan-area .button {
     position: relative;
-    display: block;  
+    display: block;
 }
 .slogan-area .button a{
     color: #27282c;
@@ -2452,9 +2455,9 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
-    Testimonial Area Style      
+    Testimonial Area Style
 =============================================
 ***/
 .testimonial-area {
@@ -2473,7 +2476,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    -webkit-box-shadow: 0px 2px 10px 3px #f6f6f6; 
+    -webkit-box-shadow: 0px 2px 10px 3px #f6f6f6;
     box-shadow: 0px 2px 10px 3px #f6f6f6;
     margin-bottom: 50px;
 }
@@ -2485,7 +2488,7 @@ select:focus {
 }
 .single-testimonial-item .inner-content .client-info{
     position: relative;
-    display: block; 
+    display: block;
     padding-bottom: 22px;
 }
 .single-testimonial-item .inner-content .client-info h3{
@@ -2531,7 +2534,7 @@ select:focus {
     border-radius: 50%;
 }
 .single-testimonial-item:hover .inner-content .img-box img{
-    transform: rotate(360deg);	    
+    transform: rotate(360deg);
 }
 .single-testimonial-item .inner-content .text-box{
     position: relative;
@@ -2559,9 +2562,9 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
-    appointment Area Style      
+    appointment Area Style
 =============================================
 ***/
 .appointment-area {
@@ -2577,7 +2580,7 @@ select:focus {
     z-index: 1;
 }
 .map-content-box .sec-title .title{
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 .map-content-box .inner{
@@ -2604,10 +2607,10 @@ select:focus {
 }
 .map-content-box .inner .overlay .single-location-box.two{
     top: 100px;
-    left: 50%;    
+    left: 50%;
 }
 .map-content-box .inner .overlay .single-location-box.three{
-    left: 150px; 
+    left: 150px;
     bottom: 70px;
 }
 .map-content-box .inner .overlay .single-location-box.four{
@@ -2670,7 +2673,7 @@ select:focus {
     margin: 0 0 13px;
 }
 .map-content-box .inner .overlay .location-info p{
-    margin: 0;    
+    margin: 0;
 }
 
 
@@ -2684,7 +2687,7 @@ select:focus {
 }
 .appointment-box .title-box{
     position: relative;
-    display: block;  
+    display: block;
     padding-bottom: 22px;
 }
 .appointment-box .title-box h2{
@@ -2704,8 +2707,8 @@ select:focus {
     position: relative;
     display: block;
 }
-.appointment-form input[type="text"], 
-.appointment-form input[type="email"], 
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
 .appointment-form textarea {
     position: relative;
     display: block;
@@ -2719,13 +2722,13 @@ select:focus {
     height: 60px;
     margin-bottom: 20px;
     border-radius: 5px;
-    transition: all 500ms ease; 
+    transition: all 500ms ease;
 }
 .appointment-form input[type="text"]:focus{
-    border-color: #e9212e;    
+    border-color: #e9212e;
 }
 .appointment-form input[type="email"]:focus{
-    border-color: #e9212e;     
+    border-color: #e9212e;
 }
 .appointment-form .single-box button{
     display: block;
@@ -2813,7 +2816,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Latest blog Area style
 =============================================
@@ -2841,12 +2844,12 @@ select:focus {
 .single-blog-post:hover .img-holder .overlay-style-two:before{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 100ms;	
+    transition: all 700ms ease 100ms;
 }
 .single-blog-post:hover .img-holder .overlay-style-two:after{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 300ms;	
+    transition: all 700ms ease 300ms;
 }
 .single-blog-post .img-holder img {
     width: 100%;
@@ -2854,7 +2857,7 @@ select:focus {
     transition: all 700ms ease;
 }
 .single-blog-post:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 
 .single-blog-post .img-holder .overlay{
@@ -2869,7 +2872,7 @@ select:focus {
 }
 .single-blog-post:hover .img-holder .overlay{
     transition: all 700ms ease 500ms;
-    transform: translate3d(0px, 0px, 0px);      
+    transform: translate3d(0px, 0px, 0px);
 }
 .single-blog-post .img-holder .overlay .box{
     display: table;
@@ -2889,7 +2892,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .single-blog-post .img-holder .overlay .box .link-icon a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 .single-blog-post .text-holder {
@@ -2985,14 +2988,14 @@ select:focus {
     margin-top: 12px;
 }
 .single-blog-post .text-holder .text p{
-    margin: 0 0 26px;    
+    margin: 0 0 26px;
 }
 
 
 
-/*** 
+/***
 =============================================
-    Brand Area Style      
+    Brand Area Style
 =============================================
 ***/
 .brand-area {
@@ -3017,8 +3020,8 @@ select:focus {
     transition: all 700ms ease 200ms;
 }
 .single-brand-item a:hover{
-    -webkit-box-shadow: 0px 5px 10px 2px #ebebeb; 
-    box-shadow: 0px 5px 10px 2px #ebebeb;    
+    -webkit-box-shadow: 0px 5px 10px 2px #ebebeb;
+    box-shadow: 0px 5px 10px 2px #ebebeb;
 }
 .single-brand-item a img{
     width: auto;
@@ -3026,7 +3029,7 @@ select:focus {
     transform: perspective(1200px) rotateY(0deg) translateZ(0px);
 }
 .single-brand-item:hover a img{
-    filter: brightness(0%); 
+    filter: brightness(0%);
     transform: perspective(1200px) rotateY(360deg) translateZ(0px);
 }
 .single-brand-item .overlay-content {
@@ -3045,7 +3048,7 @@ select:focus {
     z-index: 999;
 }
 .single-brand-item:hover .overlay-content{
-    bottom: -15px; 
+    bottom: -15px;
     visibility: visible;
     opacity: 1;
 }
@@ -3108,7 +3111,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Footer area style
 =============================================
@@ -3157,7 +3160,7 @@ select:focus {
     background: #404043;
     content: "";
     z-index: -1;
-} 
+}
 .single-footer-widget .title:after{
     position: absolute;
     left: 0;
@@ -3167,7 +3170,7 @@ select:focus {
     background: #e9212e;
     content: "";
     z-index: 1;
-} 
+}
 .single-footer-widget .title h3 {
     color: #ffffff;
     font-size: 24px;
@@ -3213,7 +3216,7 @@ select:focus {
     border-bottom: 2px solid #404043;
 }
 .single-footer-widget .contact-info-box ul li p{
-    color: #7c7e84; 
+    color: #7c7e84;
     margin: 13px 0 0;
 }
 
@@ -3294,13 +3297,13 @@ select:focus {
 .single-footer-widget .recent-news li .img-holder img{
     transition: all 0.5s ease-in-out 0.6s;
     width: 100%;
-    transform: scale(1.0, 1.0); 
+    transform: scale(1.0, 1.0);
 }
 .single-footer-widget .recent-news li:hover .img-holder img{
     transform: scale(1.2, 1.2);
-} 
+}
 .single-footer-widget .recent-news li:hover .img-holder .overlay-style-one{
-    opacity: 1;    
+    opacity: 1;
 }
 .single-footer-widget .recent-news li .img-holder .overlay-style-one .content a span:before{
     position: relative;
@@ -3320,7 +3323,7 @@ select:focus {
     filter: alpha(opacity=100);
     opacity: 1;
     transform: perspective(1200px) rotateY(0deg) scale(1.0);
-    transition-delay: 0.1s;   
+    transition-delay: 0.1s;
 }
 
 .single-footer-widget .recent-news li .title-holder{
@@ -3403,7 +3406,7 @@ select:focus {
 	display: inline-block;
 }
 .brochures-carousel-box .owl-dots .owl-dot span{
-	display: none;	
+	display: none;
 }
 .brochures-carousel-box .owl-dots .owl-dot.active{
 	background: #ffffff;
@@ -3411,9 +3414,9 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
-    Footer Bottom Area Style      
+    Footer Bottom Area Style
 =============================================
 ***/
 .footer-bottom-area {
@@ -3460,7 +3463,7 @@ select:focus {
     position: relative;
     display: inline-block;
     line-height: 30px;
-    float: left;    
+    float: left;
 }
 .footer-social-links .sociallinks-style-one li a i {
     color: #7c7e84;
@@ -3469,7 +3472,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .footer-social-links .sociallinks-style-one li a:hover i{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 
@@ -3477,7 +3480,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Top Bar Style2 style
 =============================================
@@ -3497,7 +3500,7 @@ select:focus {
 }
 .top-style2-left{
     position: relative;
-    display: block;    
+    display: block;
 }
 .top-style2-left p{
     position: relative;
@@ -3571,7 +3574,7 @@ select:focus {
     width: 1px;
     height: 15px;
     background: #404043;
-    content: "";    
+    content: "";
 }
 .top-style2-right .top-right-menu li{
     position: relative;
@@ -3585,7 +3588,7 @@ select:focus {
 }
 .top-style2-right .top-right-menu li a{
     color: #7c7e84;
-    font-size: 15px; 
+    font-size: 15px;
     transition: all 500ms ease;
 }
 .top-style2-right .top-right-menu li a:hover{
@@ -3595,14 +3598,14 @@ select:focus {
 .top-style2-right .topbar-social-links{
     position: relative;
     display: inline-block;
-    float: right;    
+    float: right;
 }
 .top-style2-right .topbar-social-links li{
     position: relative;
     display: inline-block;
     float: left;
     line-height: 30px;
-    padding-right: 30px;    
+    padding-right: 30px;
 }
 .top-style2-right .topbar-social-links li:last-child{
     padding-right: 0;
@@ -3618,7 +3621,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Header Style2 style
 =============================================
@@ -3626,7 +3629,7 @@ select:focus {
 .header-style2{
     position: relative;
     display: block;
-    z-index: 9999;    
+    z-index: 9999;
 }
 .header-style2.stricky-fixed {
     position: fixed;
@@ -3704,7 +3707,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     About Style2 Area style
 =============================================
@@ -3837,7 +3840,7 @@ select:focus {
 .about-style2-image-box .overlay-box .button{
     position: relative;
     display: block;
-    float: right;    
+    float: right;
 }
 .about-style2-image-box .overlay-box .button a span:before {
     position: relative;
@@ -3853,7 +3856,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Working Style2 Area style
 =============================================
@@ -3878,7 +3881,7 @@ select:focus {
     width: 100%;
     content: "";
     z-index: -1;
-} 
+}
 .working-style2-content {
     margin-top: -110px;
 }
@@ -3896,10 +3899,10 @@ select:focus {
 .single-working-box-style2 .img-holder img{
     width: 100%;
     transform: scale(1.0);
-    transition: all 700ms ease;    
+    transition: all 700ms ease;
 }
 .single-working-box-style2:hover .img-holder img {
-    transform: scale(1.2);    
+    transform: scale(1.2);
 }
 .single-working-box-style2 .static-content{
     position: absolute;
@@ -3907,7 +3910,7 @@ select:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2; 
+    z-index: 2;
     visibility: visible;
     opacity: 1;
     transform: translateY(0px);
@@ -3917,17 +3920,17 @@ select:focus {
     opacity: 0;
     visibility: hidden;
     transform: translateY(100%);
-    transition: all 900ms ease 100ms;    
+    transition: all 900ms ease 100ms;
 }
 .single-working-box-style2 .static-content .box{
     display: table;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 .single-working-box-style2 .static-content .box .inner{
     display: table-cell;
     vertical-align: middle;
-    text-align: center;    
+    text-align: center;
 }
 .single-working-box-style2 .icon-holder{
     position: relative;
@@ -3986,17 +3989,17 @@ select:focus {
 .single-working-box-style2:hover .overlay-content{
     opacity: 1;
     transform: translateY(-10px);
-    transition: all 900ms ease 300ms; 
+    transition: all 900ms ease 300ms;
 }
 .single-working-box-style2 .overlay-content .box{
     display: table;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 .single-working-box-style2 .overlay-content .box .inner{
     display: table-cell;
     vertical-align: middle;
-    text-align: center;    
+    text-align: center;
 }
 .single-working-box-style2 .overlay-content .icon-holder {
     margin: 0 auto 50px;
@@ -4029,12 +4032,12 @@ select:focus {
     text-align: center;
     opacity: 0;
     transform: scale(0.5);
-    transition: all 200ms ease 100ms; 
+    transition: all 200ms ease 100ms;
 }
 .single-working-box-style2:hover .read-more a span:before{
     opacity: 1.0;
     transform: scale(1.0);
-    transition: all 900ms ease 900ms;     
+    transition: all 900ms ease 900ms;
 }
 .working-style-bottom{
     position: relative;
@@ -4055,9 +4058,9 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
-    Services Style1 Area Style      
+    Services Style1 Area Style
 =============================================
 ***/
 .services-style1-area {
@@ -4073,7 +4076,7 @@ select:focus {
 .single-service-style1 .img-holder{
     position: relative;
     display: block;
-    overflow: hidden; 
+    overflow: hidden;
     z-index: 1;
 }
 .single-service-style1 .img-holder img {
@@ -4082,7 +4085,7 @@ select:focus {
     transition: all 700ms ease;
 }
 .single-service-style1:hover .img-holder img {
-    transform: scale(1.2);    
+    transform: scale(1.2);
 }
 .single-service-style1:hover .overlay-style-two{
 	opacity: 1;
@@ -4093,7 +4096,7 @@ select:focus {
 .single-service-style1:hover .img-holder .overlay-style-two:before{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 100ms;	
+    transition: all 700ms ease 100ms;
 }
 .single-service-style1 .img-holder .overlay-style-two:after{
 	background-color: rgba(40, 41, 46, 0.90);
@@ -4101,7 +4104,7 @@ select:focus {
 .single-service-style1:hover .img-holder .overlay-style-two:after{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 300ms;	
+    transition: all 700ms ease 300ms;
 }
 
 .single-service-style1 .overlay-content-box {
@@ -4151,7 +4154,7 @@ select:focus {
 .single-service-style1:hover .overlay-content-box .title{
     opacity: 1;
     transform: translate3d(0px, 0%, 0px);
-    transition: all 700ms ease 900ms;    
+    transition: all 700ms ease 900ms;
 }
 .single-service-style1 .overlay-content-box .title h3{
     color: #ffffff;
@@ -4160,13 +4163,13 @@ select:focus {
 
 .single-service-style1 .text-holder{
     position: relative;
-    display: block; 
+    display: block;
     border: 1px solid #ededed;
     padding: 35px 30px 28px;
 }
 .single-service-style1 .text-holder .inner-content{
     position: relative;
-    display: block;  
+    display: block;
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
     transition: all 700ms ease 800ms;
@@ -4174,7 +4177,7 @@ select:focus {
 .single-service-style1:hover .text-holder .inner-content{
     opacity: 0;
     -webkit-transform: translateY(-40%);
-    transform: translateY(-40%); 
+    transform: translateY(-40%);
     transition: all 700ms ease 500ms;
 }
 
@@ -4204,7 +4207,7 @@ select:focus {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4D0000', endColorstr='#415E52',GradientType=1 ); /* ie6-9 */
 
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -4273,7 +4276,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Slogan Style2 Area style
 =============================================
@@ -4286,7 +4289,7 @@ select:focus {
     background-position: center top;
     background-repeat: no-repeat;
     padding: 102px 0 110px;
-    z-index: 1;  
+    z-index: 1;
 }
 .slogan-style2-area .icon-holder{
     position: absolute;
@@ -4354,7 +4357,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Why Choose Area style
 =============================================
@@ -4395,7 +4398,7 @@ select:focus {
 }
 .why-choose-title ul{
     position: relative;
-    display: block; 
+    display: block;
     padding-left: 40px;
 }
 .why-choose-title ul li{
@@ -4527,7 +4530,7 @@ select:focus {
     color: #e9212e;
 }
 .why-choose-content .single-box.whitebg .text-holder p{
-    color: #828282;    
+    color: #828282;
 }
 .why-choose-content .single-box.whitebg .icon-holder:before{
     background: #ffeced;
@@ -4536,7 +4539,7 @@ select:focus {
     color: #e9212e;
 }
 .why-choose-content .single-box.blackbg .text-holder p{
-    color: #828282;    
+    color: #828282;
 }
 .why-choose-content .single-box.blackbg .icon-holder:before{
     background: #36373b;
@@ -4547,7 +4550,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Recently Project Style2 Area style
 =============================================
@@ -4579,7 +4582,7 @@ select:focus {
     background: linear-gradient(180deg, rgba(39,40,44,0) 40%, rgba(39,40,44,0.8407738095238095) 78%, rgba(39,40,44,1) 94%, rgba(39,40,44,1) 100%, rgba(39,40,44,1) 100%, rgba(237,237,237,1) 100%, rgba(32,50,96,0) 100%);
 }
 .single-project-style2:hover .img-holder:before{
-    opacity: 0;    
+    opacity: 0;
 }
 .single-project-style2 .img-holder:after{
     position: absolute;
@@ -4595,7 +4598,7 @@ select:focus {
     background: linear-gradient(0deg, rgba(39,40,44,0) 0%, rgba(39,40,44,0.8407738095238095) 0%, rgba(39,40,44,1) 0%, rgba(39,40,44,0.7959558823529411) 100%, rgba(39,40,44,1) 100%, rgba(39,40,44,1) 100%, rgba(237,237,237,1) 100%, rgba(32,50,96,0) 100%);
 }
 .single-project-style2:hover .img-holder:after{
-    opacity: 1;    
+    opacity: 1;
 }
 .single-project-style2 .img-holder img{
     width: 100%;
@@ -4603,7 +4606,7 @@ select:focus {
     transition: all 700ms ease;
 }
 .single-project-style2:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style2 .read-more{
     position: absolute;
@@ -4627,7 +4630,7 @@ select:focus {
 .single-project-style2:hover .read-more a span:before{
     color: #ffffff;
     background: #e9212e;
-    transform: perspective(400px) rotate(360deg);    
+    transform: perspective(400px) rotate(360deg);
 }
 .single-project-style2 .title-box{
     position: absolute;
@@ -4662,7 +4665,7 @@ select:focus {
 	display: inline-block;
 }
 .project-carousel-v2 .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .project-carousel-v2 .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -4671,7 +4674,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Working Process Style2 Area style
 =============================================
@@ -4750,7 +4753,7 @@ select:focus {
     transition: all 700ms ease 500ms;
 }
 .single-working-process-style2:hover .top-box .count h1{
-    color: #ffffff;    
+    color: #ffffff;
 }
 .single-working-process-style2 .top-box .icon{
     position: relative;
@@ -4811,7 +4814,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Testimonial Style2 area style
 =============================================
@@ -4840,17 +4843,17 @@ select:focus {
     display: block;
     padding: 55px 40px 62px;
     transform: translateY(0%);
-    transition: all 700ms ease 100ms;   
+    transition: all 700ms ease 100ms;
 }
 .single-testimonial-style2:hover .static-content{
     opacity: 0;
     transform: translateY(-10%);
-    transition: all 900ms ease 100ms;    
+    transition: all 900ms ease 100ms;
 }
 
 .single-testimonial-style2 .static-content .quote-icon{
     position: relative;
-    display: block;  
+    display: block;
     padding-bottom: 11px;
 }
 .single-testimonial-style2 .static-content .quote-icon span:before{
@@ -4902,7 +4905,7 @@ select:focus {
 .single-testimonial-style2:hover .overlay-content{
     opacity: 1;
     transform: translateY(0%);
-    transition: all 900ms ease 100ms;    
+    transition: all 900ms ease 100ms;
 }
 .single-testimonial-style2 .overlay-content .img-box{
     position: relative;
@@ -4953,19 +4956,19 @@ select:focus {
 	padding: 10px 0px 43px;
 }
 .testimonial-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-testimonial-style2{
-    -webkit-box-shadow: 0px 2px 5px 4px #f6f6f6; 
+    -webkit-box-shadow: 0px 2px 5px 4px #f6f6f6;
     box-shadow: 0px 2px 5px 4px #f6f6f6;
     transition: all 700ms ease 800ms;
 }
 .testimonial-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-testimonial-style2 .static-content{
     opacity: 0;
-    transform: translateY(-10%); 
-    transition: all 900ms ease 300ms; 
+    transform: translateY(-10%);
+    transition: all 900ms ease 300ms;
 }
 .testimonial-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-testimonial-style2 .overlay-content{
     opacity: 1;
     transform: translateY(0%);
-    transition: all 900ms ease 300ms;    
+    transition: all 900ms ease 300ms;
 }
 .testimonial-carousel .owl-dots {
     position: relative;
@@ -4986,7 +4989,7 @@ select:focus {
 	display: inline-block;
 }
 .testimonial-carousel .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .testimonial-carousel .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -4995,7 +4998,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Contact Details Area style
 =============================================
@@ -5045,8 +5048,8 @@ select:focus {
     padding: 70px 0 70px;
 }
 .content-info-box .inner-content .inner{
-    -webkit-box-shadow: 3px 0px 5px 0px #ededed; 
-    box-shadow: 3px 0px 5px 0px #ededed;    
+    -webkit-box-shadow: 3px 0px 5px 0px #ededed;
+    box-shadow: 3px 0px 5px 0px #ededed;
 }
 .content-info-box .inner-content .single-info-box{
     max-width: 270px;
@@ -5079,13 +5082,13 @@ select:focus {
     background: #f4f4f4;
 }
 .content-info-box .inner-content .single-info-box.white-bg .icon span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .content-info-box .inner-content .single-info-box.white-bg .text h3{
-    color: #27282c;    
+    color: #27282c;
 }
 .content-info-box .inner-content .single-info-box.white-bg .text p{
-    color: #828282;        
+    color: #828282;
 }
 
 .contact-details-form-box {
@@ -5097,7 +5100,7 @@ select:focus {
 }
 .contact-details-form-box .title-box{
     position: relative;
-    display: block;  
+    display: block;
     padding-bottom: 42px;
 }
 .contact-details-form-box .title-box h2{
@@ -5115,8 +5118,8 @@ select:focus {
     position: relative;
     display: block;
 }
-.contact-details-form input[type="text"], 
-.contact-details-form input[type="email"], 
+.contact-details-form input[type="text"],
+.contact-details-form input[type="email"],
 .contact-details-form textarea {
     position: relative;
     display: block;
@@ -5130,7 +5133,7 @@ select:focus {
     height: 55px;
     margin-bottom: 30px;
     border-radius: 0px;
-    transition: all 500ms ease; 
+    transition: all 500ms ease;
 }
 
 .contact-details-form textarea {
@@ -5140,13 +5143,13 @@ select:focus {
     margin-bottom: 50px;
 }
 .contact-details-form input[type="text"]:focus{
-    border-color: #e9212e;    
+    border-color: #e9212e;
 }
 .contact-details-form input[type="email"]:focus{
-    border-color: #e9212e;     
+    border-color: #e9212e;
 }
 .contact-details-form textarea:focus{
-    border-color: #e9212e;      
+    border-color: #e9212e;
 }
 .contact-details-form .single-box button{
     padding: 0 40px;
@@ -5232,7 +5235,7 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Latest Blog Area Style2 style
 =============================================
@@ -5246,14 +5249,14 @@ select:focus {
 
 
 
-/*** 
+/***
 =============================================
     Brand Area style2 Style2 style
 =============================================
 ***/
 .brand-area.style2{
     padding-top: 110px;
-    padding-bottom: 110px;    
+    padding-bottom: 110px;
 }
 .single-brand-item.style2{
     max-width: 170px;
@@ -5265,13 +5268,13 @@ select:focus {
     margin-right: 0;
 }
 .single-brand-item.style2 a:hover{
--webkit-box-shadow: 0px -4px 10px 3px #e8e8e8; 
-box-shadow: 0px -4px 10px 3px #e8e8e8;  
+-webkit-box-shadow: 0px -4px 10px 3px #e8e8e8;
+box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 
 
 
-/*** 
+/***
 =============================================
     Instagram area style
 =============================================
@@ -5309,7 +5312,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     color: #ffffff;
 }
 .instagram-title a:hover{
-    color: #27282c;    
+    color: #27282c;
 }
 
 .instagram-items {
@@ -5337,7 +5340,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .instagram-items li:hover .img-holder .overlay-style-two:before{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 100ms;	
+    transition: all 700ms ease 100ms;
 }
 .instagram-items li .img-holder .overlay-style-two:after {
     background-color: rgba(40, 41, 46, 0.95);
@@ -5345,7 +5348,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .instagram-items li:hover .img-holder .overlay-style-two:after{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 300ms;	
+    transition: all 700ms ease 300ms;
 }
 .instagram-items li .img-holder img {
     width: 100%;
@@ -5353,7 +5356,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 700ms ease;
 }
 .instagram-items li:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 
 .instagram-items li .img-holder .overlay{
@@ -5368,7 +5371,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 .instagram-items li:hover .img-holder .overlay{
     transition: all 700ms ease 500ms;
-    transform: translate3d(0px, 0px, 0px);      
+    transform: translate3d(0px, 0px, 0px);
 }
 .instagram-items li .img-holder .overlay .box{
     display: table;
@@ -5388,12 +5391,12 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 500ms ease;
 }
 .instagram-items li .img-holder .overlay .box .link-icon a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
     Footer Area Style2 style
 =============================================
@@ -5437,7 +5440,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 .single-footer-widget .our-info-box .follow-us-social-links{
     position: relative;
-    display: block;    
+    display: block;
 }
 .single-footer-widget .our-info-box .follow-us-social-links span{
     position: relative;
@@ -5549,7 +5552,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 .single-footer-widget .subscribe-box{
     position: relative;
-    display: block;    
+    display: block;
 }
 .single-footer-widget .subscribe-form {
     position: relative;
@@ -5592,7 +5595,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     background: #ffffff;
     color: #222222;
 }
-.single-footer-widget .subscribe-form input[type="email"]:focus + button, 
+.single-footer-widget .subscribe-form input[type="email"]:focus + button,
 .single-footer-widget .subscribe-form button:hover {
     background: #191a1c;
     color: #fff;
@@ -5620,7 +5623,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Topbar Style3 Area style
 =============================================
@@ -5641,7 +5644,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 .topbar-style3-left{
     position: relative;
-    display: block;    
+    display: block;
 }
 .topbar-style3-left ul{}
 .topbar-style3-left ul li{
@@ -5698,7 +5701,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Header Style3 Area style
 =============================================
@@ -5788,14 +5791,14 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 
 
-/*** 
+/***
 =============================================
     Mainmenu Style3 Area style
 =============================================
 ***/
 .mainmenu-style3-area{
     position: relative;
-    display: block;   
+    display: block;
     background: #27282c;
 }
 .mainmenu-style3-area.stricky-fixed {
@@ -5840,9 +5843,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .main-menu.style3 .navigation > li:last-child > a{
     padding-right: 0;
 }
-.main-menu.style3 .navigation > li:hover > a, 
+.main-menu.style3 .navigation > li:hover > a,
 .main-menu.style3 .navigation > li.current > a {
-    color: #e9212e; 
+    color: #e9212e;
 }
 
 .mainmenu-right.style3 {
@@ -5863,7 +5866,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Featured Area style
 =============================================
@@ -5916,7 +5919,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     opacity: 0;
     visibility: hidden;
     transform: translateY(50%);
-    transition: all 900ms ease 100ms;  
+    transition: all 900ms ease 100ms;
 }
 
 .single-featured-box .icon{
@@ -5931,7 +5934,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 .single-featured-box .title{
     position: relative;
-    display: block;    
+    display: block;
 }
 .single-featured-box .title h3{
     color: #ffffff;
@@ -5957,10 +5960,10 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 500ms ease 100ms;
 }
 .single-featured-box:hover .inner .overlay-content{
-    opacity: 1;  
-    visibility: visible; 
+    opacity: 1;
+    visibility: visible;
     transform: translateY(0%);
-    transition: all 900ms ease 100ms;  
+    transition: all 900ms ease 100ms;
 }
 .single-featured-box .inner .overlay-content .icon span:before{
     color: #e9212e;
@@ -5976,7 +5979,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     margin: 0 0 26px;
 }
 .single-featured-box .inner .overlay-content .text a{
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 .single-featured-box .overlay-content .overlay-image{
@@ -5992,8 +5995,8 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-featured-box:hover .overlay-content .overlay-image{
     opacity: 1;
     height: 270px;
-    transform: scale(1.0); 
-    transition: all 900ms ease 500ms;  
+    transform: scale(1.0);
+    transition: all 900ms ease 500ms;
 }
 
 
@@ -6063,34 +6066,34 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     }
 }
 .banner-animate {
-    animation-name: banner-animate; 
-    animation-duration: 70s; 
+    animation-name: banner-animate;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-	-webkit-animation-name: banner-animate; 
-    -webkit-animation-duration: 70s; 
+	-webkit-animation-name: banner-animate;
+    -webkit-animation-duration: 70s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-	
-	-moz-animation-name: banner-animate; 
-    -moz-animation-duration: 70s; 
+
+	-moz-animation-name: banner-animate;
+    -moz-animation-duration: 70s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
-	
-	-ms-animation-name: banner-animate; 
-    -ms-animation-duration: 70s; 
+
+	-ms-animation-name: banner-animate;
+    -ms-animation-duration: 70s;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
-	
-	-o-animation-name: banner-animate; 
-    -o-animation-duration: 70s; 
+
+	-o-animation-name: banner-animate;
+    -o-animation-duration: 70s;
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
 }
 
 
 
-/*** 
+/***
 =============================================
     Services Style2 Area style
 =============================================
@@ -6115,7 +6118,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-service-style2 .img-holder{
     position: relative;
     display: block;
-    overflow: hidden; 
+    overflow: hidden;
     z-index: 1;
 }
 .single-service-style2 .img-holder img {
@@ -6124,7 +6127,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 700ms ease;
 }
 .single-service-style2:hover .img-holder img {
-    transform: scale(1.2);    
+    transform: scale(1.2);
 }
 .single-service-style2:hover .overlay-style-two{
 	opacity: 1;
@@ -6135,7 +6138,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-service-style2:hover .img-holder .overlay-style-two:before{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 100ms;	
+    transition: all 700ms ease 100ms;
 }
 .single-service-style2 .img-holder .overlay-style-two:after{
 	background-color: rgba(40, 41, 46, 0.90);
@@ -6143,7 +6146,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-service-style2:hover .img-holder .overlay-style-two:after{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 300ms;	
+    transition: all 700ms ease 300ms;
 }
 
 .single-service-style2 .text-holder{
@@ -6228,12 +6231,12 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .overlay-style-two:before{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 300ms;	
+    transition: all 700ms ease 300ms;
 }
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .overlay-style-two:after{
 	opacity: 1;
     transform: perspective(400px) rotateX(0deg);
-    transition: all 700ms ease 500ms;	
+    transition: all 700ms ease 500ms;
 }
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style2 .text-holder .icon-holder {
     border: 4px dotted #e9212e;
@@ -6268,7 +6271,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 	display: inline-block;
 }
 .services-carousel .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .services-carousel .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -6277,7 +6280,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Latest Projects Area style
 =============================================
@@ -6304,7 +6307,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 700ms ease;
 }
 .single-project-style3:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style3 .overlay-content{
     position: absolute;
@@ -6335,7 +6338,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 700ms ease 500ms;
 }
 .single-project-style3:hover .overlay-content .inner-content .links-icons{
-    transform: scale(1.0);    
+    transform: scale(1.0);
 }
 .single-project-style3 .overlay-content .inner-content .links-icons a span:before{
     position: relative;
@@ -6350,7 +6353,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 500ms ease;
 }
 .single-project-style3 .overlay-content .inner-content .links-icons a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 .single-project-style3 .title-holder{
@@ -6408,7 +6411,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Team Area style
 =============================================
@@ -6422,7 +6425,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .view-all-member{
     position: relative;
     display: block;
-    margin-top: 39px;    
+    margin-top: 39px;
 }
 .single-team-member {
     position: relative;
@@ -6441,7 +6444,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 700ms ease;
 }
 .single-team-member:hover .img-holder img{
-    transform:scale(1.05) rotate(0deg);	
+    transform:scale(1.05) rotate(0deg);
 }
 
 .single-team-member .sociallinks {
@@ -6502,7 +6505,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-team-member:hover .overlay{
     opacity: 1;
     transform: perspective(1200px) rotateX(0deg) translateZ(0px);
-    transition: all 900ms ease 300ms;    
+    transition: all 900ms ease 300ms;
 }
 .single-team-member .overlay .box{
     display: table;
@@ -6515,7 +6518,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     text-align: center;
 }
 .single-team-member .overlay .box .link a{
-    color: #ffffff;    
+    color: #ffffff;
 }
 .single-team-member .name {
     position: relative;
@@ -6523,12 +6526,12 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     background: #ffffff;
     padding: 24px 0 24px;
     transition: all 700ms ease 600ms;
-    -webkit-box-shadow: 0px 3px 7px 1px #f3f3f3; 
+    -webkit-box-shadow: 0px 3px 7px 1px #f3f3f3;
     box-shadow: 0px 3px 7px 1px #f3f3f3;
 }
 .single-team-member:hover .name{
-    -webkit-box-shadow: 0px 3px 15px 1px #F3F3F3; 
-    box-shadow: 0px 3px 15px 1px #F3F3F3; 
+    -webkit-box-shadow: 0px 3px 15px 1px #F3F3F3;
+    box-shadow: 0px 3px 15px 1px #F3F3F3;
 }
 .single-team-member .name p {
     position: relative;
@@ -6547,7 +6550,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     height: 1px;
     background: #ededed;
     content: "";
-    z-index: -1;  
+    z-index: -1;
 }
 .single-team-member .name p span {
     position: relative;
@@ -6567,7 +6570,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Testimonial style3 area style
 =============================================
@@ -6598,7 +6601,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 50px 40px 48px; 
+    padding: 50px 40px 48px;
     z-index: 1;
 }
 .single-testimonial-style3 .inner-content:before {
@@ -6673,7 +6676,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 	display: inline-block;
 }
 .testimonial-carousel-2 .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .testimonial-carousel-2 .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -6685,7 +6688,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 .brand-style3{
-    padding-top: 30px; 
+    padding-top: 30px;
 }
 .single-brand-item.style3{
     max-width: 170px;
@@ -6703,23 +6706,23 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     margin-right: 0;
 }
 .single-brand-item.style3 a:hover{
-    box-shadow: none; 
+    box-shadow: none;
 }
 
 
 
-/*** 
+/***
 =============================================
     Latest Blog Area Style3 style
 =============================================
 ***/
 .latest-blog-area.style3{
     padding-top: 110px;
-    padding-bottom: 70px;    
+    padding-bottom: 70px;
 }
 .single-blog-post.style2{
-    margin-bottom: 40px; 
-    -webkit-box-shadow: 0px 3px 9px 2px #ebebeb; 
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 3px 9px 2px #ebebeb;
     box-shadow: 0px 3px 9px 2px #ebebeb;
 }
 .single-blog-post.style2 .text-holder{
@@ -6757,11 +6760,11 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     display: block;
     font-size: 20px;
     line-height: 28px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 .single-blog-post.style2 .overlay-title .blog-title a{
     color: #ffffff;
-    transition: all 500ms ease;    
+    transition: all 500ms ease;
 }
 .single-blog-post.style2 .overlay-title .blog-title a:hover{
     color: #e9212e;
@@ -6769,7 +6772,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Home Google Map Area style
 =============================================
@@ -6788,7 +6791,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Footer Area style3 style
 =============================================
@@ -6826,13 +6829,13 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-footer-widget .work-gallery li .img-holder img{
     transition: all 0.5s ease-in-out 0.6s;
     width: 100%;
-    transform: scale(1.1, 1.1); 
+    transform: scale(1.1, 1.1);
 }
 .single-footer-widget .work-gallery li:hover .img-holder img{
     transform: scale(1.2, 1.2);
-} 
+}
 .single-footer-widget .work-gallery li:hover .img-holder .overlay-style-one{
-    opacity: 1;    
+    opacity: 1;
 }
 .single-footer-widget .work-gallery li .img-holder .overlay-style-one .content a i{
     color: #ffffff;
@@ -6846,7 +6849,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     filter: alpha(opacity=100);
     opacity: 1;
     transform: scale(1);
-    transition-delay: 0.1s;   
+    transition-delay: 0.1s;
 }
 .single-footer-widget .work-gallery li .img-holder .overlay-style-one .content a:hover i{
     color: #222222;
@@ -6854,9 +6857,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
-    Footer Bottom Area Style2 Style      
+    Footer Bottom Area Style2 Style
 =============================================
 ***/
 .footer-bottom-area.style2 {
@@ -6875,7 +6878,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
     Breadcrumb area style
 =============================================
@@ -6955,7 +6958,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 }
 .breadcrumb-area .breadcrumb-menu ul li:last-child:before{
     display: none;
-} 
+}
 .breadcrumb-area .breadcrumb-menu ul li:last-child{
     margin-right: 0;
     padding-right: 0;
@@ -6971,14 +6974,14 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     font-weight: 500;
 }
 .breadcrumb-area .breadcrumb-menu ul li a:hover{
-    color: #e9212e;     
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
-    Breadcrumb Area style2 Style      
+    Breadcrumb Area style2 Style
 =============================================
 ***/
 .breadcrumb-area.style2{}
@@ -7006,9 +7009,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
-    Company Overview Area Style      
+    Company Overview Area Style
 =============================================
 ***/
 .company-overview-area{
@@ -7063,7 +7066,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     overflow: hidden;
     width: 100%;
     background: #ffffff;
-    -webkit-box-shadow: 4px 0px 9px 2px #f6f6f6; 
+    -webkit-box-shadow: 4px 0px 9px 2px #f6f6f6;
     box-shadow: 4px 0px 9px 2px #f6f6f6;
 }
 .single-history-content .img-box{
@@ -7073,7 +7076,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     float: left;
 }
 .single-history-content .img-box .inner{
-    padding-right: 15px;    
+    padding-right: 15px;
 }
 .single-history-content .img-box .inner img{
     width: 100%;
@@ -7195,7 +7198,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 	display: inline-block;
 }
 .history-carousel .owl-dots .owl-dot span{
-	display:none;	
+	display:none;
 }
 .history-carousel .owl-dots .owl-dot.active{
 	background: #e9212e;
@@ -7259,9 +7262,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
-    team Area Style      
+    team Area Style
 =============================================
 ***/
 .view-all-member.style2 {
@@ -7273,9 +7276,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
-    Footer Area Style4 Style      
+    Footer Area Style4 Style
 =============================================
 ***/
 .footer-area.style4 {
@@ -7285,9 +7288,9 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 
 
 
-/*** 
+/***
 =============================================
-    Footer Contact Info Area Style      
+    Footer Contact Info Area Style
 =============================================
 ***/
 .footer-contact-info-area {
@@ -7347,9 +7350,9 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
-    Footer bottom Area Style3 Style      
+    Footer bottom Area Style3 Style
 =============================================
 ***/
 .footer-bottom-area.style3 {
@@ -7362,7 +7365,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Faq Area style
 =============================================
@@ -7381,9 +7384,9 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
-    Error Page Area Style      
+    Error Page Area Style
 =============================================
 ***/
 .error-page-area{
@@ -7425,9 +7428,9 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
-    Services Style2 Service Page Style      
+    Services Style2 Service Page Style
 =============================================
 ***/
 .services-style2-service-page{
@@ -7469,9 +7472,9 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
-    Services Style1 Service Page Style      
+    Services Style1 Service Page Style
 =============================================
 ***/
 .services-style1-service-page{
@@ -7501,9 +7504,9 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
-    Testimonial Style3 Service Page Style      
+    Testimonial Style3 Service Page Style
 =============================================
 ***/
 .testimonial-style3-service-page{
@@ -7528,7 +7531,7 @@ li .single-footer-contact-info .text p span{
 .testimonial-style3-service-page .single-testimonial-style3 .inner-content {
     background: #ffffff;
     padding: 50px 40px 48px;
-    -webkit-box-shadow: 0px 2px 7px 3px #f6f6f6; 
+    -webkit-box-shadow: 0px 2px 7px 3px #f6f6f6;
     box-shadow: 0px 2px 7px 3px #f6f6f6;
     margin-top: 10px;
     margin-right: 10px;
@@ -7584,7 +7587,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Single Service Area style
 =============================================
@@ -7638,7 +7641,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease 500ms;
 }
 .single-advantages-box:hover{
-    -webkit-box-shadow: 0px 4px 13px 0px #D4D4D4; 
+    -webkit-box-shadow: 0px 4px 13px 0px #D4D4D4;
     box-shadow: 0px 4px 13px 0px #D4D4D4;
 }
 .single-advantages-box .inner {
@@ -7656,8 +7659,8 @@ li .single-footer-contact-info .text p span{
 }
 .single-advantages-box:hover .static-content{
     opacity: 0;
-    transform: translateY(-40%); 
-    transition: all 700ms ease 200ms;    
+    transform: translateY(-40%);
+    transition: all 700ms ease 200ms;
 }
 .single-advantages-box .icon-holder{
     position: relative;
@@ -7671,7 +7674,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-advantages-box .title{
     position: relative;
-    display: block;    
+    display: block;
 }
 .single-advantages-box .title h3{
     color: #27282c;
@@ -7695,7 +7698,7 @@ li .single-footer-contact-info .text p span{
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    transition: all 700ms ease 200ms;    
+    transition: all 700ms ease 200ms;
 }
 .single-advantages-box .overlay-text .box{
     display: table;
@@ -7807,7 +7810,7 @@ li .single-footer-contact-info .text p span{
 
 .single-pricing-box{
     position: relative;
-    display: block; 
+    display: block;
     max-width: 370px;
     width: 100%;
     margin: 0 auto 30px;
@@ -7845,12 +7848,12 @@ li .single-footer-contact-info .text p span{
     overflow: hidden;
     z-index: 3;
     opacity: 1;
-    transform: translateX(0%) translateY(0%) scale(1.0); 
+    transform: translateX(0%) translateY(0%) scale(1.0);
     transition: all 700ms ease 100ms;
 }
 .single-pricing-box:hover .static-content{
     opacity: 0;
-    transform: translateX(0%) translateY(70%) scale(0.5); 
+    transform: translateX(0%) translateY(70%) scale(0.5);
     transition: all 900ms ease 100ms;
 }
 
@@ -7871,10 +7874,10 @@ li .single-footer-contact-info .text p span{
     margin: 0 0 3px;
 }
 .single-pricing-box .static-content .table-header .top span{
-    color: #ffffff;    
+    color: #ffffff;
 }
 .single-pricing-box .static-content .table-header .top span b{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .single-pricing-box .static-content .table-header .package {
     position: relative;
@@ -7964,14 +7967,14 @@ li .single-footer-contact-info .text p span{
 }
 .additional-information-box .title{
     display: block;
-    padding-bottom: 32px;    
+    padding-bottom: 32px;
 }
 .additional-information-box .title h2{
     color: #27282c;
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 .additional-information-box .additional-info-content-box {
     position: relative;
@@ -8022,8 +8025,8 @@ li .single-footer-contact-info .text p span{
 }
 .single-service-sidebar .service-pages li.active,
 .single-service-sidebar .service-pages li:hover{
-    -webkit-box-shadow: 0px 4px 7px 0px #ededed; 
-    box-shadow: 0px 4px 7px 0px #ededed; 
+    -webkit-box-shadow: 0px 4px 7px 0px #ededed;
+    box-shadow: 0px 4px 7px 0px #ededed;
 }
 .single-service-sidebar .service-pages li:before {
     position: absolute;
@@ -8081,14 +8084,14 @@ li .single-footer-contact-info .text p span{
     line-height: 63px;
     transition: all 300ms ease 100ms;
 }
-.single-service-sidebar .service-pages li.active a .title .overlay-title h3, 
+.single-service-sidebar .service-pages li.active a .title .overlay-title h3,
 .single-service-sidebar .service-pages li:hover a .title .overlay-title h3 {
     opacity: 1;
-    transform: scale(1.0); 
+    transform: scale(1.0);
 }
 .single-service-sidebar .service-pages li.active a .title h3.static,
 .single-service-sidebar .service-pages li:hover a .title h3.static{
-    opacity: 0;    
+    opacity: 0;
 }
 
 .sidebar-contact-box{
@@ -8186,7 +8189,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area style
 =============================================
@@ -8219,7 +8222,7 @@ li .single-footer-contact-info .text p span{
     cursor: pointer;
     transition: all .4s ease;
 }
-.project-filter li:hover .filter-text, 
+.project-filter li:hover .filter-text,
 .project-filter li.active .filter-text {
     color: #e9212e;
 }
@@ -8239,7 +8242,7 @@ li .single-footer-contact-info .text p span{
     transition: all .4s ease;
     font-family: 'Poppins', sans-serif;
 }
-.project-filter li:hover .count, 
+.project-filter li:hover .count,
 .project-filter li.active .count {
     opacity: 1;
     -webkit-transform: translate(-50%, 50%);
@@ -8316,7 +8319,7 @@ li .single-footer-contact-info .text p span{
     border-right: 3px solid #27282c;
 }
 .single-project-style4:hover .img-holder:after{
-    transform: scale(1, 1);    
+    transform: scale(1, 1);
 }
 .single-project-style4 .img-holder img{
     width: 100%;
@@ -8324,7 +8327,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style4:hover .img-holder img {
-    transform:scale(1.2) rotate(0deg);	 
+    transform:scale(1.2) rotate(0deg);
 }
 
 .single-project-style4 .overlay-box{
@@ -8336,12 +8339,12 @@ li .single-footer-contact-info .text p span{
     background: rgba(40, 41, 46, 0.90);
     z-index: 3;
     opacity: 0;
-    transform:scale(0) rotate(0deg);	
+    transform:scale(0) rotate(0deg);
     transition: all 700ms ease 300ms;
 }
 .single-project-style4:hover .overlay-box{
-    opacity: 1; 
-    transform:scale(1.0) rotate(0deg);	
+    opacity: 1;
+    transform:scale(1.0) rotate(0deg);
     transition: all 700ms ease 500ms;
 }
 .single-project-style4 .overlay-box .box{
@@ -8361,7 +8364,7 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style4 .overlay-box .box .link a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 .single-project-style4 .img-holder .overlay-content {
@@ -8401,12 +8404,12 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style4 .img-holder .overlay-content .title h3 a:hover{
-    color: #e9212e;       
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area Style2 style
 =============================================
@@ -8420,7 +8423,7 @@ li .single-footer-contact-info .text p span{
     position: relative;
     display: block;
     margin-bottom: 30px;
-    -webkit-box-shadow: 0px 4px 8px 2px #f3f3f3; 
+    -webkit-box-shadow: 0px 4px 8px 2px #f3f3f3;
     box-shadow: 0px 4px 8px 2px #f3f3f3;
 }
 .single-project-style5 .img-holder{
@@ -8438,7 +8441,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style5:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	 
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style5 .overlay-box{
     position: absolute;
@@ -8449,12 +8452,12 @@ li .single-footer-contact-info .text p span{
     background: rgba(40, 41, 46, 0.90);
     z-index: 3;
     opacity: 0;
-    transform:scale(0) rotate(0deg);	
+    transform:scale(0) rotate(0deg);
     transition: all 700ms ease 300ms;
 }
 .single-project-style5:hover .overlay-box{
-    opacity: 1; 
-    transform:scale(1.0) rotate(0deg);	
+    opacity: 1;
+    transform:scale(1.0) rotate(0deg);
     transition: all 700ms ease 200ms;
 }
 .single-project-style5 .overlay-box .box{
@@ -8474,7 +8477,7 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style5 .overlay-box .box .link a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 .single-project-style5 .title{
@@ -8497,12 +8500,12 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style5 .title h3 a:hover{
-    color: #e9212e;       
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area Style3 style
 =============================================
@@ -8510,7 +8513,7 @@ li .single-footer-contact-info .text p span{
 .main-project-area.style3{
     position: relative;
     display: block;
-    padding-bottom: 110px;    
+    padding-bottom: 110px;
 }
 .main-project-style3{
     padding: 0;
@@ -8537,7 +8540,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style6:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style6 .overlay-content{
     position: absolute;
@@ -8569,7 +8572,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-project-style6:hover .overlay-content .inner-content .title-box{
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     transition: all 700ms ease 500ms;
 }
 .single-project-style6 .overlay-content .inner-content .title-box span{
@@ -8595,7 +8598,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area Style4 style
 =============================================
@@ -8603,7 +8606,7 @@ li .single-footer-contact-info .text p span{
 .main-project-area.style4{
     position: relative;
     display: block;
-    padding-bottom: 110px;    
+    padding-bottom: 110px;
 }
 .main-project-style4{
     padding-left: 60px;
@@ -8634,7 +8637,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style7:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style7 .overlay-content{
     position: absolute;
@@ -8666,7 +8669,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-project-style7:hover .overlay-content .inner-content .title-box{
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     transition: all 700ms ease 500ms;
 }
 .single-project-style7 .overlay-content .inner-content .title-box span{
@@ -8692,7 +8695,7 @@ li .single-footer-contact-info .text p span{
     padding-bottom: 24px;
     text-align: center;
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     transition: all 300ms ease 100ms;
 }
 .single-project-style7:hover .title{
@@ -8714,7 +8717,7 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style7 .title h3 a:hover{
-    color: #e9212e;       
+    color: #e9212e;
 }
 .load-more-project-style4-button{
     position: relative;
@@ -8724,7 +8727,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area Style5 style
 =============================================
@@ -8744,7 +8747,7 @@ li .single-footer-contact-info .text p span{
     width: 1px;
     background: #ededed;
     content: "";
-    z-index: -1;    
+    z-index: -1;
 }
 .main-project-style5{
     position: relative;
@@ -8833,7 +8836,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style8:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style8 .overlay-content{
     position: absolute;
@@ -8867,7 +8870,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-project-style8:hover .overlay-content .inner-content .title-box{
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px); 
+    transform: translate3d(0px, 0px, 0px);
     transition: all 700ms ease 500ms;
 }
 .single-project-style8 .overlay-content .inner-content .title-box span{
@@ -8888,7 +8891,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Main Project Area Style6 style
 =============================================
@@ -8908,7 +8911,7 @@ li .single-footer-contact-info .text p span{
     width: 1px;
     background: #ededed;
     content: "";
-    z-index: -1;    
+    z-index: -1;
 }
 .main-project-style6{
     position: relative;
@@ -8961,7 +8964,7 @@ li .single-footer-contact-info .text p span{
     transition: all 700ms ease;
 }
 .single-project-style9:hover .img-holder img {
-    transform:scale(1.2) rotate(2deg);	 
+    transform:scale(1.2) rotate(2deg);
 }
 .single-project-style9 .overlay-box{
     position: absolute;
@@ -8972,12 +8975,12 @@ li .single-footer-contact-info .text p span{
     background: rgba(40, 41, 46, 0.95);
     z-index: 3;
     opacity: 0;
-    transform:scale(0) rotate(0deg);	
+    transform:scale(0) rotate(0deg);
     transition: all 700ms ease 300ms;
 }
 .single-project-style9:hover .overlay-box{
-    opacity: 1; 
-    transform:scale(1.0) rotate(0deg);	
+    opacity: 1;
+    transform:scale(1.0) rotate(0deg);
     transition: all 700ms ease 200ms;
 }
 .single-project-style9 .overlay-box .box{
@@ -8997,7 +9000,7 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style9 .overlay-box .box .link a:hover span:before{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 .single-project-style9 .title{
@@ -9019,12 +9022,12 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
 }
 .single-project-style9 .title h3 a:hover{
-    color: #e9212e;       
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
     Project Description Area style
 =============================================
@@ -9100,7 +9103,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Project Info Area style
 =============================================
@@ -9110,7 +9113,7 @@ li .single-footer-contact-info .text p span{
     display: block;
     padding-top: 110px;
     padding-bottom: 110px;
-} 
+}
 .project-info-area .pattern-bg {
     position: absolute;
     top: 0;
@@ -9211,7 +9214,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Video Image Holder Area style
 =============================================
@@ -9247,7 +9250,7 @@ li .single-footer-contact-info .text p span{
     background: rgba(255, 255, 255, 0.02);
     transition: all 900ms ease;
     z-index: 3;
-    opacity: 1;    
+    opacity: 1;
 }
 .video-holder-box .img-holder .icon-holder .icon{
     display: table;
@@ -9299,7 +9302,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Similar Projects Area style
 =============================================
@@ -9374,10 +9377,10 @@ li .single-footer-contact-info .text p span{
 }
 .single-similar-project .img-holder img{
     width: 100%;
-    transition: all 1500ms ease;    
+    transition: all 1500ms ease;
 }
 .single-similar-project:hover .img-holder img{
-	transform:scale(1.3) rotate(0deg);	  
+	transform:scale(1.3) rotate(0deg);
 }
 
 .single-similar-project .title-holder{
@@ -9400,7 +9403,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Blog Default Area style
 =============================================
@@ -9433,7 +9436,7 @@ li .single-footer-contact-info .text p span{
 }
 
 .single-blog-post.style3{
-    margin-bottom: 62px;    
+    margin-bottom: 62px;
 }
 .single-blog-post.style3 .img-holder .overlay {
     transform: translate3d(0px, 0%, 0px);
@@ -9506,7 +9509,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Blog Area Blog Large style
 =============================================
@@ -9531,7 +9534,7 @@ li .single-footer-contact-info .text p span{
     width: 1px;
     background: #ededed;
     content: "";
-    z-index: -1;    
+    z-index: -1;
 }
 .single-blog-post.style4 .img-holder .overlay .box .link-icon a span:before {
     font-size: 55px;
@@ -9620,7 +9623,7 @@ li .single-footer-contact-info .text p span{
     position: relative;
     display: block;
     padding: 40px 30px 0;
-    -webkit-box-shadow: 0px 0px 8px 2px #f6f6f6; 
+    -webkit-box-shadow: 0px 0px 8px 2px #f6f6f6;
     box-shadow: 0px 0px 8px 2px #f6f6f6;
     margin-bottom: 50px;
 }
@@ -9630,7 +9633,7 @@ li .single-footer-contact-info .text p span{
     display: block;
     max-width: 300px;
     margin-bottom: 50px;
-    -webkit-box-shadow: 0px 0px 8px 2px #f6f6f6; 
+    -webkit-box-shadow: 0px 0px 8px 2px #f6f6f6;
     box-shadow: 0px 0px 8px 2px #f6f6f6;
 }
 .sidebar-search-box .search-form input[type="text"] {
@@ -9674,7 +9677,7 @@ li .single-footer-contact-info .text p span{
     background: #fff;
     color: #000000;
 }
-.sidebar-wrapper .search-form input[type="text"]:focus + button, 
+.sidebar-wrapper .search-form input[type="text"]:focus + button,
 .sidebar-wrapper .search-form button:hover {
     border-color: #e9212e;
     color: #ffffff;
@@ -9711,7 +9714,7 @@ li .single-footer-contact-info .text p span{
     transition: all 300ms ease 100ms;
 }
 .single-sidebar .categories li:hover a sup{
-    transform: scaleX(1.0); 
+    transform: scaleX(1.0);
     transition: all 300ms ease 100ms;
 }
 .single-sidebar .categories li:last-child a{
@@ -9732,13 +9735,13 @@ li .single-footer-contact-info .text p span{
     transition: all 900ms ease;
     font-weight: 600;
     line-height: 50px;
-    margin: 0px;  
+    margin: 0px;
 }
 .single-sidebar .categories li:hover a:before{
     color: #e9212e;
     content: "\f108";
     transition: all 900ms ease;
-} 
+}
 
 
 
@@ -9772,13 +9775,13 @@ li .single-footer-contact-info .text p span{
     overflow: hidden;
 }
 .single-sidebar .recent-post li .img-holder img {
-    transition: all 0.4s ease-in-out 0.5s;    
+    transition: all 0.4s ease-in-out 0.5s;
     width: 100%;
-    transform: scale(1.1, 1.1);      
+    transform: scale(1.1, 1.1);
 }
 .single-sidebar .recent-post li:hover .img-holder img {
     transition-delay: 0s;
-    transform: scale(1.2, 1.2);    
+    transform: scale(1.2, 1.2);
 }
 .single-sidebar .recent-post li .img-holder .overlay-style-one{
     background: rgba(233, 33, 48, 0.90);
@@ -9791,12 +9794,12 @@ li .single-footer-contact-info .text p span{
     transform: scale(3);
     transition: all 0.3s ease-in-out 0.3s;
     opacity: 0;
-    z-index: 5;    
+    z-index: 5;
 }
 .single-sidebar .recent-post li:hover .img-holder .overlay-style-one .box .content a{
    filter: alpha(opacity=100);
    transform: scale(1);
-   transition-delay: 0.1s; 
+   transition-delay: 0.1s;
    opacity: 1;
 }
 .single-sidebar .recent-post li .img-holder .overlay-style-one .box .content a span:before{
@@ -9868,7 +9871,7 @@ li .single-footer-contact-info .text p span{
     transform: scale(1, 1);
 }
 .single-sidebar .instagram li .img-holder .overlay-style-one{
-    background: rgba(40, 41, 46, 0.95);    
+    background: rgba(40, 41, 46, 0.95);
 }
 .single-sidebar .instagram li:hover .img-holder .overlay-style-one {
     filter: alpha(opacity=100);
@@ -9893,7 +9896,7 @@ li .single-footer-contact-info .text p span{
     filter: alpha(opacity=100);
     opacity: 1;
     transform: scale(1);
-    transition-delay: 0.1s;    
+    transition-delay: 0.1s;
 }
 .single-sidebar .instagram li .img-holder .overlay-style-one .box .content a span:before{
     display: inline-block;
@@ -9902,7 +9905,7 @@ li .single-footer-contact-info .text p span{
     filter: alpha(opacity=0);
 }
 .single-sidebar .instagram li .img-holder .overlay-style-one .box .content a:hover{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .follow-us-button {
     position: relative;
@@ -9942,7 +9945,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Main Header Blog Single style
 =============================================
@@ -9957,7 +9960,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Single Post Info Area style
 =============================================
@@ -10029,7 +10032,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Blog Single Area style
 =============================================
@@ -10256,7 +10259,7 @@ li .single-footer-contact-info .text p span{
     line-height: 30px;
     font-weight: 500;
     margin: 0;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 .tag-with-social-links-box .social-links-box p i{
     position: relative;
@@ -10305,7 +10308,7 @@ li .single-footer-contact-info .text p span{
     display: block;
     max-width: 400px;
     width: 100%;
-} 
+}
 .blog-prev-next-option .single.prev {
     position: relative;
     display: block;
@@ -10367,11 +10370,11 @@ li .single-footer-contact-info .text p span{
 .blog-prev-next-option .single:hover .image-thumb .overlay .box .link a{
    filter: alpha(opacity=100);
    transform: scale(1);
-   transition-delay: 0.1s; 
-   opacity: 1;    
+   transition-delay: 0.1s;
+   opacity: 1;
 }
 .blog-prev-next-option .single .image-thumb .overlay .box .link a:hover{
-    color: #e9212e;    
+    color: #e9212e;
 }
 .blog-prev-next-option .single .image-thumb .overlay .box .link a i{
     display: inline-block;
@@ -10430,7 +10433,7 @@ li .single-footer-contact-info .text p span{
     vertical-align: middle;
 }
 .author-box-holder .inner-box .text{
-    padding-left: 40px;    
+    padding-left: 40px;
 }
 .author-box-holder .inner-box .text h3{
     color: #222222;
@@ -10501,7 +10504,7 @@ li .single-footer-contact-info .text p span{
     color: #7c7e84;
 }
 .author-box-holder .inner-box .text .author-social-links ul li a:hover{
-    color: #e9212e; 
+    color: #e9212e;
 }
 
 
@@ -10579,8 +10582,8 @@ li .single-footer-contact-info .text p span{
 .blog-single-area .inner-comment-box .single-comment-box .text-box .top .reply-button{
     position: relative;
     display: block;
-    float: right; 
-    top: -3px;   
+    float: right;
+    top: -3px;
 }
 .blog-single-area .inner-comment-box .single-comment-box .text-box .top .reply-button a{
     color: #b3b3b3;
@@ -10626,7 +10629,7 @@ li .single-footer-contact-info .text p span{
     font-weight: 400;
     height: 60px;
     padding: 0 30px;
-    width: 100%;  
+    width: 100%;
     border-radius: 0px;
     margin-bottom: 30px;
     transition: all 500ms ease;
@@ -10637,24 +10640,24 @@ li .single-footer-contact-info .text p span{
     margin-bottom: 30px;
 }
 .add-comment-box #add-comment-form input[type="text"]:focus{
-    border-color: #e9212e;    
+    border-color: #e9212e;
 }
 .add-comment-box #add-comment-form input[type="email"]:focus{
-    border-color: #e9212e;    
+    border-color: #e9212e;
 }
 .add-comment-box #add-comment-form textarea:focus{
-    border-color: #e9212e;       
+    border-color: #e9212e;
 }
 .add-comment-box #add-comment-form button {
 
 }
 .add-comment-box #add-comment-form button:hover{
-  
+
 }
 
 
 
-/*** 
+/***
 =============================================
    Shop area  style
 =============================================
@@ -10703,7 +10706,7 @@ li .single-footer-contact-info .text p span{
     overflow: hidden;
 }
 .single-product-item .img-holder::before {
-    background: rgba(255, 255, 255, 0.30);    
+    background: rgba(255, 255, 255, 0.30);
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -10720,10 +10723,10 @@ li .single-footer-contact-info .text p span{
 .single-product-item .img-holder img{
     transform: scale(1);
     transition: all 0.7s ease 0s;
-    width: 100%;   
+    width: 100%;
 }
 .single-product-item:hover .img-holder img{
-    transform: scale(1.1);   
+    transform: scale(1.1);
 }
 
 .single-product-item .title-holder {
@@ -10740,7 +10743,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-product-item .title-holder .static-content{
     position: relative;
-    display: block;    
+    display: block;
 }
 .single-product-item .title-holder .title {
     position: relative;
@@ -10786,7 +10789,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-product-item:hover .title-holder .overlay-content ul{
     transform: scale(1);
-    transition: all 700ms ease 600ms;    
+    transition: all 700ms ease 600ms;
 }
 .single-product-item .title-holder .overlay-content ul li{
     position: relative;
@@ -10852,7 +10855,7 @@ li .single-footer-contact-info .text p span{
     margin: 0;
 }
 .single-product-item .title-holder .overlay-content ul li a:hover .toltip-content{
-    top: -37px; 
+    top: -37px;
     visibility: visible;
     opacity: 1;
 }
@@ -10923,7 +10926,7 @@ li .single-footer-contact-info .text p span{
     background: #fff;
     color: #000000;
 }
-.shop-sidebar-wrapper .search-form input[type="text"]:focus + button, 
+.shop-sidebar-wrapper .search-form input[type="text"]:focus + button,
 .shop-sidebar-wrapper .search-form button:hover {
     background: #e9212e;
     color: #fff;
@@ -10971,7 +10974,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-sidebar-box .categories li:hover:before{
     width: 3px;
-    transform: perspective(0px) translateX(0px) rotate(0deg);    
+    transform: perspective(0px) translateX(0px) rotate(0deg);
 }
 .single-sidebar-box .categories li a {
     position: relative;
@@ -11114,13 +11117,13 @@ li .single-footer-contact-info .text p span{
     overflow: hidden;
 }
 .shop-sidebar-wrapper .products-post li .img-holder img {
-    transition: all 0.4s ease-in-out 0.5s;    
+    transition: all 0.4s ease-in-out 0.5s;
     width: 100%;
-    transform: scale(1.1, 1.1);      
+    transform: scale(1.1, 1.1);
 }
 .shop-sidebar-wrapper .products-post li:hover .img-holder img {
     transition-delay: 0s;
-    transform: scale(1.2, 1.2);    
+    transform: scale(1.2, 1.2);
 }
 .shop-sidebar-wrapper .products-post li .img-holder .overlay-style-one{
     background: rgba(233, 33, 48, 0.90);
@@ -11133,12 +11136,12 @@ li .single-footer-contact-info .text p span{
     transform: scale(3);
     transition: all 0.3s ease-in-out 0.3s;
     opacity: 0;
-    z-index: 5;    
+    z-index: 5;
 }
 .shop-sidebar-wrapper .products-post li:hover .img-holder .overlay-style-one .box .content a{
    filter: alpha(opacity=100);
    transform: scale(1);
-   transition-delay: 0.1s; 
+   transition-delay: 0.1s;
    opacity: 1;
 }
 .shop-sidebar-wrapper .products-post li .img-holder .overlay-style-one .box .content a span:before{
@@ -11179,7 +11182,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
    Single Shop Area style
 =============================================
@@ -11343,7 +11346,7 @@ li .single-footer-contact-info .text p span{
     line-height: 50px;
 }
 .single-shop-content .content-box .addto-cart-box button.addtocart:hover{
-    background: #26272b;   
+    background: #26272b;
 }
 
 .share-products-socials {
@@ -11393,31 +11396,31 @@ li .single-footer-contact-info .text p span{
     color: #ffffff;
 }
 .share-products-socials ul li a:hover i.fb{
-    background: #1d376f;    
+    background: #1d376f;
 }
 .share-products-socials ul li a i.tw{
     background: #55acee;
     border-color: #55acee;
-    color: #ffffff;    
+    color: #ffffff;
 }
 .share-products-socials ul li a:hover i.tw{
-    background: #1e7dc5;    
+    background: #1e7dc5;
 }
 .share-products-socials ul li a i.pin{
     background: #cb2027;
     border-color: #cb2027;
-    color: #ffffff;       
+    color: #ffffff;
 }
 .share-products-socials ul li a:hover i.pin{
-    background: #a81218;    
+    background: #a81218;
 }
 .share-products-socials ul li a i.lin{
     background: #007ab9;
     border-color: #007ab9;
-    color: #ffffff;      
+    color: #ffffff;
 }
 .share-products-socials ul li a:hover i.lin{
-    background: #01537d;    
+    background: #01537d;
 }
 
 
@@ -11456,7 +11459,7 @@ li .single-footer-contact-info .text p span{
     transition: all 500ms ease;
     font-family: 'Poppins', sans-serif;
 }
-.product-tab-box .tab-btns .tab-btn.active-btn span, 
+.product-tab-box .tab-btns .tab-btn.active-btn span,
 .product-tab-box .tab-btns .tab-btn:hover span{
     color: #e9212e;
 }
@@ -11488,7 +11491,7 @@ li .single-footer-contact-info .text p span{
 	display: none;
 }
 .product-tab-box .tabs-content .tab.active-tab{
-	display: block;	
+	display: block;
 }
 .review-box-holder {
     position: relative;
@@ -11597,7 +11600,7 @@ li .single-footer-contact-info .text p span{
 .product-tab-box .review-form .add-rating-box .add-rating-title{
     position: relative;
     display: inline-block;
-    float: left;    
+    float: left;
 }
 .product-tab-box .review-form .add-rating-box .add-rating-title h4 {
     color: #828282;
@@ -11610,7 +11613,7 @@ li .single-footer-contact-info .text p span{
 .product-tab-box .review-form .add-rating-box .review-box{
     position: relative;
     display: inline-block;
-    float: left; 
+    float: left;
     padding-left: 20px;
 }
 .product-tab-box .review-form .add-rating-box .review-box ul li {
@@ -11641,10 +11644,10 @@ li .single-footer-contact-info .text p span{
     margin: 0 0 5px;
 }
 .product-tab-box .review-form .input-box p span{
-    color: #e9212e;    
+    color: #e9212e;
 }
-.product-tab-box .review-form form input[type="text"], 
-.product-tab-box .review-form form input[type="email"], 
+.product-tab-box .review-form form input[type="text"],
+.product-tab-box .review-form form input[type="email"],
 .product-tab-box .review-form form textarea {
     position: relative;
     display: block;
@@ -11668,7 +11671,7 @@ li .single-footer-contact-info .text p span{
     padding: 0 50px;
 }
 .product-tab-box .review-form form button:hover{
- 
+
 }
 .product-tab-box .review-form form input[type="text"]:focus{
     border-color: #e1dddd;
@@ -11677,7 +11680,7 @@ li .single-footer-contact-info .text p span{
     border-color: #e1dddd;
 }
 .product-tab-box .review-form form textarea:focus{
-    border-color: #e1dddd;  
+    border-color: #e1dddd;
 }
 
 .related-product {
@@ -11690,7 +11693,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
    Cart area  style
 =============================================
@@ -11758,7 +11761,7 @@ li .single-footer-contact-info .text p span{
 .cart-area .cart-table tbody tr .prod-column .column-box .prod-thumb a img {
     width: 100%;
 }
-.cart-area .cart-table tbody tr .prod-column .column-box .prod-thumb, 
+.cart-area .cart-table tbody tr .prod-column .column-box .prod-thumb,
 .cart-area .cart-table tbody tr .prod-column .column-box .title{
     display: table-cell;
     vertical-align: middle;
@@ -11918,7 +11921,7 @@ li .single-footer-contact-info .text p span{
 }
 .cart-middle .update-cart button:hover{
     background: #26272b;
-} 
+}
 
 
 
@@ -12017,7 +12020,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Checkout Area style
 =============================================
@@ -12071,7 +12074,7 @@ li .single-footer-contact-info .text p span{
     width: 2px;
     height: 100%;
     background: #e9212e;
-    content: "";  
+    content: "";
 }
 .checkout-area .coupon h5 {
     color: #27282c;
@@ -12082,11 +12085,11 @@ li .single-footer-contact-info .text p span{
     color: #e9212e;
     font-weight: 600;
     display: inline-block;
-    padding-left: 15px;  
+    padding-left: 15px;
 }
 
 .checkout-area .form .shop-page-title{
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 .checkout-area .form form .field-label {
     color: #27282c;
@@ -12097,7 +12100,7 @@ li .single-footer-contact-info .text p span{
 }
 .checkout-area .form form .field-input input[type="text"] {
     position: relative;
-    display: block;   
+    display: block;
     border: 1px solid #ededed;
     color: #848484;
     font-size: 15px;
@@ -12220,7 +12223,7 @@ li .single-footer-contact-info .text p span{
     display: block;
     width: 100%;
 }
-.checkout-area .table .cart-table tbody tr .product-column .column-box .prod-thumb, 
+.checkout-area .table .cart-table tbody tr .product-column .column-box .prod-thumb,
 .checkout-area .table .cart-table tbody tr .product-column .column-box .product-title{
     display: table-cell;
     vertical-align: middle;
@@ -12411,7 +12414,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Login Register Area style
 =============================================
@@ -12458,8 +12461,8 @@ li .single-footer-contact-info .text p span{
     line-height: 50px;
     padding: 0 40px;
 }
-.login-register-area .form button:hover{ 
- 
+.login-register-area .form button:hover{
+
 }
 
 .login-register-area .form .remember-text {
@@ -12538,13 +12541,13 @@ li .single-footer-contact-info .text p span{
     color: #e9212e;
 }
 .login-register-area .form .input-field input[type="text"]:focus{
-    border: 1px solid #1d1d1d;    
+    border: 1px solid #1d1d1d;
 }
 .login-register-area .form .social-icon li a:hover i{
-    background: #18387b;   
+    background: #18387b;
 }
 .login-register-area .form .social-icon li a:hover i.twitter{
-    background: #12addf;    
+    background: #12addf;
 }
 .login-register-area .form .social-icon li a:hover i.gplus{
     background: #c62d1a;
@@ -12552,7 +12555,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Breadcrumb Area Contact Page style
 =============================================
@@ -12563,7 +12566,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Contact address Area style
 =============================================
@@ -12581,14 +12584,14 @@ li .single-footer-contact-info .text p span{
     background: #ffffff;
     text-align: center;
     padding: 40px 30px 32px;
-    -webkit-box-shadow: 0px 4px 6px 2px #ededed; 
+    -webkit-box-shadow: 0px 4px 6px 2px #ededed;
     box-shadow: 0px 4px 6px 2px #ededed;
     margin-top: -115px;
     margin-bottom: 30px;
     transition: all 900ms ease 600ms;
 }
 .single-contact-address-box:hover{
-    -webkit-box-shadow: 0px 5px 12px 2px #ededed; 
+    -webkit-box-shadow: 0px 5px 12px 2px #ededed;
     box-shadow: 0px 5px 12px 2px #ededed;
 }
 
@@ -12620,12 +12623,12 @@ li .single-footer-contact-info .text p span{
     margin: 0;
 }
 .contact-address-area .bottom-text p a{
-    color: #e9212e;    
+    color: #e9212e;
 }
 
 
 
-/*** 
+/***
 =============================================
     Contact Info Area style
 =============================================
@@ -12646,7 +12649,7 @@ li .single-footer-contact-info .text p span{
     display: block;
     background: #ffffff;
     border: 1px solid #ededed;
-    padding: 49px; 
+    padding: 49px;
 }
 .contact-form form{
     position: relative;
@@ -12675,7 +12678,7 @@ li .single-footer-contact-info .text p span{
 .contact-form form input[type="email"],
 .contact-form form textarea{
     position: relative;
-    display: block;   
+    display: block;
     background: #ffffff;
     border: 1px solid #ededed;
     width: 100%;
@@ -12695,7 +12698,7 @@ li .single-footer-contact-info .text p span{
     padding-bottom: 15px;
 }
 .contact-form form input[type="text"]:focus{
-    border-color: #1d1d1d; 
+    border-color: #1d1d1d;
     color: #222222;
 }
 .contact-form form input[type="email"]:focus{
@@ -12748,7 +12751,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Job Career Brochures Area style
 =============================================
@@ -12820,7 +12823,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Coming Soon Content Area style
 =============================================
@@ -12842,7 +12845,7 @@ li .single-footer-contact-info .text p span{
 .coming-soon-content .logo-box{
     position: relative;
     display: block;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
 .coming-soon-content .logo-box a{
     display: inline-block;
@@ -12857,7 +12860,7 @@ li .single-footer-contact-info .text p span{
 
 
 
-/*** 
+/***
 =============================================
     Timer Area style
 =============================================
@@ -13007,7 +13010,7 @@ li .single-footer-contact-info .text p span{
     border: 1px solid #191a1c;
     background: #ffffff;
 }
-.timer-box .subscribe-box .subscribe-form input[type="email"]:focus + button, 
+.timer-box .subscribe-box .subscribe-form input[type="email"]:focus + button,
 .timer-box .subscribe-box .subscribe-form button:hover {
     background: #191a1c;
     color: #fff;
