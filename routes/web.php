@@ -25,7 +25,7 @@ use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 });*/
 
 Route::get('', [IndexController::class, 'home'])->name('accueil');
-Route::get('/Qui sommes nous ?', [IndexController::class, 'about'])->name('about');
+Route::get('/Qui-sommes-nous', [IndexController::class, 'about'])->name('about');
 Route::get('/services', [IndexController::class, 'services'])->name('services');
 Route::get('/nos-contact', [IndexController::class, 'contact'])->name('contact');
 Route::get('/galerie', [IndexController::class, 'galerie'])->name('galerie');

@@ -3,6 +3,11 @@
 @section('content')
 
 <!--Start breadcrumb area-->
+
+@include('layouts.alert_message')
+
+@include('sweetalert::alert')
+
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
     <div class="container">
         <div class="row">
@@ -23,7 +28,6 @@
     </div>
 </section>
 <!--End breadcrumb area-->
-
 <!--Start appointment Area-->
     <section class="appointment-area" style="background-image:url(images/resources/appointment-bg.jpg);">
         <div class="container">
@@ -79,6 +83,9 @@
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="appointment-box wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+
+                        @include('layouts.alert_message')
+
                         <div class="title-box">
                             <h2>Prendre un rendez-vous</h2>
                             <span>Laissez vos informations ici et obtenez une réponse de notre expert dans les 24 heures, n'hésitez pas à demander.</span>
@@ -86,7 +93,7 @@
 
                         <div class="appointment">
 
-                            <form class="appointment-form" action="{{route('send_contact')}}" method="POST" enctype="multipart/form-data">
+                            <form class="appointment-form" id='myForm' action="{{route('send_contact')}}" method="POST" enctype="multipart/form-data">
 
                                 @csrf
 
@@ -114,7 +121,7 @@
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="single-box">
-                                            <button class="btn-one" type="submit">Soumettre<span class="flaticon-next"></span></button>
+                                            <button class="btn-one" type="submit" id='jeff'>Soumettre<span class="flaticon-next"></span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -128,5 +135,14 @@
             </div>
         </div>
     </section>
-<!--End appointment Area-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+        $(document).ready(function(){
+                $(".btn-one").click(function(){
+                    $("#myForm").trigger("reset");
+                });
+            });
+    </script>
+
 @endsection

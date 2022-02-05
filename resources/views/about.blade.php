@@ -1,4 +1,5 @@
 @extends('layouts.base')
+
 @section('content')
         <!--Start breadcrumb area-->
         <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
@@ -92,7 +93,7 @@
                                     </div>
                                 </div>
                                 <!--End Single History Content-->
-                                
+
                             </div>
                         </div>
                     </div>
@@ -141,7 +142,7 @@
                         </div>
                     </div>
                     <!--End Single Fact Counter-->
-                   
+
                 </div>
 
             </div>
@@ -168,7 +169,7 @@
                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-1.jpg" alt="Awesome Image">                               
+                                <img src="images/team/v2-1.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>CEO & Founder</span></p>
@@ -181,7 +182,7 @@
                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-2.jpg" alt="Awesome Image">                               
+                                <img src="images/team/v2-2.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>Assistant comptable</span></p>
@@ -194,7 +195,7 @@
                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-3.jpg" alt="Awesome Image">                                
+                                <img src="images/team/v2-3.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>Agent Logistique et Assistante Achat</span></p>
@@ -207,7 +208,7 @@
                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>Commerciale</span></p>
@@ -220,7 +221,7 @@
                      <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>Commerciale</span></p>
@@ -233,7 +234,7 @@
                      <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-team-member">
                             <div class="img-holder">
-                                <img src="images/team/v2-4.jpg" alt="Awesome Image">                               
+                                <img src="images/team/v2-4.jpg" alt="Awesome Image">
                             </div>
                             <div class="name text-center">
                                 <p><span>Secrétaire Assistante Commerciale</span></p>

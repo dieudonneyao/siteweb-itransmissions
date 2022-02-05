@@ -27,15 +27,22 @@
 
                                     <ul class="navigation clearfix">
 
-                                        <li class="{{(Route::currentRouteName()=='accueil')  ?  'active' : ''}}">
-                                            <a href="">
+                                        <li class="{{(Route::currentRouteName()=='accueil')  ?  'current' : ''}}">
+                                            <a href="/">
                                                 Accueil
                                             </a>
                                         </li>
-                                        <li class="dropdown"><a href="{{route('about')}}">Société</a></li>
-                                        <li class="dropdown"><a href="{{route('galerie')}}">Galerie</a></li>
 
-                                        <li class="dropdown"><a  href="{{route('services')}}">Services</a>
+                                        <li class="{{(Route::currentRouteName()=='about')  ?  'current' : ''}} dropdown">
+                                            <a href="{{route('about')}}">Sociéte</a>
+                                        </li>
+
+                                        <li class="{{(Route::currentRouteName()=='galerie')  ?  'current' : ''}} dropdown">
+                                            <a href="{{route('galerie')}}">Galerie</a>
+                                        </li>
+
+                                        <li class="{{(Route::currentRouteName()=='services')  ?  'current' : ''}} dropdown">
+                                            <a  href="{{route('services')}}">Services</a>
                                             <ul>
                                                 <li><a class="{{request () ->is('services') ? 'is-current' : '' }}" href="/services">Services</a></li>
                                                 <li><a href="ser-concept-designs.html">Distribution et vente de pièces de transmissions industrielles et automobiles</a></li>
@@ -63,11 +70,18 @@
                                                 <li><a href="blog-single.html">Blog Single Post</a></li>
                                             </ul>
                                         </li> -->
-                                        <li class="dropdown"><a href="{{route('produits')}}">Produits</a></li>
-                                        <li><a href="{{route('contact')}}">Contact</a></li>
+                                        <li class="{{(Route::currentRouteName()=='produits')  ?  'current' : ''}} dropdown">
+                                            <a href="{{route('produits')}}">Produits</a>
+                                        </li>
+
+                                        <li class="{{(Route::currentRouteName()=='contact')  ?  'current' : ''}} dropdown">
+                                            <a href="{{route('contact')}}">Contact</a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </nav>
+
                             <div class="mainmenu-right">
                                 <div class="outer-search-box">
                                     <div class="seach-toggle"><i class="fa fa-search"></i></div>
