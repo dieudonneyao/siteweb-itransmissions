@@ -8,9 +8,6 @@
 
 @include('sweetalert::alert')
 
-
-
-
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
     <div class="container">
         <div class="row">
