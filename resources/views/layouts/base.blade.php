@@ -55,7 +55,11 @@
         <!--Start Main Header-->
         @include('layouts.navbar')
         <!--End Main Header-->
+        
+       
+       
         <div class="container" id="main">
+            @include('layouts.marque')
                     @yield('content')
         </div>
 
