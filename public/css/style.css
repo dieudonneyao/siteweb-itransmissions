@@ -1027,6 +1027,7 @@ select:focus {
     transition: all 300ms ease;
     font-family: 'Rubik', sans-serif;
 }
+
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a {
     color: #e9212e;

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 04 fév. 2022 à 18:34
+-- Généré le : sam. 05 fév. 2022 à 13:22
 -- Version du serveur :  10.4.17-MariaDB
 -- Version de PHP : 8.0.2
 
@@ -70,9 +70,21 @@ CREATE TABLE `failed_jobs` (
 
 CREATE TABLE `messages` (
   `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `message` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `messages`
+--
+
+INSERT INTO `messages` (`id`, `name`, `email`, `message`, `created_at`, `updated_at`) VALUES
+(1, 'YOBOUE', 'jefersonyoboue@gmail.com', 'juju', '2022-02-05 11:49:05', '2022-02-05 11:49:05'),
+(2, 'ju', 'jefersonyoboue@gmail.com', 'ju', '2022-02-05 11:52:25', '2022-02-05 11:52:25'),
+(3, 'YOBOUE', 'jefersonyoboue@gmail.com', 'ki', '2022-02-05 11:53:54', '2022-02-05 11:53:54');
 
 -- --------------------------------------------------------
 
@@ -323,7 +335,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT pour la table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT pour la table `migrations`

@@ -8,11 +8,11 @@ use App\Models\Categorie;
 use App\Models\Message;
 use App\Models\Produit;
 use App\Models\Sous_Categorie;
-use App\Notifications\EmailNotif;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Notification;
+
+use RealRashid\SweetAlert\Facades\Alert;
 
 class IndexController extends Controller
 {
@@ -190,10 +190,13 @@ class IndexController extends Controller
         ]);
 
         //dd($contact);
+        $contact->save();
+
+        Mail::to('contact@i-transmission.com')->send(new Transmission($contact));
 
         Mail::to($contact->email)->send(new ContactForm($contact));
 
-        Mail::to('contact@i-transmission.com')->send(new Transmission($contact));
+        Alert::success('i-transmissions', 'Votre message a éte envoyé avec succès');
 
         return redirect()->route('contact')->with('success', 'Votre message a éte envoyé avec succès');
 
