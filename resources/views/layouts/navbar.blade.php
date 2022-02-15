@@ -43,14 +43,14 @@
 
                                         <li class="{{(Route::currentRouteName()=='services')  ?  'current' : ''}} dropdown">
                                             <a  href="{{route('services')}}">Services</a>
-                                            <ul>
+                                           <!--  <ul>
                                                 <li><a class="{{request () ->is('services') ? 'is-current' : '' }}" href="/services">Services</a></li>
                                                 <li><a href="ser-concept-designs.html">Distribution et vente de pièces de transmissions industrielles et automobiles</a></li>
                                                 <li><a href="ser-project-designs.html">Quincaillérie générale</a></li>
                                                 <li><a href="ser-make-overs.html">Négoce</a></li>
                                                 <li><a href="ser-consulting.html">Formations et Consulting</a></li>
                                                 <li><a href="ser-glass-wrought.html">Service après vente (SAP)</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- <li class="dropdown"><a href="project.html">Projects</a>
                                             <ul>

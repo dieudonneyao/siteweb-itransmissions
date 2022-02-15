@@ -38,12 +38,7 @@
                     </div>
                     <div class="services-links">
                         <ul>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="ser-concept-designs.html">Distribution et vente de pièces de transmissions industrielles et automobiles</a></li>
-                            <li><a href="ser-project-designs.html">Quincaillérie générale</a></li>
-                            <li><a href="ser-make-overs.html">Négoce</a></li>
-                            <li><a href="ser-consulting.html">Formations et Consulting</a></li>
-                            <li><a href="ser-glass-wrought.html">Service après vente (SAP)</a></li>
+                            <li><a href="services.html">Services</a></li>                            
                         </ul>
                     </div>
                 </div>
@@ -62,14 +57,14 @@
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
-                                            <a href="project-single.html"><span class="icon-next"></span></a>
+                                            <a href="/galerie"><span class="icon-next"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="#">Joints<br> de moteur...</a></h5>
+                                <h5><a href="/galerie">Joints<br> de moteur...</a></h5>
                             </div>
                         </li>
                         <li>
@@ -78,14 +73,14 @@
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
-                                            <a href="project-single.html"><span class="icon-next"></span></a>
+                                            <a href="/galerie"><span class="icon-next"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="#">Roulements<br> à billes protégés...</a></h5>
+                                <h5><a href="/prod">Roulements<br> à billes protégés...</a></h5>
                             </div>
 
                         </li>
@@ -95,14 +90,14 @@
                                 <div class="overlay-style-one">
                                     <div class="box">
                                         <div class="content">
-                                            <a href="project-single.html"><span class="icon-next"></span></a>
+                                            <a href="/galerie"><span class="icon-next"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="#">Pignons<br> multicolores...</a></h5>
+                                <h5><a href="/galerie">Pignons<br> multicolores...</a></h5>
                             </div>
                         </li>
 
@@ -121,7 +116,7 @@
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>
-                                <a class="btn-two" href="#">Tous les produits<span class="flaticon-next"></span></a>
+                                <a class="btn-two" href="/product">Tous les produits<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                         <!--End Single Item-->
@@ -132,7 +127,7 @@
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>
-                                <a class="btn-two" href="#">Tous les produits<span class="flaticon-next"></span></a>
+                                <a class="btn-two" href="/product">Tous les produits<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                         <!--End Single Item-->
@@ -143,7 +138,7 @@
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>
-                                <a class="btn-two" href="#">Tous les produits<span class="flaticon-next"></span></a>
+                                <a class="btn-two" href="/product">Tous les produits<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                         <!--End Single Item-->

@@ -8,25 +8,7 @@
 
 @include('sweetalert::alert')
 
-<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="inner-content clearfix">
-                    <div class="title">
-                        <h1>Des besoins ou questions ?<br> Notre Contact</h1>
-                    </div>
-                    <div class="breadcrumb-menu float-right">
-                        <ul class="clearfix">
-                            <li><a href="index-2.html">Accueil</a></li>
-                            <li class="active">contact</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--End breadcrumb area-->
 <!--Start appointment Area-->
     <section class="appointment-area" style="background-image:url(images/resources/appointment-bg.jpg);">
@@ -135,7 +117,119 @@
             </div>
         </div>
     </section>
+ <!--Start Brand area-->
+ <section class="brand-area">
+            <div class="container">
+                <div class="sec-title">
+                    <p>Nos Clients</p>
+                    <div class="title">Ils nous font <span>confiance</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <ul class="brand-items-carousel owl-carousel owl-theme">
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/1.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>FRANZETTI CI</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/2.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>NESTLE</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/3.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>OLAM</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>PALMCI</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SACO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SAPH</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
 
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SECO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SAPH</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/7.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SECO</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/8.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SICOSA</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/9.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SODECI</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                            <!--Start Single Brand Item-->
+                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <a href="#"><img src="images/brand/10.png" alt="Awesome Brand Image"></a>
+                                <div class="overlay-content">
+                                    <p>SUCRIVOIRE</p>
+                                </div>
+                            </li>
+                            <!--End Single Brand Item-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Brand area-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js">
         $(document).ready(function(){
