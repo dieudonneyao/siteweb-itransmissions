@@ -1,6 +1,3 @@
-@extends('layouts.base')
-
-@section('content')
 
 <div>
     <form  action="{{route('produits.store')}}" method="POST" enctype="multipart/form-data">
@@ -49,6 +46,7 @@
 
         $('#categorie').on('change',function(e){
             var cat_id = e.target.value;
+            console.log(cat_id);
 
             $.get('/ajax-subcat/'+cat_id,function(data){
                 //console.log(data);
@@ -65,8 +63,6 @@
     </script>
 
 </div>
-
-@endsection
 
 
 

@@ -29,14 +29,19 @@ Route::get('/Qui-sommes-nous', [IndexController::class, 'about'])->name('about')
 Route::get('/services', [IndexController::class, 'services'])->name('services');
 Route::get('/nos-contact', [IndexController::class, 'contact'])->name('contact');
 Route::get('/galerie', [IndexController::class, 'galerie'])->name('galerie');
-Route::get('/nos-produits', [IndexController::class, 'produits'])->name('produits');
+Route::get('/product-itransmission', [IndexController::class, 'jeff'])->name('produits');
 
 
-Route::get('/product-itransmission/{slug}', [IndexController::class, 'prod_per_cat'])->name('itransmission');
+//product-itransmission/{{$item->libelle}}/{{$sub_item->libelle}}
+Route::get('/product-itransmission/{cat_libelle}/{scat_lib}', [IndexController::class, 'prod_per_scat'])->name('itransmission');
+
+//Route::get('/product-itransmission/{slug}', [IndexController::class, 'prod_per_cat'])->name('itransmission');
 Route::resource('/produits' ,ProduitController::class);
 
+//Route::get('/p-itransmission/{cat_id}', [IndexController::class, 'produits'])->name('itransmission');
 
-Route::get('/admin', [IndexController::class, 'jeff'])->name('jeff');
+
+//Route::get('/admin', [IndexController::class, 'jeff'])->name('jeff');
 Route::get('/admin/sous_categorie', [IndexController::class, 'sc'])->name('sc');
 
 

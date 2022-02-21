@@ -1,0 +1,163 @@
+@foreach ($produits as $item)
+
+    <!--Start single product item-->
+    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+        <div class="single-product-item text-center">
+
+            <div class="img-holder">
+                <img src="{{ asset('uploads/shop/'.$item->image) }}" alt="Awesome Product Image">
+            </div>
+
+            <div class="title-holder text-center">
+                <div class="static-content">
+
+                    <h3 class="title text-center">
+                        <a href="">{{\Illuminate\Support\Str::limit($item->cats,13)}}</a> {{\Illuminate\Support\Str::limit($item->libelle,8)}}</a>
+                    </h3>
+
+                    <span>{{$item->scats}}</span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+@endforeach
+
+
+<!--transmission-->
+@foreach ($transmission as $item)
+<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 mod ">
+    <div class="single-project-style4">
+        <div class="img-holder">
+            <div class="inner">
+                <img src="/uploads/shop/{{$item->image}}" alt="Awesome Image">
+                <div class="overlay-box">
+                    <div class="box">
+                        <div class="link">
+                            <a href="project-single.html"><span class="icon-out"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content">
+                <div class="title">
+                    <span>{{$item->categorie->libelle}}</span>
+                    <h3><a href="project-single.html">Moteur</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+<!--transmission-->
+
+<!--quicaillerie-->
+@foreach ($quicaillerie as $value)
+<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12  ppp ">
+    <div class="single-project-style4">
+        <div class="img-holder">
+            <div class="inner">
+                <img src="/uploads/shop/{{$value->image}}" alt="Awesome Image">
+                <div class="overlay-box">
+                    <div class="box">
+                        <div class="link">
+                            <a href="project-single.html"><span class="icon-out"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content">
+                <div class="title">
+                    <span>{{$value->categorie->libelle}}</span>
+                    <h3><a href="project-single.html">{{$value->scats}}</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+<!--quicaillerie-->
+
+<!--electricite-->
+@foreach ($electricite as $key)
+<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 trad ">
+    <div class="single-project-style4">
+        <div class="img-holder">
+            <div class="inner">
+                <img src="/uploads/shop/{{$key->image}}" alt="Awesome Image">
+                <div class="overlay-box">
+                    <div class="box">
+                        <div class="link">
+                            <a href="project-single.html"><span class="icon-out"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content">
+                <div class="title">
+                    <span>{{$key->categorie->libelle}}</span>
+                    <h3><a href="project-single.html">Moteur</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+<!--electricite-->
+
+<!--divers-->
+@foreach ($divers as $v)
+<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12  reta ">
+    <div class="single-project-style4">
+        <div class="img-holder">
+            <div class="inner">
+                <img src="/uploads/shop/{{$v->image}}" alt="Awesome Image">
+                <div class="overlay-box">
+                    <div class="box">
+                        <div class="link">
+                            <a href="project-single.html"><span class="icon-out"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content">
+                <div class="title">
+                    <span>{{$v->categorie->libelle}}</span>
+                    <h3><a href="project-single.html">Moteur</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+<!--divers-->
+
+
+<!--divers-->
+@foreach ($huiles as $vh)
+<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 jeff ">
+    <div class="single-project-style4">
+        <div class="img-holder">
+            <div class="inner">
+                <img src="/uploads/shop/{{$vh->image}}" alt="Awesome Image">
+                <div class="overlay-box">
+                    <div class="box">
+                        <div class="link">
+                            <a href="project-single.html"><span class="icon-out"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content">
+                <div class="title">
+                    <span>{{$vh->categorie->libelle}}</span>
+                    <h3><a href="project-single.html">Moteur</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+<!--divers-->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 
 <!--   06:37:19 GMT -->
@@ -56,12 +56,12 @@
         <!--Start Main Header-->
         @include('layouts.navbar')
         <!--End Main Header-->
-        
+
         <!--Start Main Header-->
         @include('layouts.representant')
         <!--End Main Header-->
         <div id="main">
-                    @yield('content')
+            @yield('content')
         </div>
 
         <!--Start footer area-->
@@ -74,7 +74,6 @@
     <div class="scroll-to-top-style2 scroll-to-target" data-target="html">
         <span class="fa fa-angle-up"></span>
     </div>
-
 
 
     <script src="{{asset('js/jquery.js')}}"></script>
@@ -94,10 +93,11 @@
     <script src="{{asset('js/wow.j')}}s"></script>
 
     <!---
-<script src="js/gmaps.js"></script>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
-<script src="js/mapapi.js"></script>
---->
+    <script src="js/gmaps.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
+    <script src="js/mapapi.js"></script>
+    --->
+
     <script src="{{asset('js/map-helper.js')}}"></script>
 
     <script src="{{asset('assets/language-switcher/jquery.polyglot.language.switcher.js')}}"></script>
@@ -124,7 +124,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-
 
 
 </body>

@@ -13,14 +13,16 @@ class Sous_Categorie extends Model
         'libelle', 'categorie_id',
     ];
 
-/*     public function subcategory()
+    /*public function subcategory()
     {
         return $this->hasMany(Category::class);
-    } */
+    }*/
 
     public function category()
     {
         return $this->belongsTo(Categorie::class);
     }
+
+
 
 }
