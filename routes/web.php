@@ -41,7 +41,7 @@ Route::resource('/produits' ,ProduitController::class);
 //Route::get('/p-itransmission/{cat_id}', [IndexController::class, 'produits'])->name('itransmission');
 
 
-//Route::get('/admin', [IndexController::class, 'jeff'])->name('jeff');
+Route::get('/admin', [IndexController::class, 'admin'])->name('admin');
 Route::get('/admin/sous_categorie', [IndexController::class, 'sc'])->name('sc');
 
 
@@ -54,6 +54,9 @@ Route::resource('/scategorie' ,Sous_CategorieController::class);
 
 
 Route::get('/ajax-subcat/{cat_id}', [AjaxController::class, 's_cat'])->name('ajax-subcat');
+
+
+Route::get('/result_search', [IndexController::class, 'search'])->name('search');
 
 
 Route::group(['middleware' => 'auth'], function() {

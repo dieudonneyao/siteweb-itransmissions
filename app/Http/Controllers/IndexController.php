@@ -11,7 +11,6 @@ use App\Models\Sous_Categorie;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Collection;
 use RealRashid\SweetAlert\Facades\Alert;
 
 class IndexController extends Controller
@@ -122,6 +121,14 @@ class IndexController extends Controller
     }
 
 
+    public function admin()
+    {
+        $produits    = Produit::all();
+        $categories  = Categorie::all();
+
+        return view('admin',compact('produits','categories'));
+    }
+
     public function produits($cat_id)
     {
         //$cat = $request->categorie;
@@ -132,20 +139,6 @@ class IndexController extends Controller
         //dd($s_cat);
 
         return response()->json($s_cat);
-
-
-      /*   $categorie = Categorie::where('slug', $slug)->first();
-        $categories = Categorie::all();
-        $cat_id = $categorie->id;
-        //dd($cat_id );
-        $s_cat = Sous_Categorie::query()
-            ->where('categorie_id', '=', $cat_id)
-            ->get();
-        //dd($s_cat); */
-
-       // return view('jason',compact('s_cat','categories'));
-
-        //return response()->json($s_cat);
 
     }
 
@@ -216,5 +209,45 @@ class IndexController extends Controller
 
 
     }
+
+
+    function search(Request $request){
+
+        $text = $request->input('search_cat');
+
+        /* $cat_id  = $categorie->id;
+        $scat_id = $s_categorie->id; */
+
+        $produits = DB::table('produits')
+
+            ->join('sous__categories', 'sous__categories.id', '=', 'produits.sous_categorie_id')
+
+            ->join('categories', 'categories.id', '=', 'produits.categorie_id')
+
+            //->where('produits.categorie_id','=', $cat_id)->where('produits.sous_categorie_id','=', $scat_id)
+
+            ->selectRaw('produits.*,
+
+                produits.id,
+
+                produits.libelle as prod,
+
+                categories.libelle as cats,
+
+                sous__categories.libelle as scats'
+            )
+            ->where('cats', 'Like', $text)
+            ->orWhere('scats', 'Like', $text)
+
+            ->orderBy('produits.id', 'desc')
+            ->get();
+
+
+        //$patients = DB::table('patients')->where('firstname', 'Like', "$text")->get();
+
+        return response()->json($produits);
+
+    }
+
 
 }

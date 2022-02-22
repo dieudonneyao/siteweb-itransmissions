@@ -19,7 +19,7 @@
                         <div class="hero__text">
                             <span>Transmission industrielle</span>
                             <h2>Produits de marque</h2>
-                            <p style="size: 14px">Désolé nous avons pas de produits pour cette catégorie de produits !</p>
+                            <p style="font-size: 20px;">Désolé nous avons pas de produits pour cette catégorie de produits !</p>
                             <a href="http://127.0.0.1:8000/product-itransmission" class="primary-btn">itransmission</a>
                         </div>
                     </div>

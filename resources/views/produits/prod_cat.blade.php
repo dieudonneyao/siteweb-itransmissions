@@ -19,26 +19,29 @@
 
                     <div class="row">
 
-                        @foreach ($produits as $item)
-                            <div class="col-xl-4  col-lg-6 col-md-12 col-sm-12">
-                                <div class="single-product-item text-center">
-                                    <div class="img-holder">
-                                        <img src="/uploads/shop/{{$item->image}}" alt="Awesome Product Image">
-                                    </div>
-                                    <div class="title-holder text-center">
-                                        <div class="static-content">
-                                            <h3 class="title text-center"><a href="shop-single.html">{{$item->cats}}</a></h3>
-                                            <span>{{$item->scats}}</span>
+                        @if($produits->isEmpty())
+                            @include('produits.page_vide')
+                        @else
+                            @foreach ($produits as $item)
+                                <div class="col-xl-4  col-lg-6 col-md-12 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="/uploads/shop/{{$item->image}}" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="shop-single.html">{{$item->cats}}</a></h3>
+                                                <span>{{$item->scats}}</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        @endforeach
+                            @endforeach
+                        @endif
 
                         <div class="col-md-12 col-sm-12">
                             {!! $produits->render() !!}
                         </div>
-
 
                     </div>
 
