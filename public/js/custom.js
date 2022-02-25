@@ -12,7 +12,7 @@
 05. prettyPhoto
 06. BrandCarousel
 07. Testimonial carousel
-08. ScrollToTop 
+08. ScrollToTop
 09. Cart Touch Spin
 10. PriceFilter
 11. Cart touch spin
@@ -34,7 +34,7 @@ function mainmenu() {
 	//Submenu Dropdown Toggle
 	if($('.main-menu li.dropdown ul').length){
 		$('.main-menu li.dropdown').append('<div class="dropdown-btn"></div>');
-		
+
 		//Dropdown Button
 		$('.main-menu li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
@@ -200,9 +200,9 @@ function accordion() {
             }else{
                 $(this).addClass('active');
                 $('.accordion .accord-content').slideUp(500);
-                $(this).next('.accord-content').slideDown(500);	
+                $(this).next('.accord-content').slideDown(500);
             }
-        });	
+        });
     }
 }
 
@@ -311,6 +311,7 @@ function projectMasonaryLayout() {
         });
     }
 
+    //GALERIE CATEGORIE PRODUCT LENGTH
     if ($('.post-filter.has-dynamic-filters-counter').length) {
         // var allItem = $('.single-filter-item').length;
         var activeFilterItem = $('.post-filter.has-dynamic-filters-counter').find('li');
@@ -320,6 +321,7 @@ function projectMasonaryLayout() {
             $(this).children('.filter-text').append('<span class="count">' + count + '</span>');
         });
     };
+    //END GALERIE CATEGORIE PRODUCT LENGTH
 }
 
 
@@ -340,7 +342,7 @@ function countryInfo() {
 
 
 
-// Select menu 
+// Select menu
 function selectDropdown() {
     if ($(".selectmenu").length) {
         $(".selectmenu").selectmenu();
@@ -414,7 +416,7 @@ function aboutCarousel () {
                     items:1
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -455,7 +457,7 @@ function projectCarousel () {
                     items:5
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -496,7 +498,7 @@ function brandCarousel () {
                     items:6
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -537,7 +539,7 @@ function brochuresCarousel () {
                     items:1
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -578,7 +580,7 @@ function projectCarouselv2 () {
                     items:3
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -619,7 +621,7 @@ function workingProcessCarousel () {
                     items:3
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -660,7 +662,7 @@ function testimonialCarousel () {
                     items:1
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -701,7 +703,7 @@ function servicesCarousel () {
                     items:1
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -742,7 +744,7 @@ function projectCarouselv3 () {
                     items:4
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -782,7 +784,7 @@ function testimonialCarouselV2 () {
                     items:2
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -822,7 +824,7 @@ function historyCarousel () {
                     items:1
                 }
             }
-        });    		
+        });
     }
 }
 
@@ -868,8 +870,8 @@ if ($('.hidden-bar').length) {
         navToggler.toggleClass('open');
     });
 }
-    
-    
+
+
 
 
 
@@ -878,12 +880,12 @@ if($('.lightbox-image').length) {
     $('.lightbox-image').fancybox({
         openEffect  : 'fade',
         closeEffect : 'fade',
-        
+
         youtube : {
         controls : 0,
         showinfo : 0
     },
-        
+
         helpers : {
             media : {}
         }
@@ -899,10 +901,10 @@ if($('.lightbox-image').length) {
 
 if($('.paroller').length){
     $('.paroller').paroller({
-          factor: 0.05,            // multiplier for scrolling speed and offset, +- values for direction control  
-          factorLg: 0.05,          // multiplier for scrolling speed and offset if window width is less than 1200px, +- values for direction control  
-          type: 'foreground',      // background, foreground  
-          direction: 'horizontal'  // vertical, horizontal  
+          factor: 0.05,            // multiplier for scrolling speed and offset, +- values for direction control
+          factorLg: 0.05,          // multiplier for scrolling speed and offset if window width is less than 1200px, +- values for direction control
+          type: 'foreground',      // background, foreground
+          direction: 'horizontal'  // vertical, horizontal
     });
 }
 
@@ -1021,7 +1023,7 @@ jQuery(document).on('ready', function () {
         tooltip ();
         countryInfo ();
         countDownTimer ();
-        
+
         aboutCarousel ();
         projectCarousel();
         brandCarousel();
@@ -1033,10 +1035,10 @@ jQuery(document).on('ready', function () {
         projectCarouselv3();
         testimonialCarouselV2();
         historyCarousel();
-        
 
-   
- 
+
+
+
 	})(jQuery);
 });
 
@@ -1045,8 +1047,8 @@ jQuery(document).on('ready', function () {
 jQuery(window).on('scroll', function(){
 	(function ($) {
 	stickyHeader ();
-    headerStyle ()  
-    
+    headerStyle ()
+
 	})(jQuery);
 });
 
@@ -1057,7 +1059,7 @@ jQuery(window).on('load', function() {
     (function($) {
         prealoader ();
         projectMasonaryLayout ();
-        
+
     })(jQuery);
 });
 
