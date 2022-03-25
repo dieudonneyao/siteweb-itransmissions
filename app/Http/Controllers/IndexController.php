@@ -52,7 +52,7 @@ class IndexController extends Controller
         )
 
         ->orderBy('produits.id', 'desc')
-        ->paginate(9);
+        ->paginate(10);
         //->get();
 
         //dd($produits);
@@ -64,7 +64,7 @@ class IndexController extends Controller
         })
             ->orderBy('created_at', 'DESC')
             ->with('categorie','s_categorie')
-            ->paginate(3);
+            ->paginate(10);
             //->get();
 
         $quicaillerie = Produit::whereHas('categorie', function ($produits) {
@@ -73,7 +73,7 @@ class IndexController extends Controller
             ->orderBy('created_at', 'DESC')
             ->with('categorie','s_categorie')
             //->get();
-            ->paginate(3);
+            ->paginate(10);
 
         $electricite = Produit::whereHas('categorie', function ($produits) {
             $produits->where('libelle', ['Electricite']);
@@ -81,14 +81,14 @@ class IndexController extends Controller
             ->orderBy('created_at', 'DESC')
             ->with('categorie','s_categorie')
             ///->get();
-            ->paginate(3);
+            ->paginate(10);
 
         $divers = Produit::whereHas('categorie', function ($produits) {
             $produits->where('libelle', ['Divers']);
         })
             ->orderBy('created_at', 'DESC')
             ->with('categorie','s_categorie')
-            ->paginate(3);
+            ->paginate(10);
             //->get();
 
         $huiles = Produit::whereHas('categorie', function ($produits) {
@@ -97,7 +97,7 @@ class IndexController extends Controller
             ->orderBy('created_at', 'DESC')
             ->with('categorie','s_categorie')
             //->get();
-            ->paginate(3);
+            ->paginate(10);
 
         //dd($divers);
 
@@ -175,7 +175,7 @@ class IndexController extends Controller
 
             ->orderBy('produits.id', 'desc')
 
-            ->paginate(2);
+            ->paginate(10);
 
         return view('produits.prod_cat',compact('produits','categories'));
 

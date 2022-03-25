@@ -6,7 +6,7 @@
                 <span class="arrow_carrot-down"></span>
             </div>
             <input type="text" name="search_cat" placeholder="Recherche par categorie">
-            <button type="submit" class="site-btn">Recherche</button>
+            <button type="submit" class="btn btn-sm btn-success">Recherche</button>
         </form>
     </div>
 </div>

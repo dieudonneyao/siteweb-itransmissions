@@ -18,6 +18,7 @@
                     @include('produits.search')
 
                     <div class="row">
+                        
 
                         @if($produits->isEmpty())
                             @include('produits.page_vide')
@@ -38,11 +39,12 @@
                                 </div>
                             @endforeach
                         @endif
-
+                        
                         <div class="col-md-12 col-sm-12">
-                            {!! $produits->render() !!}
+                            <!-- {!! $produits->render() !!} -->
+                            {{ $produits->links('partials.my-paginate') }}
                         </div>
-
+                                               
                     </div>
 
 
