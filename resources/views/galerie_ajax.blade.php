@@ -180,6 +180,6 @@
 <!--Start post pagination-->
 
 
-{!! $produits->render() !!}
+{{ $produits->links('partials.my-paginate') }}
 
 <!--End post pagination-->
