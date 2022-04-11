@@ -15,7 +15,8 @@
         content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
-    <link rel="icon" href="https://demo.dashboardpack.com/adminty-html/files/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
@@ -116,7 +117,7 @@
                                                 </label>
                                             </div>
                                             <div class="forgot-phone text-right f-right">
-                                                <a href="auth-reset-password.html" class="text-right f-w-600"> Mot de passe oublié ?</a>
+                                                <a href="#" class="text-right f-w-600"> Mot de passe oublié ?</a>
                                             </div>
                                         </div>
                                     </div>

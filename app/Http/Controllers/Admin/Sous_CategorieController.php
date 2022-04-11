@@ -131,7 +131,6 @@ class Sous_CategorieController extends Controller
     }
 
 
-
     function edit($id){
         $s_categorie = Sous_Categorie::find($id);
         if($s_categorie){

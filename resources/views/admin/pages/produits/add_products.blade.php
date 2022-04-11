@@ -13,6 +13,8 @@
 
         <div class="card-block">
             <form id="main" action="{{route('produits.store')}}" method="POST" enctype="multipart/form-data">
+                
+                @csrf
 
                 <div class="form-group row">
 
@@ -69,9 +71,9 @@
 
                 $('#categorie').on('change',function(e){
                     var cat_id = e.target.value;
-                    console.log(cat_id);
+                    console.log(cat_id); https://itansmission.afran2021.org/ajouter_produits
 
-                    $.get('http://127.0.0.1:8000/ajax-subcat/'+cat_id,function(data){
+                    $.get('https://itansmission.afran2021.org/ajax-subcat/'+cat_id,function(data){
                         console.log(data);
 
                         $('#subcat').empty();

@@ -90,12 +90,14 @@ class ProduitController extends Controller
         $scats = Sous_Categorie::whereHas('categorie',function($q) use($prod_cat_id){
             $q->where('categorie_id',$prod_cat_id);
         })->get();
+        
+        //dd($scats);
 
         $prod_sact = $produit->sous_categorie_id;
         //dd($prod_sact);
 
         $ss_cat = Sous_Categorie::where('id',$prod_sact)->get();
-        //dd($ss_cat->nom);
+        //dd($ss_cat);
 
 
         foreach ($ss_cat as $key) {
