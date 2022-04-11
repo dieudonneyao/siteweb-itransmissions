@@ -47,7 +47,7 @@ class IndexController extends Controller
 
             categories.libelle as cats,
 
-            sous__categories.libelle as scats'
+            sous__categories.nom as scats'
 
         )
 
@@ -112,8 +112,7 @@ class IndexController extends Controller
     }
 
 
-    public function jeff()
-    {
+    public function jeff(){
         $produits    = Produit::all();
         $categories  = Categorie::all();
 
@@ -121,16 +120,15 @@ class IndexController extends Controller
     }
 
 
-    public function admin()
-    {
+    public function admin(){
         $produits    = Produit::all();
         $categories  = Categorie::all();
 
         return view('admin',compact('produits','categories'));
     }
 
-    public function produits($cat_id)
-    {
+
+    public function produits($cat_id){
         //$cat = $request->categorie;
         $s_cat = Sous_Categorie::query()
             ->where('categorie_id', '=', $cat_id)
@@ -139,14 +137,13 @@ class IndexController extends Controller
         //dd($s_cat);
 
         return response()->json($s_cat);
-
     }
 
 
     function prod_per_scat($cat_libelle,$scat_lib){
 
         $categorie   = Categorie::where('libelle', $cat_libelle)->first();
-        $s_categorie = Sous_Categorie::where('libelle', $scat_lib)->first();
+        $s_categorie = Sous_Categorie::where('nom', $scat_lib)->first();
 
         $produits    = Produit::all();
         $categories  = Categorie::all();
@@ -170,7 +167,7 @@ class IndexController extends Controller
 
                 categories.libelle as cats,
 
-                sous__categories.libelle as scats'
+                sous__categories.nom as scats'
             )
 
             ->orderBy('produits.id', 'desc')
@@ -178,7 +175,6 @@ class IndexController extends Controller
             ->paginate(2);
 
         return view('produits.prod_cat',compact('produits','categories'));
-
 
     }
 
@@ -206,7 +202,6 @@ class IndexController extends Controller
         Alert::success('i-transmissions', 'Votre message a éte envoyé avec succès');
 
         return redirect()->route('contact')->with('success', 'Votre message a éte envoyé avec succès');
-
 
     }
 

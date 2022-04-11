@@ -38,7 +38,7 @@ class Sous_CategorieController extends Controller
     public function store(Request $request)
     {
         $produit = new Sous_Categorie([
-            'libelle'          => $request->input('libelle'),
+            'nom'          => $request->input('libelle'),
             'categorie_id'     => $request->get('categorie_id'),
         ]);
 

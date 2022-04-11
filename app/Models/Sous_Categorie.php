@@ -10,7 +10,7 @@ class Sous_Categorie extends Model
     use HasFactory;
 
     protected $fillable = [
-        'libelle', 'categorie_id',
+        'nom', 'categorie_id',
     ];
 
     /*public function subcategory()
@@ -18,11 +18,9 @@ class Sous_Categorie extends Model
         return $this->hasMany(Category::class);
     }*/
 
-    public function category()
+    public function categorie()
     {
         return $this->belongsTo(Categorie::class);
     }
-
-
 
 }

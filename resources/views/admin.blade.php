@@ -1,4 +1,3 @@
-
 <div>
     <form  action="{{route('produits.store')}}" method="POST" enctype="multipart/form-data">
 

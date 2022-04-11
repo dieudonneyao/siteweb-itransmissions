@@ -18,8 +18,8 @@
             <ul class="content" name="subcat">
                 @foreach ($item['subcategory'] as $sub_item)
                     <li class="{{(Route::currentRouteName()=='itransmission')  ?  'active' : ''}} dropdown">
-                        <a href="{{route('itransmission',[$item->libelle ,$sub_item->libelle])}}">
-                            {{$sub_item->libelle}}
+                        <a href="{{route('itransmission',[$item->libelle ,$sub_item->nom])}}">
+                            {{$sub_item->nom}}
                         </a>
                     </li>
                 @endforeach

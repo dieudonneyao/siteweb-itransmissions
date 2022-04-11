@@ -18,6 +18,7 @@
                     @include('produits.search')
 
                     <div class="row">
+                        
 
                         @if($produits->isEmpty())
                             @include('produits.page_vide')
@@ -30,7 +31,7 @@
                                         </div>
                                         <div class="title-holder text-center">
                                             <div class="static-content">
-                                                <h3 class="title text-center"><a href="shop-single.html">{{$item->cats}}</a></h3>
+                                                <h3 class="title text-center"><a href="">{{$item->cats}}</a></h3>
                                                 <span>{{$item->scats}}</span>
                                             </div>
                                         </div>
@@ -38,11 +39,12 @@
                                 </div>
                             @endforeach
                         @endif
-
+                        
                         <div class="col-md-12 col-sm-12">
-                            {!! $produits->render() !!}
+                            <!-- {!! $produits->render() !!} -->
+                            {{ $produits->links('partials.my-paginate') }}
                         </div>
-
+                                               
                     </div>
 
 

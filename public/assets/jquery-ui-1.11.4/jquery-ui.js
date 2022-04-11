@@ -1166,6 +1166,8 @@ $.position = {
 	}
 };
 
+
+
 $.fn.position = function( options ) {
 	if ( !options || !options.of ) {
 		return _position.apply( this, arguments );
@@ -7388,6 +7390,8 @@ $.widget( "ui.autocomplete", {
 			return;
 		}
 
+        
+
 		return this._search( value );
 	},
 
@@ -7564,7 +7568,7 @@ $.extend( $.ui.autocomplete, {
 $.widget( "ui.autocomplete", $.ui.autocomplete, {
 	options: {
 		messages: {
-			noResults: "No search results.",
+			noResults: "Aucun resulat trouvé.",
 			results: function( amount ) {
 				return amount + ( amount > 1 ? " results are" : " result is" ) +
 					" available, use up and down arrow keys to navigate.";

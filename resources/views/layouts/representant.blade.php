@@ -31,7 +31,7 @@
                     <!--End Single Brand Item-->
                     <!--Start Single Brand Item-->
                     <li class="single-brand-item2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('images/brand/abb.png')}}" alt="Awesome Brand Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/ABB.png')}}" alt="Awesome Brand Image"></a>
                         <div class="overlay-content">
 
                         </div>

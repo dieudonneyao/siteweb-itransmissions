@@ -37,7 +37,7 @@ class ContactForm extends Mailable
             ->markdown('emails.contactMail')
             ->from('no-reply@afran2021.org')
             ->to($email)
-            ->subject("Newsletter itransmission")
+            ->subject("Newsletter nexLevel")
             ->with([
                 'contact' => $this->contact
             ]);
