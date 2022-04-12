@@ -7,32 +7,32 @@
         <div class="pcoded-navigatio-lavel">Navigation</div>
         <ul class="pcoded-item pcoded-left-item">
 
-            <li class=" {{(Route::currentRouteName()=='index')  ?  'active pcoded-trigger' : ''}} ">
-                <a href="{{route('index')}}">
+            <li class=" {{(Route::currentRouteName()=='admin.index')  ?  'active pcoded-trigger' : ''}} ">
+                <a href="{{route('admin.index')}}">
                     <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                     <span class="pcoded-mtext">Accueil</span>
                 </a>
             </li>
 
 
-            <li class="{{(Route::currentRouteName()=='admin_cat')  ?  'active pcoded-trigger' : ''}}">
-                <a href="{{route('admin_cat')}}">
+            <li class="{{(Route::currentRouteName()=='admin.admin_cat')  ?  'active pcoded-trigger' : ''}}">
+                <a href="{{route('admin.admin_cat')}}">
                     <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
                     <span class="pcoded-mtext">Categories</span>
                 </a>
             </li>
 
 
-            <li class="{{(Route::currentRouteName()=='scat')  ?  'active pcoded-trigger' : ''}}">
-                <a href="{{route('scat')}}">
+            <li class="{{(Route::currentRouteName()=='admin.scat')  ?  'active pcoded-trigger' : ''}}">
+                <a href="{{route('admin.scat')}}">
                     <span class="pcoded-micon"><i class="feather icon-package"></i></span>
                     <span class="pcoded-mtext">Sous-Categories</span>
                 </a>
             </li>
 
 
-            <li class="{{(Route::currentRouteName()=='products')  ?  'active pcoded-trigger' : ''}}">
-                <a href="{{route('products')}}">
+            <li class="{{(Route::currentRouteName()=='admin.products')  ?  'active pcoded-trigger' : ''}}">
+                <a href="{{route('admin.products')}}">
                     <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
                     <span class="pcoded-mtext">Produits</span>
                 </a>
@@ -47,8 +47,8 @@
             </li>
 
 
-            <li class="{{(Route::currentRouteName()=='user.index')  ?  'active pcoded-trigger' : ''}}">
-                <a href="{{route('user.index')}}">
+            <li class="{{(Route::currentRouteName()=='admin.user.index')  ?  'active pcoded-trigger' : ''}}">
+                <a href="{{route('admin.user.index')}}">
                     <span class="pcoded-micon"><i class="feather icon-users"></i></span>
                     <span class="pcoded-mtext">Utilisateurs</span>
                 </a>

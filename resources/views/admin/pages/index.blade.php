@@ -24,7 +24,7 @@
             </div>
             <div class="col-xl-3 col-md-6">
                 <div class="card  update-card" style="background-color: #404e67">
-                    <a href="{{route('admin_cat')}}">
+                    <a href="{{route('admin.admin_cat')}}">
                         <div class="card-block">
                             <div class="row align-items-end">
                                 <div class="col-8">
@@ -44,7 +44,7 @@
             </div>
             <div class="col-xl-3 col-md-6">
                 <div class="card  update-card" style="background-color: #404e67">
-                    <a href="{{route('admin_cat')}}">
+                    <a href="{{route('admin.admin_cat')}}">
                         <div class="card-block">
                             <div class="row align-items-end">
                                 <div class="col-8">
@@ -322,9 +322,9 @@
                 </div>
             </div>
 
-            
-                   
-            
+
+
+
         </div>
     </div>
 

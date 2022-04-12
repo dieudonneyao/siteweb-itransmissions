@@ -150,7 +150,7 @@
                                     <h5 class="card-header-text">Nouveau utilisateur</h5>
                                 </div>
 
-                                <form action="{{route('user.store')}}" method="post">
+                                <form action="{{route('admin.user.store')}}" method="post">
 
                                     @csrf
 

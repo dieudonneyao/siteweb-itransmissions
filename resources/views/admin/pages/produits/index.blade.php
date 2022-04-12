@@ -19,7 +19,7 @@
                         <li class="breadcrumb-item"  style="float: left;">
                             <a href="https://demo.dashboardpack.com/adminty-html/index.html"> <i class="feather icon-home"></i> </a>
                         </li>
-                        <li class="breadcrumb-item"  style="float: left;"><a href="{{route('index')}}">Accueil</a>
+                        <li class="breadcrumb-item"  style="float: left;"><a href="{{route('admin.index')}}">Accueil</a>
                         </li>
                         <li class="breadcrumb-item"  style="float: left;"><a href="">nos-produits</a>
                         </li>
@@ -38,7 +38,7 @@
                 <div class="row">
                     <div><h5>i-transmissions</h5> <br></div>
                     <div>
-                        <button  class="btn btn-primary waves-effect" ><a href="{{route('add_products')}}" style="color:white">Ajouter +</a> </button>
+                        <button  class="btn btn-primary waves-effect" ><a href="{{route('admin.add_products')}}" style="color:white">Ajouter +</a> </button>
                     </div>
 
                 </div>
@@ -70,7 +70,7 @@
 
                                     <td>
 
-                                        <a class="text-success mr-2" href="{{route('edit_product',$item->id)}}">
+                                        <a class="text-success mr-2" href="{{route('admin.edit_product',$item->id)}}">
                                             <i class="bi-pencil-square h4"></i>
                                         </a>
 
@@ -129,7 +129,7 @@
             }).then((result) => {
             if (result.isConfirmed) {
                 $.ajax({
-                    url: "/delete_products/" + id,
+                    url: "/dashboard/delete_products/" + id,
                     method: 'delete',
 
                     data: {

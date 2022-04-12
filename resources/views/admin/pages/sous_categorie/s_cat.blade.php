@@ -169,7 +169,7 @@
                         <li class="breadcrumb-item" style="float: left;">
                             <a href="../index.html"> <i class="feather icon-home"></i> </a>
                         </li>
-                        <li class="breadcrumb-item" style="float: left;"><a href="{{route('scat')}}">Accueil</a></li>
+                        <li class="breadcrumb-item" style="float: left;"><a href="{{route('admin.scat')}}">Accueil</a></li>
                         <li class="breadcrumb-item" style="float: left;"><a href="#!">sous-categories</a></li>
                     </ul>
                 </div>
@@ -226,7 +226,7 @@
 
         function fetchAllSous_Categorie(){
             $.ajax({
-                url: "/fetch-subcategories",
+                url: "/dashboard/fetch-subcategories",
                 method: 'get',
                 success: function(response) {
                     $("#show_all_s_categorie").html(response);
@@ -257,7 +257,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "/sous_categories",
+                url: "/dashboard/sous_categories",
                 data: data,
                 dataType: "json",
 
@@ -298,7 +298,7 @@
             let s_categorie_id = $(this).attr('id');
             //alert(s_categorie_id)
             $.ajax({
-                url: "/edit_sous_categorie/" + s_categorie_id,
+                url: "/dashboard/edit_sous_categorie/" + s_categorie_id,
                 method: 'get',
                 data: {
                 id: s_categorie_id,
@@ -333,7 +333,7 @@
 
             $.ajax({
                 type: "PUT",
-                url: "/update_sous_categorie/" + s_categorie_id,
+                url: "/dashboard/update_sous_categorie/" + s_categorie_id,
                 data: data,
                 dataType: "json",
                 success: function(response) {
@@ -371,7 +371,7 @@
             }).then((result) => {
             if (result.isConfirmed) {
                 $.ajax({
-                url: "/delete_sous_categorie/" + id,
+                url: "/dashboard/delete_sous_categorie/" + id,
                 method: 'delete',
                 data: {
                     id: id,

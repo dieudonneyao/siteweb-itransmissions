@@ -105,7 +105,7 @@
                                                 <div
                                                     class="dropdown-menu dropdown-menu-right b-none contact-menu">
 
-                                                    <form action="{{route('user.delete',$item->id)}}" method="post">
+                                                    <form action="{{route('admin.user.delete',$item->id)}}" method="post">
                                                         <a class="dropdown-item"
                                                             href=""><i
                                                                 class="icofont icofont-edit"></i>Edit</a>

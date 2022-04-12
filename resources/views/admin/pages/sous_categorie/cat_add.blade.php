@@ -24,7 +24,7 @@
                         <label for="">Slug</label>
                         <input type="text" required class="slug form-control">
                     </div>
-                    
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Fermer</button>
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-   
+
     {{-- edit categorie modal start --}}
     <div class="modal fade" id="categorieModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             data-bs-backdrop="static" aria-hidden="true">
@@ -45,10 +45,10 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-              
+
                 <input type="hidden" name="categorie_id" id="categorie_id">
                 <div class="modal-body p-4 bg-light">
-                    
+
                     <div class="row">
                         <div class="col-lg">
                             <label for="fname">libelle</label>
@@ -59,13 +59,13 @@
                             <input type="text" name="slug" id="slug" class="form-control" placeholder="slug" required>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Fermer</button>
                     <button type="submit" class="btn btn-primary edit_categorie_btn" class="btn btn-success">Modifier Categorie</button>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
                 <div class="row">
                     <div class="col-md-4">
                     </div>
-                    
+
                     <div class="col-md-6" style="margin-top: -6%" id="success_message"></div>
                     <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" id="AddStudentModalLabel" data-target="#small-Modal">Ajouter +</button>
                 </div>
@@ -194,7 +194,7 @@
 
         function fetchAllCategorie() {
             $.ajax({
-                url: "/fetch-categories",
+                url: "/dashboard/fetch-categories",
                 method: 'get',
                 success: function(response) {
                         $("#show_all_categorie").html(response);
@@ -204,7 +204,7 @@
                     }
                 });
         }
-        
+
         $(document).on('click', '.add_student', function (e) {
             e.preventDefault();
 
@@ -224,7 +224,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "/categories",
+                url: "/dashboard/categories",
                 data: data,
                 dataType: "json",
 
@@ -265,7 +265,7 @@
             let categorie_id = $(this).attr('id');
             //alert(categorie_id)
             $.ajax({
-                url: "/edit-categorie/" + categorie_id,
+                url: "/dashboard/edit-categorie/" + categorie_id,
                 method: 'get',
                 data: {
                 id: categorie_id,
@@ -300,7 +300,7 @@
 
             $.ajax({
                 type: "PUT",
-                url: "/update-categorie/" + categorie_id,
+                url: "/dashboard/update-categorie/" + categorie_id,
                 data: data,
                 dataType: "json",
                 success: function(response) {
@@ -317,8 +317,8 @@
                     $("#categorieModal").modal('hide');
                 }
             });
-               
-            
+
+
 
         });
 
@@ -338,7 +338,7 @@
             }).then((result) => {
             if (result.isConfirmed) {
                 $.ajax({
-                url: "/delete-categorie/" + id,
+                url: "dashboard/delete-categorie/" + id,
                 method: 'delete',
                 data: {
                     id: id,
@@ -358,7 +358,7 @@
             })
         });
 
-    
+
     });
 
 </script>

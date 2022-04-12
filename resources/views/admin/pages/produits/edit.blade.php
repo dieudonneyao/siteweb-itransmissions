@@ -12,7 +12,7 @@
             <span>Ajouter <code>un produit</code></span>
         </div>
         <div class="card-block">
-            <form id="main" action="{{route('update_product',$produit->id)}}" method="POST" enctype="multipart/form-data">
+            <form id="main" action="{{route('admin.update_product',$produit->id)}}" method="POST" enctype="multipart/form-data">
 
                 @method('PUT')
                 @csrf
@@ -106,7 +106,7 @@
                     var cat_id = e.target.value;
                     //console.log(cat_id);
 
-                    $.get('http://127.0.0.1:8000/ajax-subcat/'+cat_id,function(data){
+                    $.get('http://127.0.0.1:8000/dashboard/ajax-subcat/'+cat_id,function(data){
                         //console.log(data);
 
                         $('#subcat').empty();

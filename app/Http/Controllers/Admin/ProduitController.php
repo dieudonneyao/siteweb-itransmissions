@@ -68,7 +68,7 @@ class ProduitController extends Controller
         //dd($produit->image);
 
         $produit->save();
-        return redirect()->route('products')->with('success', 'Votre produit a éte enregistré avec succès');
+        return redirect()->route('admin.products')->with('success', 'Votre produit a éte enregistré avec succès');
 
     }
 
@@ -90,14 +90,12 @@ class ProduitController extends Controller
         $scats = Sous_Categorie::whereHas('categorie',function($q) use($prod_cat_id){
             $q->where('categorie_id',$prod_cat_id);
         })->get();
-        
-        //dd($scats);
 
         $prod_sact = $produit->sous_categorie_id;
         //dd($prod_sact);
 
         $ss_cat = Sous_Categorie::where('id',$prod_sact)->get();
-        //dd($ss_cat);
+        //dd($ss_cat->nom);
 
 
         foreach ($ss_cat as $key) {
@@ -158,14 +156,14 @@ class ProduitController extends Controller
 
                 if ($request->get('subcat') || $request->get('categorie')) {
                     # code...
-                    return Redirect::to('/edit_products/'.$ids)->with('danger', 'Veuillez renseigner la catégorie et la sous-catégorie');
+                    return Redirect::to('/dashboard/edit_products/'.$ids)->with('danger', 'Veuillez renseigner la catégorie et la sous-catégorie');
                 }
 
                 $produit->update(['updated_at' => now()]);
 
                 $produit->update();
 
-                return redirect()->route('products')->with('success', 'Votre produit a éte modifié avec succès');
+                return redirect()->route('admin.products')->with('success', 'Votre produit a éte modifié avec succès');
 
             }
 
@@ -183,9 +181,24 @@ class ProduitController extends Controller
         $product = Produit::find($id);
         $product->delete();
 
-        return redirect()->route('products')
+        return redirect()->route('admin.products')
             ->with('success', 'Suppression effectuée avec succès');
 
     }
 
 }
+
+/**
+ * Un servlet est un composant web JEE qui permet d'effectuer des traitements du coté du serveur
+ * suite à une requete HTTP et d'envoyer une reponse HTTP;
+ * classe java à linterieur de laquelle on peut generer du code java
+ *
+ * Une servlet est une classe Java qui herite de HttpServlet et qui redefinie des methodes
+ * comme doGet, doPost, doPut, doDelete; doHead.Et d'autres methodes qui definissent son cycle de vie
+ *
+ * la methode doX est executée si une requete HTTP est envoyée par un client http avec la methode X
+ *
+ * executer  une operation au demarrage de l'application
+ *
+ * serveur, cycle de vie du servlet
+ */

@@ -195,7 +195,7 @@
 
         function fetchAllCategorie() {
             $.ajax({
-                url: "/fetch-categories",
+                url: "/dashboard/fetch-categories",
                 method: 'get',
                 success: function(response) {
                         $("#show_all_categorie").html(response);
@@ -226,7 +226,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "/categories",
+                url: "/dashboard/categories",
                 data: data,
                 dataType: "json",
 
@@ -267,7 +267,7 @@
             let categorie_id = $(this).attr('id');
             //alert(categorie_id)
             $.ajax({
-                url: "/edit-categorie/" + categorie_id,
+                url: "/dashboard/edit-categorie/" + categorie_id,
                 method: 'get',
                 data: {
                 id: categorie_id,
@@ -303,7 +303,7 @@
 
             $.ajax({
                 type: "PUT",
-                url: "/update-categorie/" + categorie_id,
+                url: "/dashboard/update-categorie/" + categorie_id,
                 data: data,
                 dataType: "json",
                 success: function(response) {
@@ -342,7 +342,7 @@
             }).then((result) => {
             if (result.isConfirmed) {
                 $.ajax({
-                url: "/delete-categorie/" + id,
+                url: "/dashboard/delete-categorie/" + id,
                 method: 'delete',
                 data: {
                     id: id,

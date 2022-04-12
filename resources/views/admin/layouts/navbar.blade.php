@@ -90,13 +90,13 @@
                             </li>
 
                             <li>
-                                <a href="{{route('auth.logout')}}">
+                                <a href="{{route('admin.auth.logout')}}">
                                     <i class="ti-layout-sidebar-left" onclick="event.preventDefault();
                                             document.getElementById('logout-form').submit();">
                                     </i>Deconnexion
                                 </a>
 
-                                <form id="logout-form" action="{{route('auth.logout')}}" method="" style="display: none;">
+                                <form id="logout-form" action="{{route('admin.auth.logout')}}" method="" style="display: none;">
                                     @csrf
                                 </form>
                             </li>
