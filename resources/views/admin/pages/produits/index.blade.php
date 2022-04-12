@@ -3,7 +3,9 @@
 @section('content')
 
     <div class="page-header">
+
         <div class="row align-items-end">
+
             <div class="col-lg-8">
                 <div class="page-header-title">
                     <div class="d-inline">
@@ -13,6 +15,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
                 <div class="page-header-breadcrumb">
                     <ul class="breadcrumb-title">
@@ -26,7 +29,9 @@
                     </ul>
                 </div>
             </div>
+
         </div>
+
     </div>
     <!-- Page-header end -->
 
@@ -34,17 +39,21 @@
     <div class="page-body">
         <!-- DOM/Jquery table start -->
         <div class="card">
+
             <div class="card-header">
                 <div class="row">
                     <div><h5>i-transmissions</h5> <br></div>
-                    <div>
-                        <button  class="btn btn-primary waves-effect" ><a href="{{route('admin.add_products')}}" style="color:white">Ajouter +</a> </button>
-                    </div>
+
+
+                        <div>
+                            <button  class="btn btn-primary waves-effect" ><a href="{{route('admin.add_products')}}" style="color:white">Ajouter +</a> </button>
+                        </div>
+
 
                 </div>
-
                 <span></span>
             </div>
+
             <div class="card-block">
                 <div class="table-responsive dt-responsive">
                     <table id="dom-jqry"
@@ -56,7 +65,10 @@
                                 <th>Image</th>
                                 <th>Categorie</th>
                                 <th>Sous-categorie</th>
+
                                 <th>Action</th>
+
+
                             </tr>
                         </thead>
 
@@ -69,7 +81,6 @@
                                     <td>{{$item->sous_categorie_id}}</td>
 
                                     <td>
-
                                         <a class="text-success mr-2" href="{{route('admin.edit_product',$item->id)}}">
                                             <i class="bi-pencil-square h4"></i>
                                         </a>
@@ -90,7 +101,9 @@
                                 <th>Image</th>
                                 <th>Categorie</th>
                                 <th>Sous-categorie</th>
+
                                 <th>Action</th>
+
                             </tr>
                         </tfoot>
                     </table>
@@ -103,6 +116,7 @@
 @endsection
 
 @section('scripts')
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.10.25/datatables.min.js"></script>

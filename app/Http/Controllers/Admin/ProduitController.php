@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Redirect;
 
 class ProduitController extends Controller
 {
-     /**
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -37,9 +38,12 @@ class ProduitController extends Controller
      */
     public function create_products()
     {
-        $categories = Categorie::all();
+        //$categories = Categorie::all();
+        $categories = Categorie::query()->where('libelle','!=' , 'categorie')->get();
+        //dd($categories);
         return view('admin.pages.produits.add_products', compact('categories'));
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -72,6 +76,7 @@ class ProduitController extends Controller
 
     }
 
+
     /**
      * Display the specified resource.
      *
@@ -81,8 +86,9 @@ class ProduitController extends Controller
     public function edit_products($id)
     {
         $produit= Produit::find($id);
-        //dd($produit);
-        $categories   = Categorie::all();
+        //$categories   = Categorie::all();
+        $categories = Categorie::query()->where('libelle','!=' , 'categorie')->get();
+        //dd($categories);
         $prod_cat     = $produit->categorie;
         $prod_cat_id  = $produit->categorie->id;
         //dd($prod_cat_id);
@@ -170,6 +176,7 @@ class ProduitController extends Controller
         }
     }
 
+
     /**
      * Remove the specified resource from storage.
      *
@@ -183,7 +190,6 @@ class ProduitController extends Controller
 
         return redirect()->route('admin.products')
             ->with('success', 'Suppression effectuée avec succès');
-
     }
 
 }

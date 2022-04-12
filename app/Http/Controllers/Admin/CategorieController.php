@@ -23,7 +23,8 @@ class CategorieController extends Controller{
             'categories'=>$categories,
         ]); */
 
-        $categories = Categorie::all();
+        $categories = Categorie::query()->where('libelle','!=' , 'categorie')->get();
+        //dd($categories);
 		$output = '';
 		if ($categories->count() > 0) {
 			$output .= '<table id="dom-jqry"  class="table table-striped table-bordered nowrap" style="width:100%">

@@ -35,9 +35,9 @@ Route::group(['middleware' => ['auth']],function(){
         Route::get('/products', [ProduitController::class, 'index'])->name('products');
         Route::get('/products/{id}', [ProduitController::class, 'show'])->name('products_edits');
 
-        Route::post('/products', [ProduitController::class, 'store'])->name('add_products');
+        //Route::post('/products', [ProduitController::class, 'store'])->name('add_products');
         Route::get('/fetch-Products', [ProduitController::class, 'fetch_products'])->name('fetch_products');
-        Route::get('/ajouter_produits', [ProduitController::class, 'create_products'])->name('add_products');
+        Route::post('/ajouter_produits', [ProduitController::class, 'store'])->name('add_products');
 
         Route::get('/edit_products/{id}', [ProduitController::class, 'edit_products'])->name('edit_product');
         Route::put('/update_products/{id}', [ProduitController::class, 'update_products'])->name('update_product');
@@ -52,7 +52,6 @@ Route::group(['middleware' => ['auth']],function(){
         Route::get('/itransmissions_users/{id}/edit',[UserController::class, 'edit'])->name('user.edit');
         Route::put('/itransmissions_users/{id}/update',[UserController::class, 'update'])->name('user.update');
         Route::delete('/itransmissions_users/{id}/delete',[UserController::class, 'destroy'])->name('user.delete');
-
 
         /* Route::controller(UserController::class)->group(function(){
             Route::get('items', 'index')->name('items.index');

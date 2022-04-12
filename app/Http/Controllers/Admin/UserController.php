@@ -22,8 +22,14 @@ class UserController extends Controller
         $user_auth = Auth::user();
 
         $user_role1 = User::whereHas("roles", function($q) {
-            $q->where("name", "super_admin");
+            $q->where("name", '!=', "super_admin");
         })->count();
+
+        $us_ = User::whereHas("roles", function($q) {
+            $q->where("name", '!=', "super_admin");
+        })->get();
+
+        //dd($us_);
 
         $user_role2 = User::whereHas("roles", function($q) {
             $q->where("name", "admin");
@@ -33,7 +39,7 @@ class UserController extends Controller
             $q->where("name", "utilisateur");
         })->count();
 
-        return view('admin.pages.user.user',compact('users','roles','user_auth','user_role1','user_role2','user_role3'));
+        return view('admin.pages.user.user',compact('users','roles','user_auth','user_role1','user_role2','user_role3','us_'));
 
     }
 

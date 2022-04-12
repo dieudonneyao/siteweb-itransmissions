@@ -5,7 +5,6 @@
         <div class="col-xl-3">
             <!-- user contact card left side start -->
             <div class="card">
-
                 <div class="card-header contact-user">
                     {{-- <img class="img-radius img-40"
                         src="../files/assets/images/avatar-4.jpg"
@@ -73,58 +72,67 @@
                                             <th>Nom utilisateur</th>
                                             <th>Email</th>
                                             <th>Contact</th>
-                                            <th>Rôle</th>
-                                            <th>Action</th>
+                                            @role('super_admin')
+                                                <th>Rôle</th>
+                                                <th>Action</th>
+                                            @endrole
+
+
+
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($users as $item)
+                                        @foreach ($us_ as $item)
                                         <tr>
                                             <td>{{$item->full_name}}</td>
                                             <td>{{$item->name}}</td>
                                             <td>{{$item->email}}</td>
                                             <td>{{$item->contact}}</td>
 
-                                            <td>
-                                                @if(!empty($item->getRoleNames()))
-                                                    @foreach($item->getRoleNames() as $v)
-                                                        <label class="badge badge-success">{{ $v }}</label>
-                                                    @endforeach
-                                                @endif
-                                            </td>
-
-                                            <td class="dropdown">
-                                                <button
-                                                    type="button"
-                                                    class="btn btn-primary dropdown-toggle"
-                                                    data-toggle="dropdown"
-                                                    aria-haspopup="true"
-                                                    aria-expanded="false"><i class="fa fa-cog"aria-hidden="true"></i>
-                                                </button>
-
-                                                <div
-                                                    class="dropdown-menu dropdown-menu-right b-none contact-menu">
-
-                                                    <form action="{{route('admin.user.delete',$item->id)}}" method="post">
-                                                        <a class="dropdown-item"
-                                                            href=""><i
-                                                                class="icofont icofont-edit"></i>Edit</a>
+                                            @role('super_admin')
+                                                <td>
+                                                    @if(!empty($item->getRoleNames()))
+                                                        @foreach($item->getRoleNames() as $v)
+                                                            <label class="badge badge-success">{{ $v }}</label>
+                                                        @endforeach
+                                                    @endif
+                                                </td>
 
 
-                                                        @csrf
-                                                        @method('DELETE')
+                                                <td class="dropdown">
+                                                    <button
+                                                        type="button"
+                                                        class="btn btn-primary dropdown-toggle"
+                                                        data-toggle="dropdown"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false"><i class="fa fa-cog"aria-hidden="true"></i>
+                                                    </button>
 
-                                                        <button type="submit" style="border:none">
-                                                            <a class="dropdown-item"><i
-                                                                class="icofont icofont-ui-delete"></i>Delete
-                                                            </a>
-                                                        </button>
+                                                    <div
+                                                        class="dropdown-menu dropdown-menu-right b-none contact-menu">
+
+                                                        <form action="{{route('admin.user.delete',$item->id)}}" method="post">
+                                                            <a class="dropdown-item"
+                                                                href=""><i
+                                                                    class="icofont icofont-edit"></i>Edit</a>
 
 
-                                                    </form>
+                                                            @csrf
+                                                            @method('DELETE')
 
-                                                </div>
-                                            </td>
+                                                            <button type="submit" style="border:none">
+                                                                <a class="dropdown-item"><i
+                                                                    class="icofont icofont-ui-delete"></i>Delete
+                                                                </a>
+                                                            </button>
+
+
+                                                        </form>
+
+                                                    </div>
+                                                </td>
+                                            @endrole
+
                                         </tr>
                                         @endforeach
 
@@ -137,8 +145,12 @@
                                             <th>Nom utilisateur</th>
                                             <th>Email</th>
                                             <th>Contact</th>
-                                            <th>Rôle</th>
-                                            <th>Action</th>
+
+                                            @role('super_admin')
+                                                <th>Rôle</th>
+                                                <th>Action</th>
+                                            @endrole
+
                                         </tr>
                                     </tfoot>
 

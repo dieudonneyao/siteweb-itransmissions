@@ -2,6 +2,7 @@
 <html lang="en">
 
     <head>
+
         <title>itransmissions</title>
 
         <meta charset="utf-8" />
@@ -43,6 +44,7 @@
 
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css' />
 
+        <link rel="stylesheet" href="{{ asset('admin/select2/css/select2.min.css') }}" />
 
     </head>
 
@@ -117,7 +119,8 @@
 
 
         {{-- <script type="text/javascript" src="{{asset('admin/bower_components/jquery/dist/jquery.min.js')}}"></script> --}}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        <script src="{{ asset('admin/select2/js/select2.min.js') }}"></script>
 
         <script type="text/javascript" src="{{asset('admin/bower_components/jquery-ui/jquery-ui.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('admin/bower_components/popper.js/dist/umd/popper.min.js')}}"></script>
@@ -148,12 +151,10 @@
         <script src="{{asset('admin/assets/pages/data-table/js/dataTables.bootstrap4.min.js')}}"></script>
         <script src="{{asset('admin/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js')}}"></script>
         <script src="{{asset('admin/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js')}}"></script> --}}
-
         <script src="{{asset('admin/assets/pages/user-profile.js')}}"></script>
         <script src="{{asset('admin/assets/js/pcoded.min.js')}}"></script>
         <script src="{{asset('admin/assets/js/vartical-layout.min.js')}}"></script>
         <script src="{{asset('admin/assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-
 
         <script src="{{asset('admin/assets/pages/data-table/js/dataTables.bootstrap4.min.js')}}"></script>
         <script src="{{asset('admin/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js')}}"></script>
@@ -176,9 +177,8 @@
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
-
-
         @yield('scripts')
+
 
     </body>
 

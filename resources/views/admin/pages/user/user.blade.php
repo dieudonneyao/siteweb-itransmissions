@@ -65,8 +65,9 @@
                                 <div class="col-md-12">
                                     <div class="media-left">
                                         <a href="#" class="profile-image">
+
                                             <img class="user-img img-radius"
-                                                src="{{asset('admin/assets/images/user-profile/user-img.jpg')}}"
+                                                src="{{asset('images/user.png')}}" style="height:80px"
                                                 alt="user-img">
                                         </a>
                                     </div>
@@ -178,8 +179,9 @@
 
                                         {!! Form::select('roles[]', $roles,[], array('class' => 'form-control select2 js-example-basic-multiple col-sm-12','multiple')) !!}<br>
 
-                                        <button type="submit" class="btn btn-primary waves-effect waves-light m-r-20" >Enregistrer</button>
-
+                                        @role('super_admin')
+                                            <button type="submit" class="btn btn-primary waves-effect waves-light m-r-20" >Enregistrer</button>
+                                        @endrole
                                         <!-- end of table col-lg-6 -->
                                     </div>
 

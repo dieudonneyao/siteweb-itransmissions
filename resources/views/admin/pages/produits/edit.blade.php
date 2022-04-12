@@ -6,15 +6,18 @@
 
     <!-- Basic Inputs Validation start -->
     <div class="card">
+
         <div class="card-header">
             @include('admin.layouts.message')
             <h5>tableau de bord i-transmission</h5>
             <span>Ajouter <code>un produit</code></span>
         </div>
+
         <div class="card-block">
             <form id="main" action="{{route('admin.update_product',$produit->id)}}" method="POST" enctype="multipart/form-data">
 
                 @method('PUT')
+
                 @csrf
 
                 <div class="form-group row">
@@ -53,6 +56,7 @@
                         <h4 class="sub-title">Votre image ici</h4>
                         <input type="file" name="image" id="filetag">
                     </div>
+
 
                     <img id="preview" height="145" width="160" src="/uploads/shop/{{$produit->image}}" class="thumb-preview" alt="">
 

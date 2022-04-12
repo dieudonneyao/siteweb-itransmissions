@@ -12,7 +12,8 @@
         </div>
 
         <div class="card-block">
-            <form id="main" action="{{route('admin.produits.store')}}" method="POST" enctype="multipart/form-data">
+
+            <form id="main" action="{{route('admin.add_products')}}" method="POST" enctype="multipart/form-data">
 
                 @csrf
 
@@ -66,14 +67,13 @@
             <!-- Basic Inputs Validation end -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
             <script>
 
                 $('#categorie').on('change',function(e){
                     var cat_id = e.target.value;
                     console.log(cat_id); https://itansmission.afran2021.org/ajouter_produits
 
-                    $.get('https://itansmission.afran2021.org/dashboard/ajax-subcat/'+cat_id,function(data){
+                    $.get('/dashboard/ajax-subcat/'+cat_id,function(data){
                         console.log(data);
 
                         $('#subcat').empty();
@@ -90,7 +90,6 @@
         </div>
     </div>
 </div>
-
 
 
 @endsection
