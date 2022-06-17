@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="top-style1 clearfix">
-                    <p> Bureau de distributions, Ventes de Pièces de Transmissions Industrielles et Automobiles</p>
+                    <p class="text-white">Entreprise i-transmissions, Bureau de distributions, Ventes de Pièces de Transmissions Industrielles et Automobiles</p>
                 </div>
             </div>
         </div>
