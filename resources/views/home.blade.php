@@ -1,4 +1,5 @@
 @extends('layouts.base')
+@section('title', 'Accueil')
 @section('content')
 
 <section class="main-slider">
@@ -93,7 +94,7 @@
                         data-hoffset="['15','15','15','15']" data-voffset="['-75','-10','-25','-30']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
                 {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content left-slide">
-                            <div class="text">Distribution et vente de pièces de transmission  <br>industrielles et automobile.</div>
+                            <div class="text">Distribution et vente de pièces de transmission  <br>industrielles</div>
                         </div>
                     </div>
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal"
@@ -766,11 +767,11 @@
                     <!--Start single project style1-->
                     <div class="single-project-style1">
                         <div class="img-holder">
-                            <img src="images/projects/lat-pro-21.jpg" alt="Awesome Image">
+                            <img src="images/projects/lat-pro-21.jpg" alt="EPI">
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="/product">Quincaillérie<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="/product">EPI<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -784,11 +785,11 @@
                     <!--Start single project style1-->
                     <div class="single-project-style1">
                         <div class="img-holder">
-                            <img src="images/projects/lat-pro-22.jpg" alt="Awesome Image">
+                            <img src="images/projects/lat-pro-22.jpg" alt="EPI">
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a class="btn-one" href="/product">Quincaillérie<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="/product">EPI<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -938,7 +939,7 @@
                         <div class="map-content-box">
                             <div class="sec-title">
                                 <p>Nos contacts</p>
-                                <div class="title"><Datag>Déclinez-nous</Datag> <span>vos besoins</span></div>
+                                <div class="title"><Datag>Décrivez-nous</Datag> <span>vos besoins</span></div>
                             </div>
                             <div class="inner paroller">
                                 <img src="images/resources/map.png" alt="Map">
@@ -1012,7 +1013,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="single-blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="img-holder">
-                                <img src="images/blog/latest-b-v1-1.jpg" alt="Awesome Image">
+                            <img src="images/team/M.ADJIRI5.png" alt="Visite yara">
                                 <div class="overlay-style-two"></div>
                                 <div class="overlay">
                                     <div class="box">
@@ -1024,12 +1025,12 @@
                             </div>
                             <div class="text-holder">
                                 <div class="post-date">
-                                    <h3>25 <span>Décembre 2021</span></h3>
+                                    <h3>18 <span>Février 2022</span></h3>
                                 </div>
                                 
-                                <h3 class="blog-title"><a href="blog-single.html">Arbre de Noèl pour les enfants.</a></h3>
+                                <h3 class="blog-title"><a href="blog-single.html">Visite à la société YARA.</a></h3>
                                 <div class="text">
-                                    <p>Il a été organisé un Arbre de Noël pour les enfants du personnel de i-transmissions.</p>
+                                    <p>Le CEO, dans son soucis d'expansion de i-transmissions privilégie les collaborations.</p>
                                     <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
@@ -1040,7 +1041,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="single-blog-post wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="img-holder">
-                                <img src="images/blog/latest-b-v1-2.jpg" alt="Awesome Image">
+                            <img src="images/team/9.jpg" alt="Visite yara">
                                 <div class="overlay-style-two"></div>
                                 <div class="overlay">
                                     <div class="box">
@@ -1057,7 +1058,7 @@
                                 
                                 <h3 class="blog-title"><a href="blog-single.html">Bonne Année 2022</a></h3>
                                 <div class="text">
-                                    <p>Traditionnelle présentation des voeux par le CEO de i-transmissions.</p>
+                                    <p>Traditionnelle présentation des voeux par l'équipe de i-transmissions.</p>
                                     <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
@@ -1068,7 +1069,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="single-blog-post wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="img-holder">
-                                <img src="images/blog/latest-b-v1-3.jpg" alt="Awesome Image">
+                            <img src="images/team/salontechnologie.jpg" alt="Salon de la technologie">
                                 <div class="overlay-style-two"></div>
                                 <div class="overlay">
                                     <div class="box">
@@ -1083,9 +1084,9 @@
                                     <h3>10 <span>Jan 2022</span></h3>
                                 </div>
                                 
-                                <h3 class="blog-title"><a href="blog-single.html">Salon de l'automobile</a></h3>
+                                <h3 class="blog-title"><a href="blog-single.html">Salon de la technologie</a></h3>
                                 <div class="text">
-                                    <p>i-transmissions était présent lors du salon organisé pour la promotion de l'automobile.</p>
+                                    <p>i-transmissions était présent lors du salon organisé pour la promotion de la technologie.</p>
                                     <a class="btn-two" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                 </div>
                             </div>
@@ -1157,12 +1158,12 @@
                             <!--End Single Brand Item-->
 
                             <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                            <!-- <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
                                 <div class="overlay-content">
                                     <p>SECO</p>
                                 </div>
-                            </li>
+                            </li> -->
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">

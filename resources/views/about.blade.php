@@ -1,5 +1,5 @@
 @extends('layouts.base')
-
+@section('title', 'Présentation')
 @section('content')
         <!--Start breadcrumb area-->
    <!--      <section class="breadcrumb-area" style="background-image: url(images/resources/banner.jpg);">
@@ -385,19 +385,6 @@
                         </div>
                     </div>
                     <!--End Single Team Member-->
-                    <!--Start Single Team Member-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-team-member">
-                            <div class="img-holder">
-                                <img src="images/team/9.jpg" alt="Awesome Image">
-                            </div>
-                            <div class="name text-center">
-                                <p><span>Stagiaire</span></p>
-                                <h3>Assistant Commercial</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Team Member--> 
                 </div>
             </div>
         </section>
@@ -460,16 +447,7 @@
                                     <p>SAPH</p>
                                 </div>
                             </li>
-                            <!--End Single Brand Item-->
-
-                            <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
-                                <div class="overlay-content">
-                                    <p>SECO</p>
-                                </div>
-                            </li>
-                            <!--End Single Brand Item-->
+                            <!--End Single Brand Item-->                          
                             <!--Start Single Brand Item-->
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                                 <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
@@ -478,13 +456,7 @@
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
-                            <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/7.png" alt="Awesome Brand Image"></a>
-                                <div class="overlay-content">
-                                    <p>SECO</p>
-                                </div>
-                            </li>
+                          
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">

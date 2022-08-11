@@ -9,7 +9,7 @@
                     <div class="inner-container clearfix">
                         <div class="logo-box-style1 float-left">
                             <a href="{{route('accueil')}}">
-                                <img src="{{asset('images/resources/logo.png')}}" alt="i-transmission" href="">
+                                <img src="{{asset('images/resources/logoitransmission.png')}}" alt="i-transmission" href="/">
                             </a>
                         </div>
                         <div class="main-menu-box float-right">
@@ -127,7 +127,7 @@
                                         <span class="icon-phone"></span>
                                     </div>
                                     <div class="text">
-                                        <h3>(+225 ) 21 00 93 68 / 01 02 72 32 92 </h3>
+                                        <h3>(+225) 07 49 77 83 43/01 02 72 32 92 </h3>
                                         <p>Lun - Vendredi: 8.00 to 17.00</p>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="text">
                                         <h3>info@i-transmissions.com</h3>
-                                        <p>contact@i-transmission.com</p>
+                                        <p>contact@i-transmissions.com</p>
                                     </div>
                                 </div>
                             </li>

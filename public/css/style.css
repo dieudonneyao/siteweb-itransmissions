@@ -1357,8 +1357,8 @@ select:focus {
     padding: 0 40px;
     margin-top: -45px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 4px 11px -1px #ECECEC;
-    box-shadow: 0px 4px 11px -1px #ECECEC;
+    -webkit-box-shadow: 0px 4px 11px -1px #CCC;
+    box-shadow: 0px 4px 11px -1px #CCC;
     z-index: 9999999999;
 }
 .logo-box-style1 {
@@ -1366,6 +1366,8 @@ select:focus {
     display: block;
     margin: 20px 0;
     transition: all 500ms ease 100ms;
+    border-left : 6px solid #e9212e;
+    padding: 0px 10px;
 }
 .logo-box-style1 a{
     display: inline-block;
@@ -1810,7 +1812,6 @@ select:focus {
 .header-contact-info li .single-item .text h3{
     font-size: 18px;
     font-weight: 500;
-    text-transform: capitalize;
     font-family: 'Rubik', sans-serif;
 }
 .header-contact-info li .single-item .text p{

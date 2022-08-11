@@ -1,5 +1,5 @@
 @extends('layouts.base')
-
+@section('title', 'Galerie')
 @section('content')
 <section class="breadcrumb-area style2" style="background-image: url(images/resources/banner.jpg);">
     <div class="container">

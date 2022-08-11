@@ -1,4 +1,5 @@
 @extends('layouts.base')
+@section('title', 'Services')
 @section('content')
   
 
@@ -43,9 +44,6 @@
                 </div>
                 <div class="row">
                     <!--Start single service style2-->
-                   
-                    <!--End single service style2-->
-                    <!--Start single service style2-->
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="single-service-style2 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
                             <div class="img-holder">
@@ -69,34 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End single service style2-->
-                    
-                    <!--Start single service style2-->
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="single-service-style2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                            <div class="img-holder">
-                                <img src="images/services/v2-6.jpg" alt="Awesome Image">
-                                <div class="overlay-style-two"></div>
-                            </div>
-                            <div class="text-holder">
-                                <div class="icon-holder">
-                                    <span class="icon-cupboard"></span>
-                                </div>
-                                <div class="inner">
-                                    <h3>Transmissions Automobiles</h3>
-                                    <div class="text">
-                                        <p>Nous intervenons aussi dans la vente et la distribution de matériels et équipements
-                                            de transmissions automobiles. </p>
-                                    </div>
-                                    <div class="read-more">
-                                        <a class="btn-one" href="#">En savoir plus<span class="flaticon-next"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single service style2-->
-
+                    <!--End single service style2-->                    
                     <!--Start single service style2-->
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="single-service-style2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
@@ -115,13 +86,15 @@
                                             gamme de produits de quincaillérie industrielle pour répondre à vos attentes.</p>
                                     </div>
                                     <div class="read-more">
-                                        <a class="btn-one" href="blog.html">Read More<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--End single service style2-->
+                </div>
+                <div class="row">
                     <!--Start single service style2-->
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="single-service-style2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
@@ -141,7 +114,7 @@
                                         </p>
                                     </div>
                                     <div class="read-more">
-                                        <a class="btn-one" href="blog.html">En savoir plus<span class="flaticon-next"></span></a>
+                                        <a class="btn-one" href="#">En savoir plus<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +130,7 @@
                             </div>
                             <div class="text-holder">
                                 <div class="icon-holder">
-                                    <span class="icon-sketch"></span>
+                                    <span class="icon-lamp"></span>
                                 </div>
                                 <div class="inner">
                                     <h3>Electricité</h3>
@@ -170,8 +143,14 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
+                            <!--Start single service style2-->
+                        
+                        <!--End single service style2-->
                     </div>
+                </div>
+                <div class="row">
                     <!--End single service style2-->
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="single-service-style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
@@ -196,6 +175,31 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="single-service-style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
+                            <div class="img-holder">
+                                <img src="images/services/v2-8.jpg" alt="Awesome Image">
+                                <div class="overlay-style-two"></div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="icon-holder">
+                                    <span class="icon-sketch"></span>
+                                </div>
+                                <div class="inner">
+                                    <h3>Transmission automobile</h3>
+                                    <div class="text">
+                                        <p>
+                                            Nous disposons aussi d'une large gamme de produits concernant la transmission
+                                            automobile et nous disposons d'experts dans le domaine pour tous vos intérrogations.
+                                        </p>
+                                    </div>
+                                    <div class="read-more">
+                                        <a class="btn-one" href="#">En savoir plus<span class="flaticon-next"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </section>
@@ -213,7 +217,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-service-style1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
                             <div class="img-holder">
-                                <img src="images/services/1.jpg" alt="Awesome Image">
+                                <img src="images/services/3.jpg" alt="Awesome Image">
                                 <div class="overlay-style-two"></div>
                             </div>
                             <div class="text-holder bg-white">
@@ -221,14 +225,14 @@
                                     <div class="top">
                                         <div class="icon">
                                             <span class="icon-lamp"></span>
-                                        </div>
+                                        </div> 
                                         <div class="count">
                                             <h1>01</h1>
                                         </div>
                                     </div>
                                     <div class="bottom">
                                         <div class="title">
-                                            <h3>Roulements</h3>
+                                            <h3>Courroies</h3>
                                         </div>
                                         <div class="read-more">
                                             <a href="/product"><span class="icon-next"></span></a>
@@ -237,7 +241,7 @@
                                 </div>
                                 <div class="overlay-content">
                                     <div class="text">
-                                        <p>Rprésentant officiel de la marque GATES, nos roulements ont la côte auprès de nos clients.</p>
+                                        <p>Rprésentant officiel de la marque GATES, nos courroies ont la côte auprès de nos clients.</p>
                                     </div>
                                     <div class="read-more">
                                         <a href="#"><span class="icon-next"></span></a>
@@ -251,22 +255,22 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-service-style1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="img-holder">
-                                <img src="images/services/2.jpg" alt="Awesome Image">
+                                <img src="images/services/1.jpg" alt="Awesome Image">
                                 <div class="overlay-style-two"></div>
                             </div>
                             <div class="text-holder bg-white">
                                 <div class="inner-content">
                                     <div class="top">
-                                        <div class="icon">
+                                       <div class="icon">
                                             <span class="icon-paint"></span>
-                                        </div>
+                                        </div> 
                                         <div class="count">
                                             <h1>02</h1>
                                         </div>
                                     </div>
                                     <div class="bottom">
                                         <div class="title">
-                                            <h3>Poulies</h3>
+                                            <h3>Roulements</h3>
                                         </div>
                                         <div class="read-more">
                                             <a href="/product"><span class="icon-next"></span></a>
@@ -275,7 +279,7 @@
                                 </div>
                                 <div class="overlay-content">
                                     <div class="text">
-                                        <p>Nos poulies sont aussi parmi les meilleures ventes en ce moment. Diversifiées et de marque elle sont prisées.</p>
+                                        <p>Elles sont très indispensables aux industries et constitue l'une des meilleure vente en matière de Transmission industrielle.</p>
                                     </div>
                                     <div class="read-more">
                                         <a href="#"><span class="icon-next"></span></a>
@@ -289,7 +293,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                             <div class="img-holder">
-                                <img src="images/services/3.jpg" alt="Awesome Image">
+                                <img src="images/services/2.jpg" alt="Awesome Image">
                                 <div class="overlay-style-two"></div>
                             </div>
                             <div class="text-holder bg-white">
@@ -304,7 +308,7 @@
                                     </div>
                                     <div class="bottom">
                                         <div class="title">
-                                            <h3>Courroies</h3>
+                                            <h3>Poulies</h3>
                                         </div>
                                         <div class="read-more">
                                             <a href="#"><span class="icon-next"></span></a>
@@ -313,7 +317,7 @@
                                 </div>
                                 <div class="overlay-content">
                                     <div class="text">
-                                        <p> Elles sont très indispensables aux industries et constitue l'une des meilleure vente en matière de Transmission industrielle</p>
+                                        <p>Nos poulies sont aussi parmi les meilleures ventes en ce moment. Diversifiées et de marque elle sont prisées.</p>
                                     </div>
                                     <div class="read-more">
                                         <a href="#"><span class="icon-next"></span></a>
@@ -333,9 +337,9 @@
                             <div class="text-holder bg-white">
                                 <div class="inner-content">
                                     <div class="top">
-                                        <div class="icon">
+                                       <div class="icon">
                                             <span class="icon-window"></span>
-                                        </div>
+                                        </div> 
                                         <div class="count">
                                             <h1>04</h1>
                                         </div>
@@ -974,30 +978,7 @@
                                 </div>
                             </li>
                             <!--End Single Brand Item-->
-
-                            <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/5.png" alt="Awesome Brand Image"></a>
-                                <div class="overlay-content">
-                                    <p>SECO</p>
-                                </div>
-                            </li>
-                            <!--End Single Brand Item-->
-                            <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/6.png" alt="Awesome Brand Image"></a>
-                                <div class="overlay-content">
-                                    <p>SAPH</p>
-                                </div>
-                            </li>
-                            <!--End Single Brand Item-->
-                            <!--Start Single Brand Item-->
-                            <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                                <a href="#"><img src="images/brand/7.png" alt="Awesome Brand Image"></a>
-                                <div class="overlay-content">
-                                    <p>SECO</p>
-                                </div>
-                            </li>
+                           
                             <!--End Single Brand Item-->
                             <!--Start Single Brand Item-->
                             <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">

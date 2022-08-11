@@ -64,7 +64,7 @@
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="/galerie">Joints<br> de moteur...</a></h5>
+                                <h5><a href="/galerie">Courroies<br>GATES</a></h5>
                             </div>
                         </li>
                         <li>
@@ -80,7 +80,7 @@
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="/prod">Roulements<br> à billes protégés...</a></h5>
+                                <h5><a href="/prod">Moteur<br> à pattes.</a></h5>
                             </div>
 
                         </li>
@@ -97,7 +97,7 @@
                             </div>
                             <div class="title-holder">
                                 <p></p>
-                                <h5><a href="/galerie">Pignons<br> multicolores...</a></h5>
+                                <h5><a href="/galerie">Roulements<br></a></h5>
                             </div>
                         </li>
 
@@ -134,7 +134,18 @@
                         <!--Start Single Item-->
                         <div class="single-item">
                             <div class="img-holder">
-                                <img src="{{asset('images/footer/brochures-1.jpg')}}" alt="Awesome Image">
+                                <img src="{{asset('images/footer/brochures-2.jpg')}}" alt="Awesome Image">
+                            </div>
+                            <div class="title-holder">
+                                <h3>Quelques images de<br> Produits</h3>
+                                <a class="btn-two" href="/product">Tous les produits<span class="flaticon-next"></span></a>
+                            </div>
+                        </div>
+                        <!--End Single Item-->
+                         <!--Start Single Item-->
+                         <div class="single-item">
+                            <div class="img-holder">
+                                <img src="{{asset('images/footer/brochures-3.jpg')}}" alt="Awesome Image">
                             </div>
                             <div class="title-holder">
                                 <h3>Quelques images de<br> Produits</h3>

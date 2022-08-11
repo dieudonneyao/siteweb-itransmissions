@@ -1,5 +1,5 @@
 @extends('layouts.base')
-
+@section('title', 'Contact')
 @section('content')
 
 <!--Start breadcrumb area-->
