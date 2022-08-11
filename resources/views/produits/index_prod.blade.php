@@ -1,5 +1,5 @@
 @extends('layouts.base')
-
+@section('title', 'Produits')
 @section('content')
 
     @include('produits.banner')

@@ -4,7 +4,7 @@
             <div class="textp">
                 <h1 class="titre">REPRESENTANT OFFICIEL</h1>
                 <p class="marque">DE LA MARQUE</p>
-                <a class="lien" href="#">Accéder au site</a>
+                <a class="lien" href="https://www.gates.com">Accéder au site</a>
             </div>
         </div>
         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -36,15 +36,7 @@
 
                         </div>
                     </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('images/brand/continental.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
+                    <!--End Single Brand Item-->                   
                     <!--Start Single Brand Item-->
                     <li class="single-brand-item2 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <a href="#"><img src="{{asset('images/brand/fag.png')}}" alt="Awesome Brand Image"></a>

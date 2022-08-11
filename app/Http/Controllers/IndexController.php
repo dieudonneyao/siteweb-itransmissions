@@ -103,11 +103,11 @@ class IndexController extends Controller
 
         if ($request->ajax()) {
             # code...
-            return view('galerie_ajax',compact('huiles','transmission','quicaillerie','electricite','divers','produits'));
+            return view('galerie_ajax',compact('huiles','transmission','quincaillerie','electricite','divers','produits'));
 
         }
 
-        return view('galerie',compact('huiles','transmission','quicaillerie','electricite','divers','produits'));
+        return view('galerie',compact('huiles','transmission','quincaillerie','electricite','divers','produits'));
 
     }
 
